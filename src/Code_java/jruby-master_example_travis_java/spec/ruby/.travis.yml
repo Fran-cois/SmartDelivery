@@ -1,0 +1,19 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.1.8
+  - 2.2.4
+  - 2.3.0
+  - ruby-head
+install:
+  - git clone https://github.com/ruby/mspec.git ../mspec
+script:
+  - ../mspec/bin/mspec
+branches:
+  only:
+    - master
+    - /^try/
+notifications:
+  email:
+    on_success: change
+    on_failure: change
