@@ -44,6 +44,7 @@ public class KnockKnockServer {
 
         try ( 
             ServerSocket serverSocket = new ServerSocket(portNumber);
+        	System.out.println("J'attend une connexion");
             Socket clientSocket = serverSocket.accept();
             PrintWriter out =
                 new PrintWriter(clientSocket.getOutputStream(), true);
@@ -61,7 +62,7 @@ public class KnockKnockServer {
             while ((inputLine = in.readLine()) != null) {
                 outputLine = kkp.processInput(inputLine);
                 out.println(outputLine);
-                if (outputLine.equals("Bye."))
+                if (outputLine.equals("Bye. I've arrived."))
                     break;
             }
         } catch (IOException e) {

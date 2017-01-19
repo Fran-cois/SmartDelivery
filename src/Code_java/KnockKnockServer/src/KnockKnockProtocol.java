@@ -33,59 +33,37 @@ import java.net.*;
 import java.io.*;
 
 public class KnockKnockProtocol {
-    private static final int WAITING = 0;
-    private static final int SENTKNOCKKNOCK = 1;
-    private static final int SENTCLUE = 2;
-    private static final int ANOTHER = 3;
+	private static final int START = 0;
+    private static final int DEPARTURE = 1;
+    private static final int INFLIGHT = 2;
+    private static final int period=2*1000;
 
-    private static final int NUMJOKES = 5;
-
-    private int state = WAITING;
-    private int currentJoke = 0;
-
-    private String[] clues = { "Turnip", "Little Old Lady", "Atch", "Who", "Who" };
-    private String[] answers = { "Turnip the heat, it's cold in here!",
-                                 "I didn't know you could yodel!",
-                                 "Bless you!",
-                                 "Is there an owl in here?",
-                                 "Is there an echo in here?" };
+    private int state = START;
+    
 
     public String processInput(String theInput) {
         String theOutput = null;
+        Timer timer = new Timer();
+        TimerTask task=new TimerTask() {
+        	  @Override
+        	  public void run() {
+        		 localisation = drone.getRoom;
+        	  }
 
-        if (state == WAITING) {
-            theOutput = "Knock! Knock!";
-            state = SENTKNOCKKNOCK;
-        } else if (state == SENTKNOCKKNOCK) {
-            if (theInput.equalsIgnoreCase("Who's there?")) {
-                theOutput = clues[currentJoke];
-                state = SENTCLUE;
-            } else {
-                theOutput = "You're supposed to say \"Who's there?\"! " +
-			    "Try again. Knock! Knock!";
+        if (state == START) {
+            theOutput = "I would like to make a delivery. Is the drone available?";
+            if (drone.available){
+            	state = DEPARTURE;
             }
-        } else if (state == SENTCLUE) {
-            if (theInput.equalsIgnoreCase(clues[currentJoke] + " who?")) {
-                theOutput = answers[currentJoke] + " Want another? (y/n)";
-                state = ANOTHER;
-            } else {
-                theOutput = "You're supposed to say \"" + 
-			    clues[currentJoke] + 
-			    " who?\"" + 
-			    "! Try again. Knock! Knock!";
-                state = SENTKNOCKKNOCK;
-            }
-        } else if (state == ANOTHER) {
-            if (theInput.equalsIgnoreCase("y")) {
-                theOutput = "Knock! Knock!";
-                if (currentJoke == (NUMJOKES - 1))
-                    currentJoke = 0;
-                else
-                    currentJoke++;
-                state = SENTKNOCKKNOCK;
-            } else {
-                theOutput = "Bye.";
-                state = WAITING;
+        } else if (state == DEPARTURE) {
+        	int finalRoom=view.getFinalRoom; //Application android
+            state = INFLIGHT;
+            theOutput="I'm going."
+        } else if (state == INFLIGHT) {
+            timer.schedule(task,2*1000,period) // demande toutes les 2 secondes à partir de 2s la salle où est le drone 
+            if(finalRoom.equals(drone.getRoom) {
+                theOutput = "Bye. I've arrived.";
+                state = START;
             }
         }
         return theOutput;
