@@ -53,7 +53,7 @@
             android:text="Salle 5"
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
-            android:textSize="18dp"/>   
+            android:textSize="18dp"/>
     </RadioGroup>
 
     <FrameLayout
@@ -61,8 +61,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="40"
-        android:weightSum="1">
+            android:layout_weight="40">
 
         <Button
             android:layout_width="110dp"
