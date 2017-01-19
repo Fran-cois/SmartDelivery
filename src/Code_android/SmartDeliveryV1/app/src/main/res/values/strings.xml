@@ -2,4 +2,6 @@
     <string name="app_name">SmartDeliveryV1</string>
     <string name="Start">Start</string>
     <string name="Bienvenue">Bienvenue</string>
+    <string name="plan">Plan des lieux</string>
+    <string name="commande">Commander</string>
 </resources>
