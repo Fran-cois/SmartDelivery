@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SmartDeliveryV1</string>
+    <string name="Start">Start</string>
+    <string name="Bienvenue">Bienvenue</string>
 </resources>

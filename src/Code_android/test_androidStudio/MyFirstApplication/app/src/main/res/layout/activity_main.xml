@@ -26,20 +26,19 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/drone"
         android:id="@+id/imageView"
-        android:layout_alignBottom="@+id/button1"
+        android:src="@drawable/drone"
+        android:layout_above="@+id/button1"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="22dp"
-        android:src="@drawable/drone" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="@string/introduction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        android:textSize="20sp"/>
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView" />
 
 
 </RelativeLayout>
