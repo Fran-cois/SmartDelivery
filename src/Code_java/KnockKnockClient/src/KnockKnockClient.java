@@ -50,17 +50,17 @@ public class KnockKnockClient {
             BufferedReader in = new BufferedReader(
                 new InputStreamReader(kkSocket.getInputStream()));
         ) {
-            BufferedReader stdIn =
-                new BufferedReader(new InputStreamReader(System.in));
+        	BufferedReader in = new BufferedReader(
+                    new InputStreamReader(kkSocket.getInputStream()));
             String fromServer;
             String fromUser;
 
             while ((fromServer = in.readLine()) != null) {
                 System.out.println("Server: " + fromServer);
-                if (fromServer.equals("Bye."))
+                if (fromServer.equals("Bye. I've arrived."))
                     break;
                 
-                fromUser = stdIn.readLine();
+                fromUser = ;
                 if (fromUser != null) {
                     System.out.println("Client: " + fromUser);
                     out.println(fromUser);
