@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">ressourcesTest</string>
+    <string name="app_name">Application Test</string>
     <string name="text">"Bonjour %1$s, vous avez %2$d ans."</string>
+    <string name="boutton1text">"APPUYEZ"</string>
 </resources>
