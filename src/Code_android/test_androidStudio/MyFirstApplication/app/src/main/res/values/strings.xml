@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="drone">drone</string>
+    <string name="introduction">Bonjour voici le drone</string>
+    <string name="button">COMMANDER</string>
+    <string name="commande">Vous avez passé commande</string>
+</resources>
