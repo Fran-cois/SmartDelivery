@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="190dp"
+        android:layout_height="254dp"
         app:srcCompat="@drawable/logo_smart_delivery"
-        android:id="@+id/imageView"
-        android:layout_weight="7.18" />
+        android:id="@+id/imageView" />
 
     <TextView
         android:text="@string/Bienvenue"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="14.90"
-        android:id="@+id/textView6"
-        tools:text="BIENVENUE"
+        android:layout_height="0dp"
+        android:id="@+id/textView2"
+        android:layout_weight="0.88"
+        tools:textColor="@android:color/holo_red_dark"
         android:gravity="center"
-        tools:textSize="30dp"
-        tools:textColor="@android:color/holo_red_dark" />
+        android:textSize="30sp"
+        tools:text="BIENVENUE" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -33,7 +33,7 @@
         <Button
             android:layout_width="220dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button4"
+            android:id="@+id/button1"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/Start"

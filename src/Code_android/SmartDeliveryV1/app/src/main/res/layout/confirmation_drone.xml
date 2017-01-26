@@ -9,7 +9,7 @@ android:layout_height="match_parent">
     android:layout_weight="40"
     android:text="Votre drone va bientôt arriver en salle. "
     android:layout_margin="40dp"
-    android:textSize="20dp "
+    android:textSize="20dp"
     />
 
     <Button
@@ -17,5 +17,6 @@ android:layout_height="match_parent">
         android:layout_height="wrap_content"
         android:layout_weight="4.76"
         android:text="Voir carte"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:id="@+id/button5" />
 </LinearLayout>

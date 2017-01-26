@@ -10,7 +10,7 @@
         android:text="Votre drone est arrivé à destination.
 Veuillez"
         android:layout_margin="40dp"
-        android:textSize="20dp "
+        android:textSize="20dp"
         />
 
     <Button
@@ -19,5 +19,5 @@ Veuillez"
         android:layout_weight="5"
         android:text="Voir carte"
         android:layout_gravity="center"
-        android:id="@+id/button3" />
+        android:id="@+id/button4" />
 </LinearLayout>

@@ -30,7 +30,7 @@
             android:text="@string/commande"
             android:layout_width="215dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:layout_gravity="center" />
     </FrameLayout>
 </LinearLayout>
