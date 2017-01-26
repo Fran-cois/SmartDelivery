@@ -16,7 +16,8 @@ Veuillez"
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="4.76"
+        android:layout_weight="5"
         android:text="Voir carte"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:id="@+id/button3" />
 </LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ressourcesTest</string>
+    <string name="text">"Bonjour %1$s, vous avez %2$d ans."</string>
+</resources>
