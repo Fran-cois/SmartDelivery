@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="190dp"
-        app:srcCompat="@drawable/logoSmartDelivery"
+        app:srcCompat="@drawable/logo_smart_delivery"
         android:id="@+id/imageView"
         android:layout_weight="7.18" />
 

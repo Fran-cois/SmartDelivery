@@ -8,12 +8,27 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Page1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Page2Activity">
+
+        </activity>
+        <activity android:name=".Page3Activity">
+
+        </activity>
+        <activity android:name=".ChoixSalleActivity">
+
+        </activity>
+        <activity android:name=".DroneArriveActivity">
+
+        </activity>
+        <activity android:name=".ConfirmationDroneActivity">
+
         </activity>
     </application>
 
