@@ -3,11 +3,12 @@ package com.example.simondahan.smartdeliveryv1;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Page2Activity extends Activity {
+public class Page2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class Page2Activity extends Activity {
         Button mybutton2 = (Button) findViewById(R.id.button2);
         mybutton2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v2){
-                Intent myIntent2= new Intent(Page2Activity.this, Page3Activity.class);
+                Intent myIntent2= new Intent(Page2Activity.this, ChoixSalleActivity.class);
                 startActivity(myIntent2);
             }
         });
