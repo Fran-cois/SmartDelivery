@@ -31,6 +31,8 @@
 
 import java.io.*;
 import java.net.*;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class KnockKnockClient {
     public static void main(String[] args) throws IOException {
@@ -46,26 +48,56 @@ public class KnockKnockClient {
 
         try (
             Socket kkSocket = new Socket(hostName, portNumber);
-            PrintWriter out = new PrintWriter(kkSocket.getOutputStream(), true);
+        	PrintWriter out = new PrintWriter(kkSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(
-                new InputStreamReader(kkSocket.getInputStream()));
-        ) {
-        	BufferedReader in = new BufferedReader(
-                    new InputStreamReader(kkSocket.getInputStream()));
-            String fromServer;
+                 new InputStreamReader(kkSocket.getInputStream()));
+            ) {
+        	BufferedReader stdIn =
+                    new BufferedReader(new InputStreamReader(kkSocket.getInputStream()));
+        	String fromServer;
             String fromUser;
 
             while ((fromServer = in.readLine()) != null) {
                 System.out.println("Server: " + fromServer);
-                if (fromServer.equals("Bye. I've arrived."))
+                if (fromServer.equals("I'm listening.")){
+                	out.println("I would like to make a delivery. Is the drone available?"); 
+                	System.out.println("Client: I would like to make a delivery. Is the drone available?");
+                }
+                if(fromServer.equals("try again")){
+                	out.println("I would like to make a delivery. Is the drone available?"); 
+                	System.out.println("Client: I would like to make a delivery. Is the drone available?");
+                }
+                if (fromServer.equals("yes")){
+                	ProtocolClient.available=true;
+                	out.println("go to the room "+View.getFinalRoom()); //Application android
+                	System.out.println("Client: go to the room "+View.getFinalRoom());
+                }
+                if(fromServer.equals("no")){
+                	out.println("I would like to make a delivery. Is the drone available?");
+                	System.out.println("Client: I would like to make a delivery. Is the drone available?");
+                }
+                if(fromServer.equals("I didn't get the room. Where do you want me to go?")){
+                	out.println(""+View.getFinalRoom()); //Application android
+                	System.out.println("Client: go to the room "+View.getFinalRoom());
+                }
+                if (fromServer.equals("I'm going.")||fromServer.contains("je suis à la salle") ||fromServer.contains("I didn't get your question. Can you repeat?")){
+                	if(fromServer.contains("je suis à la salle ")){
+                		ProtocolClient.localisation=fromServer.substring(19);
+                		System.out.println("localisation"+ProtocolClient.localisation);
+                	}
+                	out.println("where are you?");
+                	System.out.println("Client: where are you?");
+                }
+                if (fromServer.equals("Bye. I arrived."))
                     break;
                 
-                fromUser = ;
+                /**fromUser = stdIn.readLine();
+                
                 if (fromUser != null) {
                     System.out.println("Client: " + fromUser);
-                    out.println(fromUser);
-                }
+                    out.println(fromUser);}*/
             }
+        	kkSocket.close();
         } catch (UnknownHostException e) {
             System.err.println("Don't know about host " + hostName);
             System.exit(1);
