@@ -45,23 +45,27 @@ public class KnockKnockServer {
         try ( 
             ServerSocket serverSocket = new ServerSocket(portNumber);
             Socket clientSocket = serverSocket.accept();
-            PrintWriter out =
-                new PrintWriter(clientSocket.getOutputStream(), true);
+        	PrintWriter out =
+                        new PrintWriter(clientSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(
-                new InputStreamReader(clientSocket.getInputStream()));
-        ) {
-        
-            String inputLine, outputLine;
+                        new InputStreamReader(clientSocket.getInputStream())); 
+            ){
+        	String inputLine, outputLine;
             
             // Initiate conversation with client
-            KnockKnockProtocol kkp = new KnockKnockProtocol();
+            ProtocolServer kkp = new ProtocolServer();
             outputLine = kkp.processInput(null);
             out.println(outputLine);
 
             while ((inputLine = in.readLine()) != null) {
+            	
+            	if (inputLine.contains("go to the room ")){
+            		ProtocolServer.finalRoom=inputLine.substring(15);
+            		System.out.println("finalRoom "+ProtocolServer.finalRoom);
+            	}
                 outputLine = kkp.processInput(inputLine);
                 out.println(outputLine);
-                if (outputLine.equals("Bye."))
+                if (outputLine.equals("Bye. I arrived."))
                     break;
             }
         } catch (IOException e) {
