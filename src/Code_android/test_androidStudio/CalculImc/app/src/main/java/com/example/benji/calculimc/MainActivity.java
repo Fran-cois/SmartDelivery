@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
     // La chaîne de caractères par défaut
     private final String defaut = "Vous devez cliquer sur le bouton « Calculer l'IMC » pour obtenir un résultat.";
     // La chaîne de caractères de la megafonction
-    private final String megaString = "Vous faites un poids parfait ! Wahou ! Trop fort ! On dirait Brad Pitt (si vous êtes un homme)/Angelina Jolie (si vous êtes une femme)/Willy (si vous êtes un orque) !";
+    private final String megaString = "Vous êtes parfait comme vous êtes, surtout ne changez pas !";
 
     Button envoyer = null;
     Button raz = null;
@@ -34,8 +34,6 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // On récupère toutes les vues dont on a besoin
         envoyer = (Button)findViewById(R.id.calcul);
 
         raz = (Button)findViewById(R.id.raz);
@@ -49,28 +47,13 @@ public class MainActivity extends Activity {
 
         result = (TextView)findViewById(R.id.result);
 
-        // On attribue un listener adapté aux vues qui en ont besoin
         envoyer.setOnClickListener(envoyerListener);
         raz.setOnClickListener(razListener);
         taille.addTextChangedListener(textWatcher);
         poids.addTextChangedListener(textWatcher);
 
-        // Solution avec des onKey
-        //taille.setOnKeyListener(modificationListener);
-        //poids.setOnKeyListener(modificationListener);
         mega.setOnClickListener(checkedListener);
     }
-
-  /*
-  // Se lance à chaque fois qu'on appuie sur une touche en étant sur un EditText
-  private OnKeyListener modificationListener = new OnKeyListener() {
-    @Override
-    public boolean onKey(View v, int keyCode, KeyEvent event) {
-      // On remet le texte à sa valeur par défaut pour ne pas avoir de résultat incohérent
-      result.setText(defaut);
-      return false;
-    }
-  };*/
 
     private TextWatcher textWatcher = new TextWatcher() {
 
@@ -91,26 +74,18 @@ public class MainActivity extends Activity {
         }
     };
 
-    // Uniquement pour le bouton "envoyer"
     private OnClickListener envoyerListener = new OnClickListener() {
         @Override
         public void onClick(View v) {
             if(!mega.isChecked()) {
-                // Si la megafonction n'est pas activée
-                // On récupère la taille
                 String t = taille.getText().toString();
-                // On récupère le poids
                 String p = poids.getText().toString();
 
                 float tValue = Float.valueOf(t);
-
-                // Puis on vérifie que la taille est cohérente
                 if(tValue == 0)
-                    Toast.makeText(MainActivity.this, "Hého, tu es un Minipouce ou quoi ?", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Allez, vas-y, rentre un poids sérieux pour avancer?", Toast.LENGTH_SHORT).show();
                 else {
                     float pValue = Float.valueOf(p);
-                    // Si l'utilisateur a indiqué que la taille était en centimètres
-                    // On vérifie que la Checkbox sélectionnée est la deuxième à l'aide de son identifiant
                     if(group.getCheckedRadioButtonId() == R.id.radio2)
                         tValue = tValue / 100;
 
@@ -123,7 +98,6 @@ public class MainActivity extends Activity {
         }
     };
 
-    // Listener du bouton de remise à zéro
     private OnClickListener razListener = new OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -133,11 +107,9 @@ public class MainActivity extends Activity {
         }
     };
 
-    // Listener du bouton de la megafonction.
     private OnClickListener checkedListener = new OnClickListener() {
         @Override
         public void onClick(View v) {
-            // On remet le texte par défaut si c'était le texte de la megafonction qui était écrit
             if(!((CheckBox)v).isChecked() && result.getText().equals(megaString))
                 result.setText(defaut);
         }

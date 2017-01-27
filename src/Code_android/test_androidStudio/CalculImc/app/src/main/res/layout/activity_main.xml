@@ -20,7 +20,7 @@
             android:id="@+id/poids"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="Poids"
+            android:hint="Poids (en kg) "
             android:inputType="numberDecimal"
             android:layout_weight="1"
             />
@@ -42,7 +42,7 @@
             android:id="@+id/taille"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="Taille"
+            android:hint="Taille (dans l'unité choisie)"
             android:inputType="numberDecimal"
             android:layout_weight="1"
             />
@@ -102,10 +102,13 @@
         android:layout_height="wrap_content"
         android:text="Résultat:"
         />
+
     <TextView
         android:id="@+id/result"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:text="Vous devez cliquer sur le bouton « Calculer l'IMC » pour obtenir un résultat."
         />
+
+
 </LinearLayout>
