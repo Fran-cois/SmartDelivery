@@ -16,9 +16,8 @@ public class DroneArriveActivity extends Activity {
 
         // récupération de l'intent pour le bouton de ConfirmationDroneActivity
         Intent myIntent4 = getIntent();
-        setContentView(R.layout.activity_drone_arrive);
 
-        // Création de l'intent pour le bouton4
+        // Création de l'intent pour le bouton5
         Button mybutton5 = (Button) findViewById(R.id.button5);
         mybutton5.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){

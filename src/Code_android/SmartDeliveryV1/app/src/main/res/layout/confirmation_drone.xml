@@ -18,5 +18,5 @@ android:layout_height="match_parent">
         android:layout_weight="4.76"
         android:text="Voir carte"
         android:layout_gravity="center"
-        android:id="@+id/button5" />
+        android:id="@+id/button4" />
 </LinearLayout>

@@ -19,5 +19,5 @@ Veuillez"
         android:layout_weight="5"
         android:text="Voir carte"
         android:layout_gravity="center"
-        android:id="@+id/button4" />
+        android:id="@+id/button5" />
 </LinearLayout>
