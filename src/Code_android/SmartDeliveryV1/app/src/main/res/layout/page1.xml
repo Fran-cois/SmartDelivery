@@ -16,12 +16,11 @@
     <TextView
         android:text="@string/Bienvenue"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="96dp"
         android:id="@+id/textView2"
-        android:layout_weight="0.88"
         tools:textColor="@android:color/holo_red_dark"
+        tools:textSize="30sp"
         android:gravity="center"
-        android:textSize="30sp"
         tools:text="BIENVENUE" />
 
     <LinearLayout
