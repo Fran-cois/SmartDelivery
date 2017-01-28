@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -7,17 +8,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="40"
-        android:text="Votre drone est arrivé à destination.
-Veuillez"
         android:layout_margin="40dp"
         android:textSize="20dp"
-        />
+        android:text="@string/arrivee"
+        tools:text="Le drone est arrivé à destination" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="5"
-        android:text="Voir carte"
+        android:text="@string/OK"
         android:layout_gravity="center"
         android:id="@+id/button5" />
 </LinearLayout>

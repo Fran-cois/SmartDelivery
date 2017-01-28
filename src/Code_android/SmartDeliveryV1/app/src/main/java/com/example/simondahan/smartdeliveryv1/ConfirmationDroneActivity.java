@@ -23,8 +23,8 @@ public class ConfirmationDroneActivity extends Activity {
         mybutton4.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){
 
-                Intent myIntent4= new Intent(ConfirmationDroneActivity.this, DroneArriveActivity.class);
-                startActivity(myIntent4);
+                Intent myIntent5= new Intent(ConfirmationDroneActivity.this, SuiviCommandePlanActivity.class);
+                startActivity(myIntent5);
             }
 
 

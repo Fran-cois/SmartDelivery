@@ -7,4 +7,6 @@
     <string name="Nondispo">Drone non disponible</string>
     <string name="texteNodispo" />
     <string name="OK">OK</string>
+    <string name="arrivee" />
+    <string name="carte">VOIR CARTE</string>
 </resources>

@@ -14,6 +14,8 @@ public class Page1Activity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page1);
+
+        // Création de l'intent pour le bouton1
         Button mybutton1 = (Button) findViewById(R.id.button1);
         mybutton1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){

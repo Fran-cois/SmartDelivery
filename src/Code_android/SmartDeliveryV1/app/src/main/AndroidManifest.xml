@@ -27,6 +27,9 @@
         <activity android:name=".DroneArriveActivity">
 
         </activity>
+        <activity android:name=".SuiviCommandePlanActivity">
+
+        </activity>
         <activity android:name=".ConfirmationDroneActivity">
 
         </activity>
