@@ -19,13 +19,18 @@ GPIOClass(string n)
 
 int GPIOClass::export_gpio()
 {
-	string export_str = "/sys/class/gpio/export";// ouvrir le répértoire d'export comme dans le terminal
-	if (exportgpio < 0){
-		cout << " OPERATION FAILED: Unable to export GPIO"<< this->gpionum <<" ."<< endl;
-		return -1;
-	}
-
+	string exp = "/sys/class/gpio/export";// ouvrir le répértoire d'export comme dans le terminal et l'affecter a exp
+	ofstream exportgpio(exp.c_str()); // ofstream : classe adaptée I/O qui prend exp et renvoie sa valeur quand on va la changer
 	exportgpio << this->gpion ; //on change exportgpu du répértoire en gpion le numéro du pin du gpio qu'on veut exporter, comme dans le terminal
-    exportgpio.close(); // on ferme le fichier export
-    return 0;
+	exportgpio.close(); // on ferme le fichier export
+	return 0;
+}
+
+int GPIOClass::unexport_gpio()
+{
+	string imp = "/sys/class/gpio/unexport";// ouvrir le répértoire d'unexport comme dans le terminal et l'affecter a unexp
+	ofstream unexportgpio(unexp.c_str()); // ofstream : classe adaptée I/O
+	unexportgpio << this->gpion ; //on change unexportgpu du répértoire en gpion le numéro du pin du gpio qu'on veut exporter, comme dans le terminal
+	unexportgpio.close(); // on ferme le fichier unexport
+	return 0;
 }
