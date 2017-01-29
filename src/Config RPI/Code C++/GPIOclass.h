@@ -13,5 +13,5 @@ public:
     int set_val(string val); // mettre la valeur du GPIO (ne marchera que pour les outputs => nécessité d'ajouter des méthodes pour savoir l'orientation du GPIO)
     int get_val(string& val); // lire la valeur du GPIO
     string get_num(); // Lire le numéro n du GPIO
-    int set_dir(string dir); // Configurer la direction du GPIO
-};
+    int set_dir(string dir); // Configurer la direction du GPIO dir="out" pour output & dir="in" pour input
+ };
