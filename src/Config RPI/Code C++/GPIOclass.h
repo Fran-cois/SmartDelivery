@@ -11,6 +11,7 @@ public:
     GPIOClass(string n); // Constructeur : Crée un objet de la classe GPIO de numéro n
     int export_gpio(); // exporter le GPIO
     int unexport_gpio(); // unexporter le GPIO
-    int setval_gpio(string val); // mettre la valeur du GPIO
-    int getval_gpio(string val); // lire la valeur du GPIO
+    int set_val(string val); // mettre la valeur du GPIO (ne marchera que pour les outputs => nécessité d'ajouter des méthodes pour savoir l'orientation du GPIO)
+    int get_val(string& val); // lire la valeur du GPIO
+    string get_num(); // Lire le numéro n du GPIO
 };
