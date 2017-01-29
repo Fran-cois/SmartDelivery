@@ -24,6 +24,7 @@ public class DroneArriveActivity extends Activity {
 
                 Intent myIntent4= new Intent(DroneArriveActivity.this, Page2Activity.class);
                 startActivity(myIntent4);
+                DroneArriveActivity.this.finish();
             }
 
 

@@ -25,6 +25,7 @@ public class ConfirmationDroneActivity extends Activity {
 
                 Intent myIntent4= new Intent(ConfirmationDroneActivity.this, DroneArriveActivity.class);
                 startActivity(myIntent4);
+                ConfirmationDroneActivity.this.finish();
             }
 
 
