@@ -17,4 +17,22 @@
         android:text="Bonjour"
         android:id="@+id/textView2"/>
 
+    <Button
+        android:text="PREMIERE PAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button2" />
+
+    <CheckBox
+        android:text="Oui ou non"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/checkBox2" />
+
 </RelativeLayout>
