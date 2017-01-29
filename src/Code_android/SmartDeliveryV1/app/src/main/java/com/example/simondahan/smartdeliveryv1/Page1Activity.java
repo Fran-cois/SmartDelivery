@@ -21,6 +21,7 @@ public class Page1Activity extends AppCompatActivity{
             public void onClick(View v){
                 Intent myIntend1 = new Intent(Page1Activity.this, Page2Activity.class);
                 startActivity(myIntend1);
+                Page1Activity.this.finish();
             }
 
     });

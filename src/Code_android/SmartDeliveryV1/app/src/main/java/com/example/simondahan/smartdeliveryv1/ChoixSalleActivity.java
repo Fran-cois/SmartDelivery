@@ -27,6 +27,7 @@ public class ChoixSalleActivity extends AppCompatActivity {
 
                 Intent myIntent4= new Intent(ChoixSalleActivity.this, ConfirmationDroneActivity.class);
                 startActivity(myIntent4);
+                ChoixSalleActivity.this.finish();
             }
 
 

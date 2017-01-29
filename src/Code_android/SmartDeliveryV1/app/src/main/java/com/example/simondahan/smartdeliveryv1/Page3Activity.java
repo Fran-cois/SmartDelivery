@@ -23,6 +23,7 @@ public class Page3Activity extends AppCompatActivity {
             public void onClick(View v3){
                 Intent myIntent3= new Intent(Page3Activity.this, Page2Activity.class);
                 startActivity(myIntent3);
+                Page3Activity.this.finish();
             }
         });
 

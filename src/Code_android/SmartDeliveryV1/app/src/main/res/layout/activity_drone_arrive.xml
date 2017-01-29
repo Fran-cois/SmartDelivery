@@ -8,16 +8,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="40"
+
+        android:text="Votre drone est arrivé à destination.
+Veuillez confirmer la récupération de l'objet."
+
         android:layout_margin="40dp"
-        android:textSize="20dp"
-        android:text="@string/arrivee"
-        tools:text="Le drone est arrivé à destination" />
+        android:textSize="20dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="5"
-        android:text="@string/OK"
+        android:text="Confirmer\nréception"
         android:layout_gravity="center"
         android:id="@+id/button5" />
 </LinearLayout>
