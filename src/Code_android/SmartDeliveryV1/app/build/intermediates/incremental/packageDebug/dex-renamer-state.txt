@@ -1,7 +1,0 @@
-#Sun Jan 29 21:30:34 CET 2017
-base.0=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\SmartDeliveryV1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b995fd9a02f7d5cb67b572eb733e4a941d11fcca
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\SmartDeliveryV1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_78f6c7a74c1cef3fc84cb15af2a22b96c1033e81\\classes.dex
-base.1=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\SmartDeliveryV1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_78f6c7a74c1cef3fc84cb15af2a22b96c1033e81
-file.0=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\SmartDeliveryV1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b995fd9a02f7d5cb67b572eb733e4a941d11fcca\\classes.dex
