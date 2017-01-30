@@ -35,7 +35,7 @@ public class ProtocolClient {
             	{ theOutput="no";
             	state=WAITING;
             	}*/
-            	
+            state=DEPARTURE;	
             }
             else{
             	theOutput="try again";
@@ -46,10 +46,10 @@ public class ProtocolClient {
         	if(theInput.length()==3){
         		theOutput="I'm going.";
         		state = INFLIGHT;}
-        	/**else{
+        	else{
         		theOutput="I didn't get the room. Where do you want me to go?";
         		state=DEPARTURE;
-        	}*/
+        	}
         } else if (state == INFLIGHT) {
         	if(theInput.equals("where are you?")){
         		if(finalRoom.equals(localisation)) {
