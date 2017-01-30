@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Page2Activity extends AppCompatActivity {
+public class Page2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

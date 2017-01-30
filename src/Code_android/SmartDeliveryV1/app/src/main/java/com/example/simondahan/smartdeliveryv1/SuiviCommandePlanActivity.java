@@ -1,5 +1,6 @@
 package com.example.simondahan.smartdeliveryv1;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by SimonDahan on 28/01/2017.
  */
 
-public class SuiviCommandePlanActivity extends AppCompatActivity {
+public class SuiviCommandePlanActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
