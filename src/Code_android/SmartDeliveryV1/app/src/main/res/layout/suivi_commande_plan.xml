@@ -26,4 +26,17 @@
         android:id="@+id/button6"
         android:layout_gravity="center" />
 
+    <TextView
+        android:text="@string/plan"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:id="@+id/textView5"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        app:srcCompat="@drawable/plan"
+        android:id="@+id/imageView3" />
+
 </LinearLayout>
