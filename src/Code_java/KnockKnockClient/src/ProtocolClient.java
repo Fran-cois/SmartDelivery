@@ -15,13 +15,6 @@ public class ProtocolClient {
 
     public String processInput(String theInput) {
         String theOutput = null;
-        /**Timer timer = new Timer();
-        TimerTask task=new TimerTask() {
-      	  @Override
-      	  public void run() {
-      		 localisation = Drone.getRoom();
-      	  }
-        };*/
         if (state == WAITING) {
             theOutput = "I'm listening.";
             state = START;

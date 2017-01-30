@@ -12,10 +12,10 @@ public class KnockKnockClient {
     	logger.addHandler(fh);
     	SimpleFormatter formatter=new SimpleFormatter();
     	fh.setFormatter(formatter);
+    	int period =2*1000;
     	
         if (args.length != 2) {
-            System.err.println(
-                "Usage: java EchoClient <host name> <port number>");
+            logger.severe("Usage: java EchoClient <host name> <port number>");
             System.exit(1);
         }
 
@@ -60,31 +60,35 @@ public class KnockKnockClient {
                 	logger.info("Client: go to the room "+View.getFinalRoom());
                 }
                 if (fromServer.equals("I'm going.")||fromServer.contains("je suis à la salle") ||fromServer.contains("I didn't get your question. Can you repeat?")){
-                	if(fromServer.contains("je suis à la salle ")){
-                		ProtocolClient.localisation=fromServer.substring(19);
-                		logger.info("Server: " + fromServer);
-                		logger.info("localisation "+ProtocolClient.localisation);
-                	}
-                	out.println("where are you?");
-                	if (fromServer.contains("I didn't get your question. Can you repeat?")){
-                		logger.warning("Server: " + fromServer);
-                		logger.info("Client: where are you?");
-                	}
-                	else{
-                		logger.info("Server: " + fromServer);
-                		logger.info("Client: where are you?");}
+                	try {
+						Thread.sleep(period);   // Le client patiente avant de demander où le drone est.
+						out.println("where are you?");
+						if(fromServer.contains("je suis à la salle ")){
+	                		ProtocolClient.localisation=fromServer.substring(19);
+	                		logger.info("Server: " + fromServer);
+	                		logger.info("localisation "+ProtocolClient.localisation);
+	                	}
+	                	if (fromServer.contains("I didn't get your question. Can you repeat?")){
+	                		logger.warning("Server: " + fromServer);
+	                		logger.info("Client: where are you?");
+	                	}
+	                	else{
+	                		logger.info("Server: " + fromServer);
+	                		logger.info("Client: where are you?");}
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
                 }
-                if (fromServer.equals("Bye. I arrived."))
-                	//logger.info("Server: " + fromServer);
-                    break;
+                if (fromServer.equals("Bye. I arrived.")){
+                	logger.info("Server: " + fromServer);
+                    break;}
                }
         	kkSocket.close();
         } catch (UnknownHostException e) {
-            System.err.println("Don't know about host " + hostName);
+        	logger.severe("Don't know about host "+ hostName);
             System.exit(1);
         } catch (IOException e) {
-            System.err.println("Couldn't get I/O for the connection to " +
-                hostName);
+            logger.severe("Couldn't get I/O for the connection to " + hostName);
             System.exit(1);
         }
     }

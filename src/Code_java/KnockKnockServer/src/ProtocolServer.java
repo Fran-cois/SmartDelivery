@@ -4,7 +4,6 @@ public class ProtocolServer {
     private static final int START = 0;
     private static final int DEPARTURE = 1;
     private static final int INFLIGHT = 2;
-    //private static final int period=2*1000;
     private String localisation;
     static String finalRoom;
 
@@ -13,13 +12,6 @@ public class ProtocolServer {
 
     public String processInput(String theInput) {
         String theOutput = null;
-        /**Timer timer = new Timer();
-        TimerTask task=new TimerTask() {
-      	  @Override
-      	  public void run() {
-      		 localisation = Drone.getRoom();
-      	  }
-        };*/
         if (state == WAITING) {
             theOutput = "I'm listening.";
             state = START;

@@ -1,0 +1,18 @@
+janv. 30, 2017 1:18:41 PM KnockKnockClient main
+INFOS: Server: I'm listening.
+janv. 30, 2017 1:18:41 PM KnockKnockClient main
+INFOS: Client: I would like to make a delivery. Is the drone available?
+janv. 30, 2017 1:18:41 PM KnockKnockClient main
+INFOS: Server: yes
+janv. 30, 2017 1:18:41 PM KnockKnockClient main
+INFOS: Client: go to the room 551
+janv. 30, 2017 1:18:41 PM KnockKnockClient main
+AVERTISSEMENT: Server: I didn't get the room. Where do you want me to go?
+janv. 30, 2017 1:18:41 PM KnockKnockClient main
+INFOS: Client: go to the room 551
+janv. 30, 2017 1:18:43 PM KnockKnockClient main
+INFOS: Server: I'm going.
+janv. 30, 2017 1:18:43 PM KnockKnockClient main
+INFOS: Client: where are you?
+janv. 30, 2017 1:18:43 PM KnockKnockClient main
+INFOS: Server: Bye. I arrived.

@@ -51,9 +51,8 @@ public class KnockKnockServer {
                     break;
             }
         } catch (IOException e) {
-            System.out.println("Exception caught when trying to listen on port "
-                + portNumber + " or listening for a connection");
-            System.out.println(e.getMessage());
+            logger.severe("Exception caught when trying to listen on port " + portNumber + " or listening for a connection");
+            logger.severe(e.getMessage());
         }
     }
 }
