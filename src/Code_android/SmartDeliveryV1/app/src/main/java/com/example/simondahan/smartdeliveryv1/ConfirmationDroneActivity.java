@@ -24,7 +24,7 @@ public class ConfirmationDroneActivity extends Activity {
             public void onClick(View v4){
 
 
-                Intent myIntent5= new Intent(ConfirmationDroneActivity.this, DroneArriveActivity.class);
+                Intent myIntent5= new Intent(ConfirmationDroneActivity.this,SuiviCommandePlanActivity.class);
                 startActivity(myIntent5);
                 ConfirmationDroneActivity.this.finish();
             }
