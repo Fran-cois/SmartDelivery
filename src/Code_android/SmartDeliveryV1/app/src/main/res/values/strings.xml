@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartDeliveryV1</string>
+    <string name="Start">Start</string>
+    <string name="Bienvenue">Bienvenue</string>
+    <string name="plan">Plan des lieux</string>
+    <string name="commande">Commander</string>
+    <string name="Nondispo">Drone non disponible</string>
+    <string name="texteNodispo" />
+    <string name="OK">OK</string>
+    <string name="arrivee" />
+    <string name="carte">VOIR CARTE</string>
+</resources>
