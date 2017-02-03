@@ -13,10 +13,11 @@ public class ImageReader {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		imageRGBToGrey("C:\\Users\\Louise Loesch\\workspace\\photo-qrcode3.png");
+		//imageRGBToGrey("C:\\Users\\Louise Loesch\\workspace\\pact\\photo-qrcode3.png");
+		imageLabeling("C:\\Users\\Louise Loesch\\workspace\\pact\\photo-qrcode3.png");
 	}
 	
-	public static void imageRGBToGrey(String fileName) {
+	public static String imageRGBToGrey(String fileName) {
 		try {
 			BufferedImage image = ImageIO.read(new File(fileName));
 			//sauverImage(image,"tmp");
@@ -81,6 +82,7 @@ public class ImageReader {
 				}
 			}
 			sauverImage(image,"test-photo-qrcode3");
+			
 		} catch (FileNotFoundException e){
 		e.printStackTrace();
 		} catch (IOException e) {
@@ -88,13 +90,83 @@ public class ImageReader {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return "C:\\Users\\Louise Loesch\\workspace\\pact\\test-photo-qrcode3.png";
 	}
 	
 	public static void sauverImage(BufferedImage image,String nomImage) throws IOException 
 	{ 
-		File nomfichier = new File("C:\\Users\\Louise Loesch\\workspace\\" + nomImage + ".png"); 
+		File nomfichier = new File("C:\\Users\\Louise Loesch\\workspace\\pact\\" + nomImage + ".png"); 
 		boolean test = ImageIO.write(image, "png", nomfichier);
 		System.out.println(test);
+	}
+	
+	public static void imageLabeling(String filename){
+		int[][] matrice_connexe=null;
+		try {
+			BufferedImage image = ImageIO.read(new File(imageRGBToGrey(filename)));
+			int largeurImage = image.getWidth();
+			int hauteurImage = image.getHeight();
+			Color myWhite = new Color(255, 255, 255); // Couleur blanche
+			Color myBlack = new Color(0, 0, 0); // Couleur noire
+			matrice_connexe= new int[hauteurImage][largeurImage];
+			int[] hash=new int[1000];
+			int acc_1=0;//incrémente les composantes connexes
+			for(int i = 1; i < hauteurImage; i++){
+				for(int j = 1; j < largeurImage; j++){
+					if (image.getRGB(j, i)==myWhite.getRGB()){
+						matrice_connexe[i][j]=0;
+					}
+					if (image.getRGB(j, i)==myBlack.getRGB()){
+						if (matrice_connexe[i-1][j]!=0 && matrice_connexe[i][j-1]==0){
+							matrice_connexe[i][j]=matrice_connexe[i-1][j];
+						}
+						else if (matrice_connexe[i-1][j]==0 && matrice_connexe[i][j-1]!=0){
+							matrice_connexe[i][j]=matrice_connexe[i][j-1];
+						}
+						else if (matrice_connexe[i-1][j]!=0 && matrice_connexe[i][j-1]!=0){
+							matrice_connexe[i][j]=Math.min(matrice_connexe[i-1][j],matrice_connexe[i][j-1]);
+							//correspondance des numéros
+							hash[Math.max(matrice_connexe[i-1][j],matrice_connexe[i][j-1])]=Math.min(matrice_connexe[i-1][j],matrice_connexe[i][j-1]);
+							}
+						else {
+							matrice_connexe[i][j]=acc_1+1;
+							acc_1+=1;
+						}
+					}
+					System.out.println(matrice_connexe[i][j]);
+				}
+			}
+			System.out.println("acc"+acc_1);
+			//traitement de la table de hash: suppresion des cycles
+			for (int i=0;i<=acc_1;i++){
+				int val=i;
+				while(hash[val]!=val){
+					val=hash[val];
+				}
+				hash[i]=val;
+			}
+			System.out.println(hash);
+			/**
+			for (int i=1;i<=acc_1;i++){
+				int tmp_val=0;
+				int acc_connexe=0;
+				if (hash[i]!=tmp_val){
+					acc_connexe+=1;
+					tmp_val=hash[i];
+					hash[i]=acc_connexe;
+				}
+			}*/
+			//Mise à jour des composantes connexes
+			for(int i = 0; i < hauteurImage; i++){
+				for(int j = 0; j < largeurImage; j++){
+					matrice_connexe[i][j]=hash[matrice_connexe[i][j]];
+					//image.setRGB(j, i, );
+				}
+			}
+			System.out.println(matrice_connexe);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 
