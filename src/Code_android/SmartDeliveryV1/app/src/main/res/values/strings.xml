@@ -9,4 +9,6 @@
     <string name="OK">OK</string>
     <string name="arrivee" />
     <string name="carte">VOIR CARTE</string>
+    <string name="Salle1">Salle 1</string>
+    <string name="textarrival" />
 </resources>

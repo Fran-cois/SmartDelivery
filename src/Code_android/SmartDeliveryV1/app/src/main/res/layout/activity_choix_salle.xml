@@ -16,12 +16,14 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_weight="20"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/checkbox">
 
         <RadioButton
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="Salle 1"
+            android:id="@+id/salle1"
+            android:text="@string/Salle1"
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
