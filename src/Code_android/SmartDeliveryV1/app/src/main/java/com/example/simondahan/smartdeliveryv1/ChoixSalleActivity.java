@@ -14,6 +14,7 @@ public class ChoixSalleActivity extends AppCompatActivity {
 
     public final static String VALUE ="ConfirmationDroneActivity.VALUE";
     RadioGroup salle = null;
+    String SALLE = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +26,9 @@ public class ChoixSalleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_choix_salle);
 
         ////transfert de la valeur de salle selectionnée
-        Resources res = getResources();
+        final Resources res = getResources();
         salle = (RadioGroup) findViewById(R.id.checkbox);
-        final String SALLE = res.getString(R.string.Salle1);
+
 
 
 
@@ -35,12 +36,28 @@ public class ChoixSalleActivity extends AppCompatActivity {
         Button mybuttonvalidate = (Button) findViewById(R.id.button_validate);
         mybuttonvalidate.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){
-                if (salle.getCheckedRadioButtonId()==R.id.salle1){
+                switch (salle.getCheckedRadioButtonId()){
+                    case R.id.salle1:
+                        SALLE = res.getString(R.string.Salle1);
+                        break;
+                    case R.id.salle2:
+                        SALLE= res.getString(R.string.Salle2);
+                        break;
+                    case R.id.salle3:
+                        SALLE= res.getString(R.string.Salle3);
+                        break;
+                    case R.id.salle4:
+                        SALLE= res.getString(R.string.Salle4);
+                        break;
+                    case R.id.salle5:
+                        SALLE= res.getString(R.string.Salle5);
+                        break;
+                }
 
                     Intent myIntent4= new Intent(ChoixSalleActivity.this, ConfirmationDroneActivity.class);
                     myIntent4.putExtra(VALUE, SALLE);
                     startActivity(myIntent4);
-                    ChoixSalleActivity.this.finish();}
+                    ChoixSalleActivity.this.finish();
             }
 
 

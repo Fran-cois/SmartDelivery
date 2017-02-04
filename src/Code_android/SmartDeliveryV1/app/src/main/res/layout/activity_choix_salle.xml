@@ -31,28 +31,32 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salle 2"
+            android:id="@+id/salle2"
+            android:text="@string/Salle2"
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salle 3"
+            android:id="@+id/salle3"
+            android:text="@string/Salle3"
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salle 4"
+            android:id="@+id/salle4"
+            android:text="@string/Salle4"
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salle 5"
+            android:id="@+id/salle5"
+            android:text="@string/Salle5"
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>

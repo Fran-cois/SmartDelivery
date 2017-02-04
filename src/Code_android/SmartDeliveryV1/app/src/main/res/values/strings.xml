@@ -11,4 +11,8 @@
     <string name="carte">VOIR CARTE</string>
     <string name="Salle1">Salle 1</string>
     <string name="textarrival" />
+    <string name="Salle2">Salle 2</string>
+    <string name="Salle3">Salle 3</string>
+    <string name="Salle4">Salle4</string>
+    <string name="Salle5">Salle 5</string>
 </resources>
