@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class DroneArriveActivity extends Activity {
 
@@ -20,7 +19,7 @@ public class DroneArriveActivity extends Activity {
         mybutton5.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){
 
-                Intent myIntent7= new Intent(DroneArriveActivity.this, Page2Activity.class);
+                Intent myIntent7= new Intent(DroneArriveActivity.this, PlanPageActivity.class);
                 startActivity(myIntent7);
                 DroneArriveActivity.this.finish();
             }
