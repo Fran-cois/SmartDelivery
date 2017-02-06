@@ -3,11 +3,11 @@ package com.example.simondahan.smartdeliveryv1;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-public class DroneArriveActivity extends Activity {
+public class DroneArriveActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +20,8 @@ public class DroneArriveActivity extends Activity {
         mybutton5.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){
 
-                Intent myIntent6= new Intent(DroneArriveActivity.this, Page2Activity.class);
-                startActivity(myIntent6);
+                Intent myIntent7= new Intent(DroneArriveActivity.this, PlanPageActivity.class);
+                startActivity(myIntent7);
                 DroneArriveActivity.this.finish();
             }
 

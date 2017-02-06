@@ -9,8 +9,12 @@
         android:layout_height="230dp"
         android:id="@+id/textView6"
         android:gravity="center" />
+<<<<<<< HEAD:src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/frame.xml
 <<<<<<< HEAD
 
 =======
 >>>>>>> estimation_mouv
+=======
+
+>>>>>>> android:src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/frame.xml
 </FrameLayout>

@@ -4,22 +4,32 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="40"
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="    Votre drone est arrivé à destination.
+    Veuillez confirmer la récupération de l'objet."
 
-        android:text="Votre drone est arrivé à destination.
-Veuillez confirmer la récupération de l'objet."
+            android:layout_margin="40dp"
+            android:textSize="20dp" />
+    </FrameLayout>
 
-        android:layout_margin="40dp"
-        android:textSize="20dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="70">
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="75dp"
+            android:layout_weight="5"
+            android:text="Confirmer\nréception"
+            android:layout_gravity="center"
+            android:id="@+id/button5" />
+    </FrameLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="5"
-        android:text="Confirmer\nréception"
-        android:layout_gravity="center"
-        android:id="@+id/button5" />
 </LinearLayout>

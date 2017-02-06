@@ -20,4 +20,4 @@ before_script:
   - adb shell input keyevent 82 &
   - chmod +x gradlew
 
-script: ./gradlew connectedAndroidTest
+script: ./src/Code_android/SmartDeliveryV1/gradlew connectedAndroidTest

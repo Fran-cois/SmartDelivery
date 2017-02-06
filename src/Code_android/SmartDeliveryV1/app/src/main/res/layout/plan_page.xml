@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:text="@string/plan"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:id="@+id/textView"
-        android:gravity="center" />
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="256dp">
+        android:layout_height="360dp"
+        android:layout_marginTop="20dp">
 
         <ImageView
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/plan"
@@ -29,9 +26,9 @@
 
         <Button
             android:text="@string/commande"
-            android:layout_width="215dp"
-            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
             android:id="@+id/button2"
-            android:layout_gravity="center" />
+            android:layout_gravity="center" />  
     </FrameLayout>
 </LinearLayout>

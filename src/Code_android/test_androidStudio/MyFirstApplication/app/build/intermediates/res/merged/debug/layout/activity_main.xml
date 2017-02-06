@@ -13,16 +13,21 @@
 
 
     <Button
+<<<<<<< HEAD:src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/activity_main.xml
 <<<<<<< HEAD
         android:text="Button"
 =======
         android:text="@string/button"
 >>>>>>> estimation_mouv
+=======
+        android:text="Button"
+>>>>>>> android:src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity_main.xml
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD:src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/activity_main.xml
 <<<<<<< HEAD
         android:layout_marginBottom="150dp" />
 
@@ -43,11 +48,19 @@
     <TextView
         android:text="@string/introduction"
 >>>>>>> estimation_mouv
+=======
+        android:layout_marginBottom="150dp" />
+
+    <RadioGroup
+>>>>>>> android:src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity_main.xml
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD:src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/activity_main.xml
 <<<<<<< HEAD
+=======
+>>>>>>> android:src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity_main.xml
         android:layout_marginTop="115dp"
         android:id="@+id/checkbox">
 
@@ -76,10 +89,13 @@
             tools:text="Salle3" />
 
     </RadioGroup>
+<<<<<<< HEAD:src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/activity_main.xml
 =======
         android:layout_marginTop="22dp"
         android:id="@+id/textView" />
 >>>>>>> estimation_mouv
+=======
+>>>>>>> android:src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity_main.xml
 
 
 </RelativeLayout>
