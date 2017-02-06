@@ -29,6 +29,6 @@
             android:layout_width="140dp"
             android:layout_height="50dp"
             android:id="@+id/button2"
-            android:layout_gravity="center" />
+            android:layout_gravity="center" />  
     </FrameLayout>
 </LinearLayout>
