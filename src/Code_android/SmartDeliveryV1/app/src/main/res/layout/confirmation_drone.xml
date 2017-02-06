@@ -7,11 +7,14 @@ android:layout_height="match_parent">
     <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_weight="40"
-        android:layout_margin="40dp"
+    android:layout_margin="40dp"
     android:textSize="20dp"
-        android:text="Votre drone va bientôt arriver en salle:" />
+    android:text="Votre drone va bientôt arriver en salle:" />
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
@@ -20,12 +23,18 @@ android:layout_height="match_parent">
         android:layout_weight="40"
         android:gravity="center"
         android:textSize="50sp" />
+    </FrameLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="4.76"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:text="@string/carte"
+        android:id="@+id/button4"
         android:layout_gravity="center"
-        android:id="@+id/button4" />
+        />
+    </FrameLayout>
 </LinearLayout>

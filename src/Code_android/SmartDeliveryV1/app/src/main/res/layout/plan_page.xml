@@ -29,8 +29,8 @@
 
         <Button
             android:text="@string/commande"
-            android:layout_width="215dp"
-            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
             android:id="@+id/button2"
             android:layout_gravity="center" />
     </FrameLayout>
