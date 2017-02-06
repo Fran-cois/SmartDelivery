@@ -12,6 +12,8 @@ public class PlanPageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plan_page);
+
+        this.getSupportActionBar().setTitle("Plan des lieux");
         // récupération de l'intent pour la commande du bouton depuis la page 1 ou la page 3
         Intent myIntent1 = getIntent();
         setContentView(R.layout.plan_page);
