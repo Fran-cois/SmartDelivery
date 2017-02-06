@@ -12,9 +12,8 @@ import org.jfree.ui.RefineryUtilities;
 public class ImageReader {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//imageRGBToGrey("C:\\Users\\Louise Loesch\\workspace\\pact\\photo-qrcode3.png");
-		imageLabeling("C:\\Users\\Louise Loesch\\workspace\\pact\\photo-qrcode3.png");
+		imageLabeling("C:\\Users\\Louise Loesch\\workspace\\pact\\photo-qrcode2.png");
 	}
 	
 	public static String imageRGBToGrey(String fileName) {
@@ -81,7 +80,7 @@ public class ImageReader {
 						image.setRGB(colonne, ligne, rgb_white);
 				}
 			}
-			sauverImage(image,"test-photo-qrcode3");
+			sauverImage(image,"test-photo-qrcode2");
 			
 		} catch (FileNotFoundException e){
 		e.printStackTrace();
@@ -90,7 +89,7 @@ public class ImageReader {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "C:\\Users\\Louise Loesch\\workspace\\pact\\test-photo-qrcode3.png";
+		return "C:\\Users\\Louise Loesch\\workspace\\pact\\test-photo-qrcode2.png";
 	}
 	
 	public static void sauverImage(BufferedImage image,String nomImage) throws IOException 
@@ -109,7 +108,7 @@ public class ImageReader {
 			Color myWhite = new Color(255, 255, 255); // Couleur blanche
 			Color myBlack = new Color(0, 0, 0); // Couleur noire
 			matrice_connexe= new int[hauteurImage][largeurImage];
-			int[] hash=new int[1000];
+			int[] hash=new int[100000];
 			int acc_1=0;//incrémente les composantes connexes
 			for(int i = 1; i < hauteurImage; i++){
 				for(int j = 1; j < largeurImage; j++){
@@ -133,10 +132,8 @@ public class ImageReader {
 							acc_1+=1;
 						}
 					}
-					System.out.println(matrice_connexe[i][j]);
 				}
 			}
-			System.out.println("acc"+acc_1);
 			//traitement de la table de hash: suppresion des cycles
 			for (int i=0;i<=acc_1;i++){
 				int val=i;
@@ -145,25 +142,23 @@ public class ImageReader {
 				}
 				hash[i]=val;
 			}
-			System.out.println(hash);
-			/**
+			//minimisation des numéros des composantes connexes
+			int acc_connexe=0;
 			for (int i=1;i<=acc_1;i++){
 				int tmp_val=0;
-				int acc_connexe=0;
-				if (hash[i]!=tmp_val){
+				if (hash[i]>tmp_val){
 					acc_connexe+=1;
 					tmp_val=hash[i];
-					hash[i]=acc_connexe;
 				}
-			}*/
+				hash[i]=Math.min(hash[i], acc_connexe);
+			}
 			//Mise à jour des composantes connexes
 			for(int i = 0; i < hauteurImage; i++){
 				for(int j = 0; j < largeurImage; j++){
 					matrice_connexe[i][j]=hash[matrice_connexe[i][j]];
-					//image.setRGB(j, i, );
 				}
 			}
-			System.out.println(matrice_connexe);
+			System.out.println(acc_connexe);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
