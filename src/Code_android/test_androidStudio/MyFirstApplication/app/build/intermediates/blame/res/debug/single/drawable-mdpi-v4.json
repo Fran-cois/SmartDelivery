@@ -12,14 +12,24 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },

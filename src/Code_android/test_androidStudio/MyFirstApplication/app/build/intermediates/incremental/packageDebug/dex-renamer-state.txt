@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Sat Feb 04 19:42:12 CET 2017
+=======
+#Thu Jan 19 14:40:10 CET 2017
+>>>>>>> estimation_mouv
 base.0=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ca3b52a69b3b8619a710810e5162bd419b5834a
 renamed.1=classes2.dex
 renamed.0=classes.dex

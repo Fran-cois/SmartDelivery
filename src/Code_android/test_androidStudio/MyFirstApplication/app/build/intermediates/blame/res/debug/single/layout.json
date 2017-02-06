@@ -4,26 +4,35 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_action_tombstone.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_toolbar.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_layout.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_close_item_material.xml"
     },
@@ -36,6 +45,7 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_custom_big.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple.xml"
     },
@@ -44,10 +54,13 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_radio.xml"
     },
@@ -66,16 +79,23 @@
     {
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+=======
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/linear.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/linear.xml"
+>>>>>>> estimation_mouv
     },
     {
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_action.xml"
     },
@@ -84,6 +104,7 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_lines_media.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_part_chronometer.xml"
     },
@@ -92,6 +113,8 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_media.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_layout.xml"
     },
@@ -108,6 +131,7 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_cancel_action.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_bar.xml"
     },
@@ -116,10 +140,13 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity_main.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/frame.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/frame.xml"
     },
@@ -128,6 +155,8 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_narrow_custom.xml"
     },
@@ -148,10 +177,13 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_icon_group.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_custom.xml"
     },
@@ -164,6 +196,7 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_dialog_title_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
@@ -172,6 +205,8 @@
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_content_include.xml"
     },
     {
+=======
+>>>>>>> estimation_mouv
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
@@ -186,5 +221,92 @@
     {
         "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_narrow.xml"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/activity.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/frame.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/src/main/res/layout/frame.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_content_include.xml"
+>>>>>>> estimation_mouv
     }
 ]

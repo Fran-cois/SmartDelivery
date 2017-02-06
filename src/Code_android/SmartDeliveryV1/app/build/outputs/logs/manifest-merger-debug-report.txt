@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:5:5-36:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.simondahan.smartdeliveryv1.Page1Activity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:11:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.example.simondahan.smartdeliveryv1.Page2Activity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:18:9-20:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:18:19-48
+activity#com.example.simondahan.smartdeliveryv1.Page3Activity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:21:9-23:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:21:19-48
+activity#com.example.simondahan.smartdeliveryv1.ChoixSalleActivity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:24:9-26:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:24:19-53
+activity#com.example.simondahan.smartdeliveryv1.DroneArriveActivity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:27:9-29:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:27:19-54
+activity#com.example.simondahan.smartdeliveryv1.SuiviCommandePlanActivity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:30:9-32:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:30:19-60
+activity#com.example.simondahan.smartdeliveryv1.ConfirmationDroneActivity
+ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:33:9-35:20
+	android:name
+		ADDED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml:33:19-60
+uses-sdk
+INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/SmartDeliveryV1/app/src/main/AndroidManifest.xml

@@ -1,29 +1,52 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sat Feb 04 19:42:13 CET 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+=======
+#Thu Jan 19 14:40:11 CET 2017
+210.set=ANDROID_RESOURCE
+14.set=ANDROID_RESOURCE
+180.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_spinner.xml
+>>>>>>> estimation_mouv
 118.set=DEX
 60.set=ANDROID_RESOURCE
 2.set=ANDROID_RESOURCE
 164.set=ANDROID_RESOURCE
 26.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_custom_big.xml
 209.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 78.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+=======
+78.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_layout.xml
+>>>>>>> estimation_mouv
 21.set=ANDROID_RESOURCE
 53.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ca3b52a69b3b8619a710810e5162bd419b5834a/classes.dex
 107.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 236.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 159.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+=======
+159.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+>>>>>>> estimation_mouv
 125.set=ANDROID_RESOURCE
 211.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 80.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_dark.xml
 134.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 186.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 161.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 192.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
 132.set=ANDROID_RESOURCE
 238.set=ANDROID_RESOURCE
+=======
+186.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8d7c0c27a9f4101b204e5c4044b514ce99566548
+161.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+192.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_icon_background.xml
+132.set=ANDROID_RESOURCE
+238.set=DEX
+>>>>>>> estimation_mouv
 179.set=ANDROID_RESOURCE
 59.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 34.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -31,6 +54,7 @@
 86.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 65.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_custom_big.xml
 61.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 217.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
 40.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
 245.set=ANDROID_RESOURCE
@@ -44,6 +68,21 @@
 121.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 142.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml
 173.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+=======
+217.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_light.xml
+40.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+245.set=ANDROID_RESOURCE
+186.set=DEX
+115.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_icon.xml
+49.set=ANDROID_RESOURCE
+92.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v16/notification_template_custom_big.xml
+244.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_title_item.xml
+167.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg_low.xml
+198.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+121.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+142.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_2e37be93843fe9904269defb895168706eb72c86/classes.dex
+173.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+>>>>>>> estimation_mouv
 95.set=ANDROID_RESOURCE
 100.set=ANDROID_RESOURCE
 206.set=ANDROID_RESOURCE
@@ -51,20 +90,31 @@
 193.set=ANDROID_RESOURCE
 56.set=DEX
 19.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 15.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+=======
+15.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+>>>>>>> estimation_mouv
 46.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 213.set=ANDROID_RESOURCE
 98.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 21.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 17.set=ANDROID_RESOURCE
 73.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 229.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_482bf037eee218328c4eabdb15cb63a393210e02/classes.dex
 225.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 204.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+=======
+229.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background.xml
+225.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+204.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view_list_item.xml
+>>>>>>> estimation_mouv
 127.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_button_bar_material.xml
 63.set=ANDROID_RESOURCE
 6.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 5.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 179.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_custom_big.xml
 102.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_checkbox.xml
 231.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
@@ -77,6 +127,20 @@
 70.set=ANDROID_RESOURCE
 27.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal.9.png
 79.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_layout.xml
+=======
+179.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+102.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_textfield_search_material.xml
+231.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+154.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media.xml
+167.set=ANDROID_RESOURCE
+220.set=ANDROID_RESOURCE
+24.set=ANDROID_RESOURCE
+181.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+128.set=ANDROID_RESOURCE
+70.set=ANDROID_RESOURCE
+27.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal.9.png
+79.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+>>>>>>> estimation_mouv
 31.set=ANDROID_RESOURCE
 54.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
 108.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -85,11 +149,20 @@
 212.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 81.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_94c2c043799e68baffa1d83523e996a53df2813c/classes.dex
 135.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 187.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 110.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
 162.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 193.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
 142.set=ANDROID_RESOURCE
+=======
+187.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
+110.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+162.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+193.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_top_material.xml
+142.set=DEX
+248.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 189.set=ANDROID_RESOURCE
 35.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 103.set=ANDROID_RESOURCE
@@ -98,19 +171,32 @@
 87.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 10.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 66.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_default.xml
+<<<<<<< HEAD
 218.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_icon_group.xml
+=======
+218.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+>>>>>>> estimation_mouv
 41.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_up_container.xml
 196.set=ANDROID_RESOURCE
 116.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_dark.xml
 93.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media.xml
 147.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 59.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 245.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_material.xml
 168.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 199.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 122.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 220.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_light.xml
 143.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_small_material.xml
+=======
+245.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple_overlay_action_mode.xml
+168.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_btn_checkable.xml
+199.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+122.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+220.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+143.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml
+>>>>>>> estimation_mouv
 174.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 110.set=DEX
 216.set=ANDROID_RESOURCE
@@ -119,12 +205,17 @@
 8.set=ANDROID_RESOURCE
 16.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_go_search_api_material.xml
 47.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 223.set=ANDROID_RESOURCE
+=======
+223.set=DEX
+>>>>>>> estimation_mouv
 99.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 22.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 27.set=ANDROID_RESOURCE
 74.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 226.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 205.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_custom.xml
 128.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
 73.set=ANDROID_RESOURCE
@@ -132,18 +223,35 @@
 103.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
 232.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_media_cancel_action.xml
 155.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+=======
+205.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_light.xml
+128.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_edittext.xml
+73.set=ANDROID_RESOURCE
+7.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
+103.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+232.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_482bf037eee218328c4eabdb15cb63a393210e02/classes.dex
+155.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_16bc249bcd1e54d07b5c02d3b30c07ed392cd3a9/classes.dex
+>>>>>>> estimation_mouv
 230.set=ANDROID_RESOURCE
 130.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
 171.set=DEX
 34.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 182.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+=======
+182.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_custom_big.xml
+>>>>>>> estimation_mouv
 138.set=ANDROID_RESOURCE
 80.set=ANDROID_RESOURCE
 28.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_default.xml
 41.set=ANDROID_RESOURCE
 55.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png
 109.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 238.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+=======
+238.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
+>>>>>>> estimation_mouv
 30.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_popup_menu_item_layout.xml
 145.set=ANDROID_RESOURCE
 213.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -152,9 +260,15 @@
 188.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 111.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 240.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 163.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_17092331b056b51f71493fd6e20ca89493d304e0
 106.set=ANDROID_RESOURCE
 194.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+=======
+163.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+106.set=ANDROID_RESOURCE
+194.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+>>>>>>> estimation_mouv
 190.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 152.set=ANDROID_RESOURCE
 199.set=ANDROID_RESOURCE
@@ -165,6 +279,7 @@
 11.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 67.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view.xml
 219.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_item_layout.xml
+<<<<<<< HEAD
 42.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
 117.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_icon.xml
 94.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_indicator_material.xml
@@ -176,6 +291,19 @@
 123.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 221.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_6370609162977d240e2a9751529b60f8b0b3119c/classes.dex
 144.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_borderless_material.xml
+=======
+42.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_button_bar_material.xml
+117.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_small_material.xml
+94.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_indicator_material.xml
+148.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+69.set=ANDROID_RESOURCE
+246.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_btn_colored_borderless_text_material.xml
+169.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_borderless_text_material.xml
+200.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+123.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+221.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_icon_group.xml
+144.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_small_material.xml
+>>>>>>> estimation_mouv
 175.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 120.set=ANDROID_RESOURCE
 226.set=ANDROID_RESOURCE
@@ -190,6 +318,7 @@
 75.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 227.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 50.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 206.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_menu_overflow_material.xml
 129.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_edittext.xml
 83.set=ANDROID_RESOURCE
@@ -197,11 +326,24 @@
 104.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_btn_colored_material.xml
 233.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
 156.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
+=======
+206.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+129.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+83.set=ANDROID_RESOURCE
+8.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+104.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_btn_colored_material.xml
+233.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+156.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
+>>>>>>> estimation_mouv
 240.set=ANDROID_RESOURCE
 131.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
 181.set=ANDROID_RESOURCE
 44.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 183.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+=======
+183.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_narrow.xml
+>>>>>>> estimation_mouv
 148.set=ANDROID_RESOURCE
 90.set=ANDROID_RESOURCE
 201.set=ANDROID_RESOURCE
@@ -209,9 +351,15 @@
 109.set=ANDROID_RESOURCE
 51.set=ANDROID_RESOURCE
 56.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex
+<<<<<<< HEAD
 239.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_83cbef9c1ad3e23554b65e9f89b12fc2e0b0da8a
 31.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_expanded_menu_layout.xml
 155.set=ANDROID_RESOURCE
+=======
+239.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+31.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_expanded_menu_layout.xml
+155.set=DEX
+>>>>>>> estimation_mouv
 62.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 214.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 83.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_item_material.xml
@@ -223,6 +371,7 @@
 164.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 116.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 195.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
 191.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 170.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_btn_checkable.xml
@@ -230,12 +379,22 @@
 37.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 123.set=ANDROID_RESOURCE
 229.set=DEX
+=======
+195.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+191.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+170.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+162.set=ANDROID_RESOURCE
+37.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+123.set=ANDROID_RESOURCE
+229.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 89.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 12.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 68.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
 43.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_thumb.xml
 118.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_8a5a9ef36037107a6e322b1993c3cb8751c0560e/classes.dex
 95.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_material.xml
+<<<<<<< HEAD
 149.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_d976c70ed23f8ed5cadbfc22fb10987c6ea7af22
 79.set=ANDROID_RESOURCE
 201.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -243,31 +402,62 @@
 124.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
 222.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
 145.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_action.xml
+=======
+149.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+79.set=ANDROID_RESOURCE
+247.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_thumb_material.xml
+201.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+70.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_ab_back_material.xml
+124.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
+222.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_light.xml
+145.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_borderless_material.xml
+>>>>>>> estimation_mouv
 176.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 130.set=ANDROID_RESOURCE
 236.set=ANDROID_RESOURCE
 177.set=ANDROID_RESOURCE
 3.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_icon_group.xml
+<<<<<<< HEAD
 151.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 86.set=ANDROID_RESOURCE
 49.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 243.set=ANDROID_RESOURCE
 184.set=DEX
+=======
+151.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_d976c70ed23f8ed5cadbfc22fb10987c6ea7af22
+86.set=ANDROID_RESOURCE
+49.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+243.set=ANDROID_RESOURCE
+184.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 24.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 47.set=ANDROID_RESOURCE
 76.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 51.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 207.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_multichoice_material.xml
+=======
+207.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_custom.xml
+>>>>>>> estimation_mouv
 93.set=ANDROID_RESOURCE
 204.set=ANDROID_RESOURCE
 9.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 105.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_singlechoice_material.xml
+<<<<<<< HEAD
 234.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_time.xml
 157.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
 191.set=ANDROID_RESOURCE
 132.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher.png
 54.set=ANDROID_RESOURCE
 184.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8d7c0c27a9f4101b204e5c4044b514ce99566548/classes.dex
+=======
+234.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_custom.xml
+157.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+191.set=ANDROID_RESOURCE
+132.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+54.set=ANDROID_RESOURCE
+184.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+>>>>>>> estimation_mouv
 158.set=ANDROID_RESOURCE
 211.set=ANDROID_RESOURCE
 15.set=ANDROID_RESOURCE
@@ -276,7 +466,11 @@
 3.set=ANDROID_RESOURCE
 57.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_light.xml
 32.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
+<<<<<<< HEAD
 165.set=ANDROID_RESOURCE
+=======
+165.set=DEX
+>>>>>>> estimation_mouv
 63.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 215.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 84.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_dark.xml
@@ -284,6 +478,7 @@
 22.set=ANDROID_RESOURCE
 113.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 90.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 242.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 165.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 126.set=ANDROID_RESOURCE
@@ -310,6 +505,35 @@
 140.set=DEX
 246.set=ANDROID_RESOURCE
 187.set=ANDROID_RESOURCE
+=======
+242.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_83cbef9c1ad3e23554b65e9f89b12fc2e0b0da8a
+165.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_17092331b056b51f71493fd6e20ca89493d304e0
+126.set=ANDROID_RESOURCE
+140.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+196.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+171.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b591fc05527997545bdec8ea6681d1e5b7862e54/classes.dex
+38.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+133.set=ANDROID_RESOURCE
+239.set=ANDROID_RESOURCE
+17.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_media_custom.xml
+13.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+69.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_dark.xml
+44.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+119.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
+96.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_41c4cae1ca4fa1d6deda97aec7ddff537d0009cc/classes.dex
+89.set=ANDROID_RESOURCE
+248.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_narrow_custom.xml
+202.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+71.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_e00ac337cf72105575bb74fe564dc38d0d479755/classes.dex
+125.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+223.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_6370609162977d240e2a9751529b60f8b0b3119c/classes.dex
+146.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_action.xml
+177.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+100.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+140.set=ANDROID_RESOURCE
+246.set=ANDROID_RESOURCE
+187.set=DEX
+>>>>>>> estimation_mouv
 4.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
 152.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 101.set=ANDROID_RESOURCE
@@ -320,6 +544,7 @@
 57.set=ANDROID_RESOURCE
 77.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 52.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 208.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
 214.set=ANDROID_RESOURCE
 106.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v23/abc_control_background_material.xml
@@ -334,6 +559,22 @@
 160.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
 168.set=ANDROID_RESOURCE
 221.set=DEX
+=======
+208.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_menu_overflow_material.xml
+214.set=ANDROID_RESOURCE
+106.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v23/abc_control_background_material.xml
+18.set=ANDROID_RESOURCE
+235.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_media_cancel_action.xml
+158.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
+210.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+133.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_popup_menu_header_item_layout.xml
+64.set=ANDROID_RESOURCE
+185.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+6.set=ANDROID_RESOURCE
+160.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_radio_material.xml
+168.set=ANDROID_RESOURCE
+221.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 25.set=ANDROID_RESOURCE
 129.set=ANDROID_RESOURCE
 71.set=DEX
@@ -350,31 +591,55 @@
 243.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 166.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 136.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 141.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_2e37be93843fe9904269defb895168706eb72c86
 197.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
 120.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_select_dialog_material.xml
 172.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
 39.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 143.set=ANDROID_RESOURCE
+=======
+141.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+197.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+120.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_select_dialog_material.xml
+172.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_btn_checkable.xml
+39.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+143.set=ANDROID_RESOURCE
+249.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 18.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
 14.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 45.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_tile_bg.xml
 228.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 99.set=ANDROID_RESOURCE
 104.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 97.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
 20.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_search_view.xml
 203.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 72.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_internal_bg.xml
 126.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 224.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+=======
+97.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_seek_thumb.xml
+20.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_search_view.xml
+249.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_material.xml
+203.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+72.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_internal_bg.xml
+126.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+224.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+>>>>>>> estimation_mouv
 178.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 101.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 150.set=ANDROID_RESOURCE
 197.set=ANDROID_RESOURCE
 230.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 5.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_spinner.xml
+<<<<<<< HEAD
 153.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_16bc249bcd1e54d07b5c02d3b30c07ed392cd3a9
+=======
+153.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+>>>>>>> estimation_mouv
 180.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 111.set=ANDROID_RESOURCE
 217.set=ANDROID_RESOURCE
@@ -383,11 +648,16 @@
 9.set=ANDROID_RESOURCE
 78.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 53.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ca3b52a69b3b8619a710810e5162bd419b5834a
+<<<<<<< HEAD
 209.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_voice_search_api_material.xml
+=======
+209.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_multichoice_material.xml
+>>>>>>> estimation_mouv
 224.set=ANDROID_RESOURCE
 107.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_switch_thumb_material.xml
 28.set=ANDROID_RESOURCE
 80.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 236.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/select_dialog_multichoice_material.xml
 159.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_action_tombstone.xml
 211.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_toolbar.xml
@@ -395,6 +665,15 @@
 74.set=ANDROID_RESOURCE
 186.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
 161.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+=======
+236.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+159.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
+211.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_voice_search_api_material.xml
+134.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher.png
+74.set=ANDROID_RESOURCE
+186.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8d7c0c27a9f4101b204e5c4044b514ce99566548/classes.dex
+161.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_action_tombstone.xml
+>>>>>>> estimation_mouv
 192.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 231.set=ANDROID_RESOURCE
 172.set=ANDROID_RESOURCE
@@ -408,12 +687,17 @@
 86.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_in.xml
 40.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 42.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 61.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_top.xml
+=======
+61.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/frame.xml
+>>>>>>> estimation_mouv
 115.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 92.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 244.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 167.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 146.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 142.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 198.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_spinner_textfield_background_material.xml
 121.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
@@ -421,18 +705,37 @@
 173.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
 107.set=ANDROID_RESOURCE
 153.set=DEX
+=======
+142.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_2e37be93843fe9904269defb895168706eb72c86
+198.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
+121.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
+0.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+173.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
+107.set=ANDROID_RESOURCE
+153.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 19.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/notification_action_background.xml
 15.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 10.set=ANDROID_RESOURCE
 46.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+<<<<<<< HEAD
 229.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_482bf037eee218328c4eabdb15cb63a393210e02
 114.set=ANDROID_RESOURCE
 98.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_seek_thumb.xml
+=======
+229.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+114.set=ANDROID_RESOURCE
+98.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+>>>>>>> estimation_mouv
 21.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_edit_text_material.xml
 204.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 73.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
 127.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 225.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_popup_menu_item_layout.xml
+=======
+225.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_out.xml
+>>>>>>> estimation_mouv
 179.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 102.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 160.set=ANDROID_RESOURCE
@@ -442,7 +745,11 @@
 181.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 121.set=ANDROID_RESOURCE
 227.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 count=247
+=======
+count=250
+>>>>>>> estimation_mouv
 27.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 77.set=ANDROID_RESOURCE
 79.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -452,6 +759,7 @@ count=247
 108.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_track_material.xml
 38.set=ANDROID_RESOURCE
 81.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_94c2c043799e68baffa1d83523e996a53df2813c
+<<<<<<< HEAD
 237.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 212.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_action.xml
 135.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_clear_material.xml
@@ -459,11 +767,24 @@ count=247
 187.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow_custom.xml
 110.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex
 162.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+=======
+237.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_time.xml
+212.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+135.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_clear_material.xml
+84.set=ANDROID_RESOURCE
+187.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
+110.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex
+162.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+>>>>>>> estimation_mouv
 193.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 241.set=ANDROID_RESOURCE
 182.set=ANDROID_RESOURCE
 45.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 149.set=DEX
+=======
+149.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 91.set=DEX
 202.set=ANDROID_RESOURCE
 35.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_action_tombstone.xml
@@ -478,6 +799,7 @@ count=247
 245.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 168.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 156.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 147.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_search_api_material.xml
 220.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -489,6 +811,19 @@ count=247
 117.set=ANDROID_RESOURCE
 1.set=ANDROID_RESOURCE
 163.set=DEX
+=======
+147.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_switch_thumb.xml
+220.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+143.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+199.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+122.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
+13.set=ANDROID_RESOURCE
+1.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+174.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
+117.set=ANDROID_RESOURCE
+1.set=ANDROID_RESOURCE
+163.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 16.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 20.set=ANDROID_RESOURCE
 47.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_lines_media.xml
@@ -498,10 +833,17 @@ count=247
 205.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 74.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/abc_screen_toolbar.xml
 128.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 226.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background.xml
 103.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 232.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 155.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+=======
+226.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+103.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+232.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_482bf037eee218328c4eabdb15cb63a393210e02
+155.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_16bc249bcd1e54d07b5c02d3b30c07ed392cd3a9
+>>>>>>> estimation_mouv
 7.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex
 130.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 182.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -513,6 +855,7 @@ count=247
 55.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 244.set=ANDROID_RESOURCE
 30.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 185.set=DEX
 109.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
 48.set=ANDROID_RESOURCE
@@ -531,6 +874,26 @@ count=247
 55.set=ANDROID_RESOURCE
 190.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_icon_background.xml
 159.set=ANDROID_RESOURCE
+=======
+185.set=ANDROID_RESOURCE
+109.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
+48.set=ANDROID_RESOURCE
+82.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
+238.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex
+213.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_toolbar.xml
+136.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_layout.xml
+94.set=ANDROID_RESOURCE
+205.set=ANDROID_RESOURCE
+188.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
+111.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_dropdown_item_icons_2line.xml
+240.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+163.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+194.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+192.set=ANDROID_RESOURCE
+55.set=ANDROID_RESOURCE
+190.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
+159.set=DEX
+>>>>>>> estimation_mouv
 212.set=ANDROID_RESOURCE
 16.set=ANDROID_RESOURCE
 36.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_switch_track.xml
@@ -544,6 +907,7 @@ count=247
 4.set=ANDROID_RESOURCE
 94.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 246.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 169.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b591fc05527997545bdec8ea6681d1e5b7862e54
 166.set=ANDROID_RESOURCE
 148.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
@@ -555,6 +919,19 @@ count=247
 2.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 175.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/support_simple_spinner_dropdown_item.xml
 150.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_light.xml
+=======
+169.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+166.set=ANDROID_RESOURCE
+148.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_search_api_material.xml
+221.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+144.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+200.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_spinner_textfield_background_material.xml
+123.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_colored_material.xml
+23.set=ANDROID_RESOURCE
+2.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+175.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+150.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/linear.xml
+>>>>>>> estimation_mouv
 127.set=ANDROID_RESOURCE
 30.set=ANDROID_RESOURCE
 48.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
@@ -563,7 +940,11 @@ count=247
 206.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 75.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_dialog_title_material.xml
 129.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 227.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+=======
+227.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_popup_menu_item_layout.xml
+>>>>>>> estimation_mouv
 50.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_seek_thumb.xml
 104.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 233.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -572,6 +953,10 @@ count=247
 131.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 183.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 141.set=DEX
+<<<<<<< HEAD
+=======
+247.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 188.set=ANDROID_RESOURCE
 29.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_446a8c158b5a5c9f76a51d566c1686fea81431a3
 102.set=ANDROID_RESOURCE
@@ -582,6 +967,7 @@ count=247
 31.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 58.set=ANDROID_RESOURCE
 83.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 239.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_83cbef9c1ad3e23554b65e9f89b12fc2e0b0da8a/classes.dex
 62.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_media.xml
 214.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/resources.arsc
@@ -598,6 +984,24 @@ count=247
 191.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_top_material.xml
 7.set=DEX
 169.set=DEX
+=======
+239.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/select_dialog_multichoice_material.xml
+62.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_vector_test.xml
+214.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+137.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+215.set=ANDROID_RESOURCE
+189.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow_custom.xml
+112.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
+19.set=ANDROID_RESOURCE
+241.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_grow_fade_in_from_bottom.xml
+164.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+195.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+170.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+65.set=ANDROID_RESOURCE
+191.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+7.set=DEX
+169.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 222.set=ANDROID_RESOURCE
 26.set=ANDROID_RESOURCE
 37.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media_custom.xml
@@ -608,6 +1012,7 @@ count=247
 72.set=ANDROID_RESOURCE
 118.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_8a5a9ef36037107a6e322b1993c3cb8751c0560e
 95.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 70.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 149.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_d976c70ed23f8ed5cadbfc22fb10987c6ea7af22/classes.dex
 222.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -619,22 +1024,48 @@ count=247
 3.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 176.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
 151.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media.xml
+=======
+247.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+70.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+149.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
+222.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+145.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+170.set=ANDROID_RESOURCE
+201.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_track.xml
+124.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex
+33.set=ANDROID_RESOURCE
+3.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+176.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/support_simple_spinner_dropdown_item.xml
+151.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_d976c70ed23f8ed5cadbfc22fb10987c6ea7af22/classes.dex
+>>>>>>> estimation_mouv
 137.set=ANDROID_RESOURCE
 40.set=ANDROID_RESOURCE
 49.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
 24.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_exit.xml
 144.set=ANDROID_RESOURCE
 207.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 76.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+=======
+76.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+>>>>>>> estimation_mouv
 51.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg.xml
 105.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 234.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 9.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
+<<<<<<< HEAD
 157.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 105.set=ANDROID_RESOURCE
 132.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 184.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8d7c0c27a9f4101b204e5c4044b514ce99566548
 151.set=ANDROID_RESOURCE
+=======
+157.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+105.set=ANDROID_RESOURCE
+132.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+184.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+151.set=DEX
+>>>>>>> estimation_mouv
 198.set=ANDROID_RESOURCE
 112.set=ANDROID_RESOURCE
 218.set=ANDROID_RESOURCE
@@ -642,13 +1073,20 @@ count=247
 32.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 68.set=ANDROID_RESOURCE
 84.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 63.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_vector_test.xml
 215.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_light.xml
 138.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+=======
+63.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_media.xml
+215.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_action.xml
+138.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/activity_main.xml
+>>>>>>> estimation_mouv
 225.set=ANDROID_RESOURCE
 113.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
 29.set=DEX
 90.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_dark.xml
+<<<<<<< HEAD
 242.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple_overlay_action_mode.xml
 165.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg_low.xml
 196.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -657,6 +1095,16 @@ count=247
 75.set=ANDROID_RESOURCE
 232.set=ANDROID_RESOURCE
 173.set=ANDROID_RESOURCE
+=======
+242.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_83cbef9c1ad3e23554b65e9f89b12fc2e0b0da8a/classes.dex
+165.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_17092331b056b51f71493fd6e20ca89493d304e0/classes.dex
+196.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+140.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+171.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b591fc05527997545bdec8ea6681d1e5b7862e54
+75.set=ANDROID_RESOURCE
+232.set=DEX
+173.set=DEX
+>>>>>>> estimation_mouv
 17.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 36.set=ANDROID_RESOURCE
 38.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
@@ -666,6 +1114,7 @@ count=247
 82.set=DEX
 119.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 96.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_41c4cae1ca4fa1d6deda97aec7ddff537d0009cc
+<<<<<<< HEAD
 71.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_e00ac337cf72105575bb74fe564dc38d0d479755
 223.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 146.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -678,22 +1127,49 @@ count=247
 100.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/drone.png
 147.set=ANDROID_RESOURCE
 152.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
+=======
+248.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+71.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_e00ac337cf72105575bb74fe564dc38d0d479755
+223.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_6370609162977d240e2a9751529b60f8b0b3119c
+146.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+180.set=ANDROID_RESOURCE
+202.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
+125.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
+43.set=ANDROID_RESOURCE
+4.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+177.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+100.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/drone.png
+147.set=ANDROID_RESOURCE
+152.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_light.xml
+>>>>>>> estimation_mouv
 200.set=ANDROID_RESOURCE
 108.set=ANDROID_RESOURCE
 50.set=ANDROID_RESOURCE
 25.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
 154.set=ANDROID_RESOURCE
 208.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 77.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
 11.set=ANDROID_RESOURCE
 52.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
 106.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 235.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
+=======
+77.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+11.set=ANDROID_RESOURCE
+52.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
+106.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+235.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+>>>>>>> estimation_mouv
 158.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 115.set=ANDROID_RESOURCE
 210.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 133.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 185.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
+=======
+185.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+>>>>>>> estimation_mouv
 161.set=ANDROID_RESOURCE
 160.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 122.set=ANDROID_RESOURCE
@@ -702,15 +1178,24 @@ count=247
 33.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 78.set=ANDROID_RESOURCE
 85.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 64.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/frame.xml
 60.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 216.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
 139.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
 235.set=DEX
+=======
+64.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_top.xml
+60.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+216.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+139.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+235.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv
 176.set=ANDROID_RESOURCE
 114.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
 39.set=ANDROID_RESOURCE
 91.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_4b45d6a5460870c5e2ef56d6214c753f49ec0591/classes.dex
+<<<<<<< HEAD
 243.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_btn_colored_borderless_text_material.xml
 166.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_btn_checkable.xml
 197.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -719,16 +1204,31 @@ count=247
 172.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 85.set=ANDROID_RESOURCE
 242.set=ANDROID_RESOURCE
+=======
+243.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_in_bottom.xml
+166.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+197.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+120.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+141.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
+172.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+85.set=ANDROID_RESOURCE
+242.set=DEX
+>>>>>>> estimation_mouv
 183.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE
 18.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 39.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_material.xml
+<<<<<<< HEAD
 14.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+=======
+14.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+>>>>>>> estimation_mouv
 45.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 92.set=ANDROID_RESOURCE
 203.set=ANDROID_RESOURCE
 97.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 20.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 72.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
 228.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 224.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
@@ -742,3 +1242,19 @@ count=247
 230.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_custom.xml
 153.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_16bc249bcd1e54d07b5c02d3b30c07ed392cd3a9/classes.dex
 157.set=DEX
+=======
+249.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+72.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+228.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+224.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+190.set=ANDROID_RESOURCE
+203.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_content_include.xml
+126.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_edittext.xml
+53.set=DEX
+5.base=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_
+178.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_action_tombstone.xml
+101.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_checkbox.xml
+230.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/activity.xml
+153.file=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
+157.set=ANDROID_RESOURCE
+>>>>>>> estimation_mouv

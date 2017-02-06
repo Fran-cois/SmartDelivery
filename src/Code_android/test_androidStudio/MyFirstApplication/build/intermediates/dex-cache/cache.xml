@@ -25,7 +25,11 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
+<<<<<<< HEAD
         sha1="66c0d20ee04fdd96245db97df8ba562154412485">
+=======
+        sha1="4df12b16d0ff616bffe7f793cc8d2010f40f5fc1">
+>>>>>>> estimation_mouv
         <dex dex="/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ef988846be03a50c0ee611f87dfe6440a9e1f5f6/classes.dex" />
     </item>
     <item
@@ -34,7 +38,11 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
+<<<<<<< HEAD
         sha1="55bc328b14aa679e0108998406f815909aba0cc1">
+=======
+        sha1="71277f7c636c4e7e335837fb5b4a0758273c241c">
+>>>>>>> estimation_mouv
         <dex dex="/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/test_androidStudio/MyFirstApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ca3b52a69b3b8619a710810e5162bd419b5834a/classes.dex" />
     </item>
     <item
