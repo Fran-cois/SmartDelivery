@@ -8,29 +8,36 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomePageActivity">
+        <activity android:name=".WelcomePageActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlanPageActivity">
+        <activity android:name=".PlanPageActivity"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".DroneNotAvailableActivity">
+        <activity android:name=".DroneNotAvailableActivity"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".ChoixSalleActivity">
+        <activity android:name=".ChoixSalleActivity"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".DroneArriveActivity">
+        <activity android:name=".DroneArriveActivity"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".SuiviCommandePlanActivity">
+        <activity android:name=".SuiviCommandePlanActivity"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".ConfirmationDroneActivity">
+        <activity android:name=".ConfirmationDroneActivity"
+            android:screenOrientation="portrait">
 
         </activity>
     </application>
