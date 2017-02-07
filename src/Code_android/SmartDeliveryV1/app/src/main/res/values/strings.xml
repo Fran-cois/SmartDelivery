@@ -15,4 +15,5 @@
     <string name="Salle3">Salle 3</string>
     <string name="Salle4">Salle 4</string>
     <string name="Salle5">Salle 5</string>
+    <string name="messageErrorChoix">"Veuillez choisir une salle avant de valider."</string>
 </resources>

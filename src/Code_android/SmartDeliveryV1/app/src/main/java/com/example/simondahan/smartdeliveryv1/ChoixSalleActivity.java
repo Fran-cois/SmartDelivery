@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
+
 
 public class ChoixSalleActivity extends AppCompatActivity {
 
@@ -31,11 +33,11 @@ public class ChoixSalleActivity extends AppCompatActivity {
 
 
 
-
         // Création de l'intent pour le bouton4
         Button mybuttonvalidate = (Button) findViewById(R.id.button_validate);
         mybuttonvalidate.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){
+                boolean isRadioButtonChecked = true;
                 switch (salle.getCheckedRadioButtonId()){
                     case R.id.salle1:
                         SALLE = res.getString(R.string.Salle1);
@@ -52,12 +54,19 @@ public class ChoixSalleActivity extends AppCompatActivity {
                     case R.id.salle5:
                         SALLE= res.getString(R.string.Salle5);
                         break;
+                    default:
+                        isRadioButtonChecked = false;
                 }
+                    if (isRadioButtonChecked) {
+                        Intent myIntent4 = new Intent(ChoixSalleActivity.this, ConfirmationDroneActivity.class);
+                        myIntent4.putExtra(VALUE, SALLE);
+                        startActivity(myIntent4);
+                        ChoixSalleActivity.this.finish();
+                    }
+                    else{
+                        Toast.makeText(ChoixSalleActivity.this,getString(R.string.messageErrorChoix),Toast.LENGTH_SHORT).show();
+                    }
 
-                    Intent myIntent4= new Intent(ChoixSalleActivity.this, ConfirmationDroneActivity.class);
-                    myIntent4.putExtra(VALUE, SALLE);
-                    startActivity(myIntent4);
-                    ChoixSalleActivity.this.finish();
             }
 
 
