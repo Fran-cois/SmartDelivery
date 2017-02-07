@@ -17,7 +17,7 @@ public class KnockKnockServer {
     	fh.setFormatter(formatter);
     	
         if (args.length != 1) {
-            System.err.println("Usage: java KnockKnockServer <port number>");
+            logger.severe("Usage: java KnockKnockServer <port number>");
             System.exit(1);
         }
 
