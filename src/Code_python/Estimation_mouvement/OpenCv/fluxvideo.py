@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-cap = cv2.VideoCapture('/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/OpenCvtest/test.MOV')
+cap = cv2.VideoCapture('test.MOV')
 
 while(cap.isOpened()):
     ret, frame = cap.read()
