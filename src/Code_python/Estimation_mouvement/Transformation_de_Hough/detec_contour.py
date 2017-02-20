@@ -6,38 +6,40 @@ from scipy.ndimage.filters import convolve,gaussian_filter
 from  matplotlib.pyplot import *
 
 
-
 #On recupere l'image sous forme de matrice de pixel
 
-img = imageio.imread("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/bande.png")
+img = imageio.imread("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/test2.png")
 red = img[:,:,0]
 green = img[:,:,1]
 blue = img[:,:,2]
 
-#print(numpy.shape(img))
-#print(img)
-#print(red)
+
+def rgbtogray(rgb):
+    return numpy.dot(rgb[...,:3], [0.299, 0.587, 0.144])
+
+gray = rgbtogray(img)
+
 
 #convertion du tableau d'entiers en flottants
-array=red*1.0
 
-#print(array)
+array = gray*1.0
 
-#taille de la fenetre a l'ecran
+#image en niveau de
+
 figure(figsize=(4,4))
-#imshow(array,cmap=cm.gray)
+imshow(array,cmap=cm.gray)
 
 
 #application d'un filtre gaussien
 array = gaussian_filter(array,1)
 
-#Operateur de differentiation de Sobel pour le calcul du gradient pour chaque point de l'image 
+#Operateur de differentiation de Sobel pour le calcul du gradient pour chaque point de l'image
 sobelX = numpy.array([[-1,0,1],[-2,0,2],[-1,0,1]])
 sobelY = numpy.array([[-1,-2,-1],[0,0,0],[1,2,1]])
 derivX = convolve(array,sobelX)
 derivY = convolve(array,sobelY)
 
-# on multiplie derivY par le complexe j parce que le gradient doit etre un complexe : pour representer chaque point dans le plan complexe
+# on represente les coordonnes du gradient dans le plan
 gradient = derivX+derivY*1j
 
 #G correspond a la norme du gradient pour chaque point de l'image
@@ -54,26 +56,14 @@ p2.imshow(derivY,cmap=cm.gray)
 
 #representation de la norme du gradient
 figure(figsize=(4,4))
-#imshow(G,cmap=cm.gray)
+imshow(G,cmap=cm.gray)
 
-#on utilise un seuil pour eliminer le bruit
-G1= G.copy()
-seuil = 100.0
-s = G1.shape
-print(s)
-for i in range(s[0]):
-    for j in range(s[1]):
-        if G1[i][j]<seuil:
-            G1[i][j] = 0.0
-figure(figsize=(4,4))
-#f,(p1,p2)=subplots(ncols=2)
-#p1.imshow(G,cmap=cm.gray)
-#p2.imshow(G1,cmap=cm.gray)
-#imshow(G,cmap=cm.gray)
+#on utilise un seuil pour eliminer le bruit pour representer les pixels de gradient le plus eleve
 
 
 Gfinal = G.copy()
 seuil = 100.0
+s = Gfinal.shape
 for j in range(s[0]):
     for i in range(s[1]):
         if Gfinal[j][i]<seuil:
@@ -81,9 +71,8 @@ for j in range(s[0]):
         else:
             Gfinal[j][i] = 255.0
 figure(figsize=(10,6))
-f,(p1,p2,p3)=subplots(ncols=3)
+f,(p1,p2)=subplots(ncols=2)
 p1.imshow(G,cmap=cm.gray)
-p2.imshow(G1,cmap=cm.gray)
-p3.imshow(Gfinal,cmap=cm.gray)
+p2.imshow(Gfinal,cmap=cm.gray)
 
 show()
