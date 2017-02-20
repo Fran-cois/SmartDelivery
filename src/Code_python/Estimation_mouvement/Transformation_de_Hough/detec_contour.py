@@ -8,10 +8,11 @@ from  matplotlib.pyplot import *
 
 #On recupere l'image sous forme de matrice de pixel
 
-img = imageio.imread("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/test2.png")
+img = imageio.imread("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/bande.png")
 red = img[:,:,0]
 green = img[:,:,1]
 blue = img[:,:,2]
+
 
 
 def rgbtogray(rgb):

@@ -3,14 +3,15 @@ import math
 import cmath
 from  matplotlib.pyplot import *
 from PIL import Image
+from pylab import *
 
 
 #on ouvre une image dont on a deja delimite les contours.
-img = Image.open("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/test3.png")
+img = Image.open("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/bandecontour.png")
 array=numpy.array(img)*1.0
 #print(array)
-figure(figsize=(8,6))
-imshow(array,cmap=cm.gray)
+#figure(figsize=(8,6))
+#imshow(img,cmap=cm.gray)
 
 #on recupere le nombres de pixels en abscisse et en ordonne
 (Ny,Nx,a) = numpy.shape(array)
@@ -42,8 +43,8 @@ for j in range(Ny):
                 if (i_rho>0) and (i_rho<Nrho):
                     accum[i_theta][i_rho] += 1
 
-figure(figsize=(12,6))
-imshow(accum,cmap=cm.gray)
+#figure(figsize=(12,6))
+#imshow(accum,cmap=cm.gray)
 
 
 
@@ -55,33 +56,8 @@ for i_theta in range(Ntheta):
         if accum[i_theta][i_rho]<seuil:
             accum_seuil[i_theta][i_rho] = 0
 
-figure(figsize=(12,6))
-imshow(accum_seuil,cmap=cm.gray)
-"""
-lignes = []
-for i_theta in range(Ntheta):
-    for i_rho in range(Nrho):
-        if accum_seuil[i_theta][i_rho]!=0:
-            lignes.append((i_rho*drho,i_theta*dtheta))
-
-
-figure(figsize=(8,6))
-axis([0,Nx,0,Ny])
-for rho,theta in lignes:
-    a = math.cos(theta)
-    b = math.sin(theta)
-    x0 = a*rho
-    y0 = b*rho
-    x1 = int(x0 + 1000*(-b))
-    y1 = int(y0 + 1000*(a))
-    x2 = int(x0 - 1000*(-b))
-    y2 = int(y0 - 1000*(a))
-    plot([x1,x2],[y1,y2],color="b")
-
-show()"""
-
-
-
+#figure(figsize=(12,6))
+#imshow(accum_seuil,cmap=cm.gray)
 
 #On garde dans un tableau, les droites non absurdes
 c=0
@@ -126,9 +102,12 @@ rhom= (rho1+rho2)/2
 thetam=(theta1+theta2)/2
 
 figure(figsize=(8,6))
+subplot(axisbg='gray')
 axis([0,Nx,0,Ny])
 
-for rho,theta in lignes:
+
+#on affiche toutes les droites de l'accumulateur
+"""for rho,theta in lignes:
     a = math.cos(theta)
     b = math.sin(theta)
     x0 = a*rho
@@ -137,7 +116,7 @@ for rho,theta in lignes:
     y1 = int(y0 + 1000*(a))
     x2 = int(x0 - 1000*(-b))
     y2 = int(y0 - 1000*(a))
-    plot([x1,x2],[y1,y2],color="b")
+    plot([x1,x2],[y1,y2],color="b")"""
 
 # on affiche ces droites
 
@@ -192,6 +171,8 @@ def printMiddlePoint2(thetam,rhom,color):
     B=y2-(A*x2)
     X1=-B/A
     X2=(Ny-B)/A
+    decalage = (Nx/2)-((X2+X1)/2)
+    print(decalage)
     plot((X1+X2)/2,Ny/2,"b:o", color=color)
 
 
@@ -200,9 +181,12 @@ if (thetam!=0):
 else :
     printMiddlePoint(thetam,rhom,"orange")
 
+print(thetam*180/(numpy.pi))
 
+savefig("/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/Estimation du mouvement/Transformation de Hough/Image_test/sauvegarde.jpeg")
 
 show()
+
 
 
 
