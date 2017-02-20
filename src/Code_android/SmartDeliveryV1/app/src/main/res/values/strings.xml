@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">SmartDelivery</string>
+=======
+    <string name="app_name">SmartDeliveryV1</string>
+>>>>>>> ClientServer
     <string name="Start">Start</string>
     <string name="Bienvenue">Bienvenue</string>
     <string name="plan">Plan des lieux</string>
@@ -9,6 +13,7 @@
     <string name="OK">OK</string>
     <string name="arrivee" />
     <string name="carte">VOIR CARTE</string>
+<<<<<<< HEAD
     <string name="Salle1">Salle 1</string>
     <string name="textarrival" />
     <string name="Salle2">Salle 2</string>
@@ -16,4 +21,6 @@
     <string name="Salle4">Salle 4</string>
     <string name="Salle5">Salle 5</string>
     <string name="messageErrorChoix">"Veuillez choisir une salle avant de valider."</string>
+=======
+>>>>>>> ClientServer
 </resources>

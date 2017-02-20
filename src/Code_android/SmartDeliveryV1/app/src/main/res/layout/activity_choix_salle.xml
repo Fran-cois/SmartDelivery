@@ -16,14 +16,22 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_weight="20"
+<<<<<<< HEAD
         android:layout_height="match_parent"
         android:id="@+id/checkbox">
+=======
+        android:layout_height="match_parent">
+>>>>>>> ClientServer
 
         <RadioButton
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+<<<<<<< HEAD
             android:id="@+id/salle1"
             android:text="@string/Salle1"
+=======
+            android:text="Salle 1"
+>>>>>>> ClientServer
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
@@ -31,32 +39,48 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:id="@+id/salle2"
             android:text="@string/Salle2"
+=======
+            android:text="Salle 2"
+>>>>>>> ClientServer
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:id="@+id/salle3"
             android:text="@string/Salle3"
+=======
+            android:text="Salle 3"
+>>>>>>> ClientServer
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:id="@+id/salle4"
             android:text="@string/Salle4"
+=======
+            android:text="Salle 4"
+>>>>>>> ClientServer
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:id="@+id/salle5"
             android:text="@string/Salle5"
+=======
+            android:text="Salle 5"
+>>>>>>> ClientServer
             android:layout_weight="10"
             android:layout_gravity="center_horizontal"
             android:textSize="18dp"/>
