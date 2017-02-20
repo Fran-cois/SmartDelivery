@@ -22,4 +22,3 @@ before_script:
 
 script: ./src/Code_android/SmartDeliveryV1/gradlew tasks --all
         #./src/Code_android/SmartDeliveryV1/gradlew src/Code_android/SmartDeliveryV1/connectedAndroidTest
-  - chmod +x gradlew
