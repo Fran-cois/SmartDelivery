@@ -4,65 +4,52 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon_smart_delivery"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
         <activity android:name=".WelcomePageActivity"
             android:screenOrientation="portrait">
-=======
+        </activity>
+
         <activity android:name=".Page1Activity">
->>>>>>> ClientServer
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".PlanPageActivity"
             android:screenOrientation="portrait">
-
         </activity>
+
         <activity android:name=".DroneNotAvailableActivity"
             android:screenOrientation="portrait">
-
         </activity>
+
         <activity android:name=".ChoixSalleActivity"
             android:screenOrientation="portrait">
-
         </activity>
+
         <activity android:name=".DroneArriveActivity"
             android:screenOrientation="portrait">
-
         </activity>
+
         <activity android:name=".SuiviCommandePlanActivity"
             android:screenOrientation="portrait">
-
         </activity>
+
         <activity android:name=".ConfirmationDroneActivity"
             android:screenOrientation="portrait">
-=======
+        </activity>
+
         <activity android:name=".Page2Activity">
-
         </activity>
+
         <activity android:name=".Page3Activity">
-
         </activity>
-        <activity android:name=".ChoixSalleActivity">
 
-        </activity>
-        <activity android:name=".DroneArriveActivity">
-
-        </activity>
-        <activity android:name=".SuiviCommandePlanActivity">
-
-        </activity>
-        <activity android:name=".ConfirmationDroneActivity">
->>>>>>> ClientServer
-
-        </activity>
     </application>
 
 </manifest>

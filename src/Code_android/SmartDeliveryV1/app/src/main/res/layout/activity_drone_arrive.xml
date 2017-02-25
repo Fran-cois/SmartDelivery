@@ -4,7 +4,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<<<<<<< HEAD
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,7 +32,6 @@
             android:id="@+id/button5" />
     </FrameLayout>
 
-=======
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,5 +50,4 @@ Veuillez confirmer la récupération de l'objet."
         android:text="Confirmer\nréception"
         android:layout_gravity="center"
         android:id="@+id/button5" />
->>>>>>> ClientServer
 </LinearLayout>

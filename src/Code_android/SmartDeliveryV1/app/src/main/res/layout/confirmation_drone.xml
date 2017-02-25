@@ -1,60 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-=======
-android:orientation="vertical" android:layout_width="match_parent"
->>>>>>> ClientServer
-android:layout_height="match_parent">
+    android:layout_height="match_parent">
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-<<<<<<< HEAD
-    android:layout_margin="40dp"
-    android:textSize="20dp"
-    android:text="Votre drone va bientôt arriver en salle:" />
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="30">
-    <TextView
-        android:text="TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:layout_weight="40"
-        android:gravity="center"
-        android:textSize="50sp" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="30">
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="70dp"
-        android:text="@string/carte"
-        android:id="@+id/button4"
-        android:layout_gravity="center"
-        />
-    </FrameLayout>
-=======
-    android:layout_weight="40"
-    android:text="Votre drone va bientôt arriver en salle. "
-    android:layout_margin="40dp"
-    android:textSize="20dp"
-    />
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="4.76"
-        android:text="@string/carte"
-        android:layout_gravity="center"
-        android:id="@+id/button4" />
->>>>>>> ClientServer
+        android:layout_margin="40dp"
+        android:textSize="20dp"
+        android:text="Votre drone va bientôt arriver en salle:" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:textSize="50sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:text="@string/carte"
+            android:id="@+id/button4"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
 </LinearLayout>
