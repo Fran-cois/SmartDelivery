@@ -21,7 +21,7 @@
         tools:textColor="@android:color/holo_red_dark"
         tools:textSize="30sp"
         android:gravity="center"
-        tools:text="BIENVENUE" />
+        tools:text="BIENVENUE PAS BON" />
 
     <LinearLayout
         android:orientation="vertical"

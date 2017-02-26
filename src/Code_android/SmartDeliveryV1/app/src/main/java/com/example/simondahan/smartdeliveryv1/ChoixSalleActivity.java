@@ -14,9 +14,13 @@ import android.widget.Toast;
 public class ChoixSalleActivity extends AppCompatActivity {
 
     public final static String VALUE = "ConfirmationDroneActivity.VALUE";
-    RadioGroup salle = null;
-    String SALLE = null;
+    private RadioGroup salle = null;
+    private String SALLE = null;
+    private static String roomNumber = "0";
 
+    public static String getFinalRoom() {
+        return roomNumber;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,18 +43,23 @@ public class ChoixSalleActivity extends AppCompatActivity {
                 switch (salle.getCheckedRadioButtonId()) {
                     case R.id.salle1:
                         SALLE = res.getString(R.string.Salle1);
+                        roomNumber = "1";
                         break;
                     case R.id.salle2:
                         SALLE = res.getString(R.string.Salle2);
+                        roomNumber = "2";
                         break;
                     case R.id.salle3:
                         SALLE = res.getString(R.string.Salle3);
+                        roomNumber = "3";
                         break;
                     case R.id.salle4:
                         SALLE = res.getString(R.string.Salle4);
+                        roomNumber = "4";
                         break;
                     case R.id.salle5:
                         SALLE = res.getString(R.string.Salle5);
+                        roomNumber = "5";
                         break;
                     default:
                         isRadioButtonChecked = false;
