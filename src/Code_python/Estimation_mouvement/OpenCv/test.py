@@ -33,6 +33,17 @@ while(cap.isOpened()):
         tab1=sorted(tab1, key=lambda colonnes: colonnes[1])
         tab2=sorted(tab2, key=lambda colonnes: colonnes[1])
 
+        if (np.size(tab1)==0 or np.size(tab2)==0):
+            continue
+        else:
+            rho1=(tab1[0][0])
+            theta1=tab1[0][1]
+            rho2=(tab2[0][0])
+            theta2=tab2[0][1]
+            rhom= ((rho1)+(rho2))/2
+            thetam=((theta1)+(theta2))/2
+            print(thetam)
+
 
     # Our operations on the frame come here
     print(1)
