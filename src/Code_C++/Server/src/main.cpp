@@ -7,26 +7,33 @@
 #include <unistd.h>
 //#include "ot/net/ServerSocket.h"
 
+#include "../include/KKServer.h"
+#include "../include/Server.h"
+
 using namespace std;
 
 
-int main(int argc, char* argv[])
+void KnockKnockServer::main(std::vector<std::wstring> &args)
 {
+
+
+	if (args.size() != 1)
+	{
+	    cout << "Usage: java KnockKnockServer <port number>" <<endl;
+		exit(1);
+	}
+
+    int portNumber = std::stoi(args[0]);
+
     int server;
 
     bool isExit = false;
     int bufsize = 1024;
     char buffer[bufsize];
 
-    if (sizeof(argv) != 1) {
-        cout << "Usage: java KnockKnockServer <port number>" <<endl;
-        isExit = true;
-    }
-
-    //int portNumber = argv[0];
 
     try {
-        server = ServerSocket(int portNumber);
+        server = ServerSocket(portNumber);
         ServerSocket.accept();
         PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
         BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
@@ -56,4 +63,7 @@ int main(int argc, char* argv[])
     }
 }
 return 0;
+
+
+
 }

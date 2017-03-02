@@ -1,16 +1,22 @@
-#ifndef SERVER_H
-#define SERVER_H
+#pragma once
 
+#include <string>
 
-class Server
+class ProtocolServer
 {
-    public:
-        Server();
-        virtual ~Server();
+private:
+	static const int WAITING = 3;
+	static const int START = 0;
+	static const int DEPARTURE = 1;
+	static const int INFLIGHT = 2;
+	std::wstring localisation;
+public:
+	static std::wstring finalRoom;
 
-    protected:
+private:
+	int state = WAITING;
 
-    private:
+
+public:
+	virtual std::wstring processInput(const std::wstring &theInput);
 };
-
-#endif // SERVER_H
