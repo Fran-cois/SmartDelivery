@@ -12,6 +12,7 @@ public class WelcomePageActivity extends AppCompatActivity{
 
     private static KnockKnockClient mClient = null;
     private String[] args = {"137.194.22.216", "4444"}; //changer adresse ip si necessaire
+    private static final String TAG = "WelcomePageActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,7 @@ public class WelcomePageActivity extends AppCompatActivity{
         final Button mybutton1 = (Button) findViewById(R.id.button1);
         mybutton1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Log.i("test", "SUPER ");
+                Log.i(TAG, "Click sur le bouton suivi d'un intent.");
                 mClient = new KnockKnockClient(args);
                 mClient.execute();
                 Intent myIntend1 = new Intent(WelcomePageActivity.this, PlanPageActivity.class);
