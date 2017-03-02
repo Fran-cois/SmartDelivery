@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/bench"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/core/src/main/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/core/src/main/resources"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/core/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby-complete/src/templates/osgi_many_bundles_with_embedded_gems/gems-bundle/src/main/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby-complete/src/templates/osgi_many_bundles_with_embedded_gems/scripts-bundle/src/main/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby-complete/src/templates/osgi_many_bundles_with_embedded_gems/test/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby-jars/src/it/extended/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby/src/it/bouncycastle/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby/src/it/extended/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby/src/it/many_jars_with_embedded_gems_ng/app/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby/src/it/many_jars_with_embedded_gems/app/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby/src/it/terminate-container-and-extensions-GH-3300/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/maven/jruby/src/templates/osgi_all_inclusive/src/test/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/samples/jrubyc_java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/samples/truffle/interop/asciidoctor"/>
+	<classpathentry excluding="java_integration/fixtures/" kind="src" path="jruby-master_example_travis_java/spec"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/spec/java_integration/fixtures"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/test"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/truffle/src/main/java"/>
+	<classpathentry kind="src" path="jruby-master_example_travis_java/truffle/src/test/java"/>
+	<classpathentry kind="src" path="KnockKnockClient/src"/>
+	<classpathentry kind="src" path="KnockKnockServer/src"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/core/src/test/resources/foobar.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/core/src/test/resources/space bar/foobar.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/lib/ruby/truffle/mri/json/ext/generator.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/lib/ruby/truffle/mri/json/ext/parser.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/lib/ruby/truffle/mri/racc/cparse-jruby.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/maven/jruby/src/empty.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/maven/jruby/src/it/integrity/src/main/resources/hello.jar"/>
+	<classpathentry kind="lib" path="jruby-master_example_travis_java/samples/relative_require.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="KnockKnockClient/bin"/>
+</classpath>

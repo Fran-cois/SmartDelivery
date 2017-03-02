@@ -30,9 +30,6 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
         private String[] args;
 
 
-        public boolean getIsDroneAvailable() {
-            return isDroneAvailable;
-        }
 
         public KnockKnockClient (AppCompatActivity activity, String[] args) {
             mActivity = new WeakReference<AppCompatActivity>(activity);         // We always keep a reference to the current activity

@@ -16,4 +16,5 @@
     <string name="Salle4">Salle 4</string>
     <string name="Salle5">Salle 5</string>
     <string name="messageErrorChoix">"Veuillez choisir une salle avant de valider."</string>
+    <string name="KnockClient">"KnockKnockClient starts"</string>
 </resources>
