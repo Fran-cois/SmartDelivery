@@ -21,7 +21,7 @@ public class Page3Activity extends AppCompatActivity {
         Button mybutton2 = (Button) findViewById(R.id.button3);
         mybutton2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v3){
-                Intent myIntent3= new Intent(Page3Activity.this, Page2Activity.class);
+                Intent myIntent3= new Intent(Page3Activity.this, PlanPageActivity.class);
                 startActivity(myIntent3);
                 Page3Activity.this.finish();
             }

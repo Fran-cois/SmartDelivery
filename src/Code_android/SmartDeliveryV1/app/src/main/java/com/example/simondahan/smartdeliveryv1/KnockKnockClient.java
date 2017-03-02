@@ -136,6 +136,7 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                 logger.severe("Couldn't get I/O for the connection to " + hostName);
                 System.exit(1);
             }
+            ProtocolClient.available = false;  //we initialize the values
         return null;
         }
 

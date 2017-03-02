@@ -8,6 +8,8 @@ import android.widget.Button;
 
 public class PlanPageActivity extends AppCompatActivity {
 
+    private Intent myIntent2 = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +24,13 @@ public class PlanPageActivity extends AppCompatActivity {
         Button mybutton2 = (Button) findViewById(R.id.button2);
         mybutton2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v2){
-                Intent myIntent2= new Intent(PlanPageActivity.this, ChoixSalleActivity.class);
-                startActivity(myIntent2);
+                if (ProtocolClient.available) {
+                    myIntent2 = new Intent(PlanPageActivity.this, ChoixSalleActivity.class);
+                    startActivity(myIntent2);
+                } else {
+                    myIntent2 = new Intent(PlanPageActivity.this, Page3Activity.class);
+                    startActivity(myIntent2);
+                }
             }
         });
 

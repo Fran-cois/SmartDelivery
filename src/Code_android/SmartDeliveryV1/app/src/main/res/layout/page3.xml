@@ -5,14 +5,13 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="@string/Nondispo"
+        android:text="Drone non disponible"
         android:layout_width="match_parent"
         android:layout_height="124dp"
         android:gravity="center"
         android:id="@+id/textView4" />
 
     <TextView
-        android:text="@string/texteNodispo"
         android:layout_width="match_parent"
         android:layout_height="179dp"
         android:gravity="center"

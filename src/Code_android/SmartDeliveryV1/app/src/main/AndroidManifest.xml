@@ -41,9 +41,6 @@
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".Page2Activity">
-        </activity>
-
         <activity android:name=".Page3Activity">
         </activity>
 
