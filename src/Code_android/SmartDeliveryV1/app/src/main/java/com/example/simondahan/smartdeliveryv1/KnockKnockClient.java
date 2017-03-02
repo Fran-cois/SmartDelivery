@@ -98,7 +98,7 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                         Log.i("Client","Client: go to the room "+getFinalRoom());
                     }
                     Log.i("Client","fromServer egale : "+fromServer);
-                    if (fromServer.equals("I'm going.")||fromServer.contains("I'm in the room") ||fromServer.contains("I didn't get your question. Can you repeat?")){
+                    if (fromServer.equals("I'm going.")||fromServer.contains("I'm in the room ") ||fromServer.contains("I didn't get your question. Can you repeat?")){
                         try {
                             Thread.sleep(period);   // Le client patiente avant de demander où le drone est.
                             out.println("where are you?");
