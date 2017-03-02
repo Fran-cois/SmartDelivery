@@ -8,6 +8,9 @@ while(cap.isOpened()):
     ret, frame = cap.read()
     small = cv2.resize(frame, (0,0), fx=0.3, fy=0.3) 
     gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
+    edges = cv2.Canny(gray,0,150,apertureSize = 3)
+
+    lines = cv2.HoughLines(edges,1,np.pi/180,200)
 
     # Our operations on the frame come here
     print(1)
