@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1487585664 source:c:\users\louise loesch\workspace\smartdelivery\src\code_c++\server\src\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	"../include/Server.h"
+
+1488201779 c:\users\louise loesch\workspace\smartdelivery\src\code_c++\server\include\server.h
+	<string>
+
+1488203423 source:c:\users\louise loesch\workspace\smartdelivery\src\code_c++\server\src\drone.cpp
+	"../include/Drone.h"
+
+1488202438 c:\users\louise loesch\workspace\smartdelivery\src\code_c++\server\include\drone.h
+	<string>
+
