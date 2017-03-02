@@ -17,13 +17,15 @@ public class KnockKnockServer {
     	fh.setFormatter(formatter);
     	
         if (args.length != 1) {
+            // num port (80 ex )
             logger.severe("Usage: java KnockKnockServer <port number>");
             System.exit(1);
         }
 
         int portNumber = Integer.parseInt(args[0]);
 
-        try ( 
+        try (
+             //SOCKET tcp/ip  + creation fichiers (lire + ecrire)
             ServerSocket serverSocket = new ServerSocket(portNumber);
             Socket clientSocket = serverSocket.accept();
         	PrintWriter out =
@@ -34,10 +36,11 @@ public class KnockKnockServer {
         	String inputLine, outputLine;
             
             // Initiate conversation with client
+            // PROTOCOLE : PROTOCOLE SERVER (PROCESS INPUT)
             ProtocolServer kkp = new ProtocolServer();
             outputLine = kkp.processInput(null);
             out.println(outputLine);
-
+            // traitement des reaction
             while ((inputLine = in.readLine()) != null) {
             	
             	if (inputLine.contains("go to the room ")){
@@ -47,6 +50,7 @@ public class KnockKnockServer {
                 outputLine = kkp.processInput(inputLine);
                 out.println(outputLine);
                 logger.info("Serveur: " + outputLine);
+                // fin de la communication -> a faire : couper la communication avec un seul client.
                 if (outputLine.equals("Bye. I arrived."))
                     break;
             }
