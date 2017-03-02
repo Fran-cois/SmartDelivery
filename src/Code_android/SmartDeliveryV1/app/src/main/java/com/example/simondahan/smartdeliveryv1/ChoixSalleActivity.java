@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -16,7 +15,7 @@ public class ChoixSalleActivity extends AppCompatActivity {
     public final static String VALUE = "ConfirmationDroneActivity.VALUE";
     private RadioGroup salle = null;
     private String SALLE = null;
-    private static String roomNumber = "0";
+    private static String roomNumber = "Not selected yet";
 
     public static String getFinalRoom() {
         return roomNumber;

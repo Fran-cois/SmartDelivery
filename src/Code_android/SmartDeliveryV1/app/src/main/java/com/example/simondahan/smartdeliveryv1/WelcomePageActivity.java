@@ -10,6 +10,7 @@ import android.widget.Button;
 public class WelcomePageActivity extends AppCompatActivity{
 
     private static KnockKnockClient mClient = null;
+    private String[] args = {"192.169.0.0", "4444"}; //changer adresse ip si necessaire
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class WelcomePageActivity extends AppCompatActivity{
         Button mybutton1 = (Button) findViewById(R.id.button1);
         mybutton1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                mClient = new KnockKnockClient(WelcomePageActivity.this);
+                mClient = new KnockKnockClient(WelcomePageActivity.this, args);
                 Intent myIntend1 = new Intent(WelcomePageActivity.this, PlanPageActivity.class);
                 startActivity(myIntend1);
                 WelcomePageActivity.this.finish();

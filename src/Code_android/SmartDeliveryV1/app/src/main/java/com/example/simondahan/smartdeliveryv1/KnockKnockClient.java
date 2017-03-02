@@ -26,14 +26,17 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
         private boolean isDroneAvailable = false;
         private WeakReference<AppCompatActivity> mActivity = null;
         public static Logger logger = Logger.getLogger(KnockKnockClient.class.getName());
-        static Handler fh;
+        private static Handler fh;
+        private String[] args;
+
 
         public boolean getIsDroneAvailable() {
             return isDroneAvailable;
         }
-        // We always keep a reference to the current activity
-        public KnockKnockClient (AppCompatActivity activity) {
-            mActivity = new WeakReference<AppCompatActivity>(activity);
+
+        public KnockKnockClient (AppCompatActivity activity, String[] args) {
+            mActivity = new WeakReference<AppCompatActivity>(activity);         // We always keep a reference to the current activity
+            this.args = args;       //contains the ip address
         }
 
         //when an intent changes the current activity,
@@ -60,8 +63,8 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                 System.exit(1);
             }
 
-            Object hostName = args[0];
-            int portNumber = Integer.parseInt(args[1]);
+            String hostName = (String) args[0];
+            int portNumber = Integer.parseInt((String) args[1]);
 
             try (
                     Socket kkSocket = new Socket(hostName, portNumber);

@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 public class Page2Activity extends AppCompatActivity {
 
+    Intent myIntent2 = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +24,14 @@ public class Page2Activity extends AppCompatActivity {
         Button mybutton2 = (Button) findViewById(R.id.button2);
         mybutton2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v2){
-                Intent myIntent2= new Intent(Page2Activity.this, ChoixSalleActivity.class);
-                startActivity(myIntent2);
+                if (ProtocolClient.available) {
+                    myIntent2 = new Intent(Page2Activity.this, ChoixSalleActivity.class);
+                    startActivity(myIntent2);
+                }
+                else {
+                    myIntent2 = new Intent(Page2Activity.this, Page3Activity.class);
+                    startActivity(myIntent2);
+                }
             }
         });
 

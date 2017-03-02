@@ -42,7 +42,7 @@ public class ProtocolClient {
             }
         } else if (state == DEPARTURE) {
             finalRoom=""+ getFinalRoom();
-            if(theInput.length()==3){
+            if(theInput.length()==1){
                 theOutput="I'm going.";
                 state = INFLIGHT;}
             else{

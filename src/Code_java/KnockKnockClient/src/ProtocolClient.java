@@ -1,4 +1,3 @@
-package Code_java.KnockKnockClient.src;
 
 
 
@@ -13,7 +12,7 @@ public class ProtocolClient {
     public static boolean available=false;
 
     private int state = WAITING;
-    
+
 
     public String processInput(String theInput) {
         String theOutput = null;
@@ -30,7 +29,7 @@ public class ProtocolClient {
             	{ theOutput="no";
             	state=WAITING;
             	}*/
-            state=DEPARTURE;	
+            state=DEPARTURE;
             }
             else{
             	theOutput="try again";
@@ -52,7 +51,7 @@ public class ProtocolClient {
         			state = START;
         		}
         		else{
-            	theOutput="je suis à la salle "+localisation;
+            	theOutput="je suis ï¿½ la salle "+localisation;
         		}
         	}
         	else{
