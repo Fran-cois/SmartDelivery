@@ -2,6 +2,7 @@ package com.example.simondahan.smartdeliveryv1;
 
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,14 +26,10 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
 
         private boolean isDroneAvailable = false;
         private WeakReference<AppCompatActivity> mActivity = null;
-        public static Logger logger = Logger.getLogger(KnockKnockClient.class.getName());
-        private static Handler fh;
+
         private String[] args;
 
 
-        public boolean getIsDroneAvailable() {
-            return isDroneAvailable;
-        }
 
         public KnockKnockClient (AppCompatActivity activity, String[] args) {
             mActivity = new WeakReference<AppCompatActivity>(activity);         // We always keep a reference to the current activity
@@ -47,20 +44,15 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
 
         @Override
         protected Boolean doInBackground(Object... args) {
-            try {
-                fh= new FileHandler("logfileClientServer_%u.log");
-            }
-            catch (Exception e) {
-                e.printStackTrace();
-            }
-            logger.addHandler(fh);
-            SimpleFormatter formatter=new SimpleFormatter();
-            fh.setFormatter(formatter);
+
+            Log.i("Client", "doInBackground");
             int period =2*1000;
 
             if (args.length != 2) {
-                logger.severe("Usage: java EchoClient <host name> <port number>");
+                Log.e("Client",""+args.length);
+                Log.e("Client","Usage: java EchoClient <host name> <port number>");
                 System.exit(1);
+
             }
 
             String hostName = (String) args[0];
@@ -73,36 +65,36 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                             new InputStreamReader(kkSocket.getInputStream()));
 
             ) {
-
+                Log.i("Client", "doInBackground");
                 String fromServer;
 
                 while ((fromServer = in.readLine()) != null) {
                     if (fromServer.equals("I'm listening.")){
                         out.println("I would like to make a delivery. Is the drone available?");
-                        logger.info("Server: " + fromServer);
-                        logger.info("Client: I would like to make a delivery. Is the drone available?");
+                        Log.i("Client","Server: " + fromServer);
+                        Log.i("Client","Client: I would like to make a delivery. Is the drone available?");
                     }
                     if(fromServer.equals("try again")){
                         out.println("I would like to make a delivery. Is the drone available?");
-                        logger.warning("Server: " + fromServer);
-                        logger.info("Client: I would like to make a delivery. Is the drone available?");
+                        Log.w("Client","Server: " + fromServer);
+                        Log.i("Client","Client: I would like to make a delivery. Is the drone available?");
                     }
                     if (fromServer.equals("yes")){
                         ProtocolClient.available=true;
                         isDroneAvailable = true;
                         out.println("go to the room "+ getFinalRoom()); //Application android
-                        logger.info("Server: " + fromServer);
-                        logger.info("Client: go to the room "+getFinalRoom());
+                        Log.i("Client","Server: " + fromServer);
+                        Log.i("Client","Client: go to the room "+getFinalRoom());
                     }
                     if(fromServer.equals("no")){
                         out.println("I would like to make a delivery. Is the drone available?");
-                        logger.info("Server: " + fromServer);
-                        logger.info("Client: I would like to make a delivery. Is the drone available?");
+                        Log.i("Client","Server: " + fromServer);
+                        Log.i("Client","Client: I would like to make a delivery. Is the drone available?");
                     }
                     if(fromServer.equals("I didn't get the room. Where do you want me to go?")){
                         out.println(""+ getFinalRoom()); //Application android
-                        logger.warning("Server: " + fromServer);
-                        logger.info("Client: go to the room "+getFinalRoom());
+                        Log.w("Client","Server: " + fromServer);
+                        Log.i("Client","Client: go to the room "+getFinalRoom());
                     }
                     if (fromServer.equals("I'm going.")||fromServer.contains("je suis à la salle") ||fromServer.contains("I didn't get your question. Can you repeat?")){
                         try {
@@ -110,30 +102,30 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                             out.println("where are you?");
                             if(fromServer.contains("je suis à la salle ")){
                                 ProtocolClient.localisation=fromServer.substring(19);
-                                logger.info("Server: " + fromServer);
-                                logger.info("localisation "+ProtocolClient.localisation);
+                                Log.i("Client","Server: " + fromServer);
+                                Log.i("Client","localisation "+ProtocolClient.localisation);
                             }
                             if (fromServer.contains("I didn't get your question. Can you repeat?")){
-                                logger.warning("Server: " + fromServer);
-                                logger.info("Client: where are you?");
+                                Log.w("Client","Server: " + fromServer);
+                                Log.i("Client","Client: where are you?");
                             }
                             else{
-                                logger.info("Server: " + fromServer);
-                                logger.info("Client: where are you?");}
+                                Log.i("Client","Server: " + fromServer);
+                                Log.i("Client","Client: where are you?");}
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
                     }
                     if (fromServer.equals("Bye. I arrived.")){
-                        logger.info("Server: " + fromServer);
+                        Log.i("Client","Server: " + fromServer);
                         break;}
                 }
                 kkSocket.close();
             } catch (UnknownHostException e) {
-                logger.severe("Don't know about host "+ hostName);
+                Log.w("Client","Don't know about host "+ hostName);
                 System.exit(1);
             } catch (IOException e) {
-                logger.severe("Couldn't get I/O for the connection to " + hostName);
+                Log.w("Client","Couldn't get I/O for the connection to " + hostName);
                 System.exit(1);
             }
             ProtocolClient.available = false;  //we initialize the values
