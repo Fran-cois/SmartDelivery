@@ -11,6 +11,7 @@ while(cap.isOpened()):
     edges = cv2.Canny(gray,0,150,apertureSize = 3)
 
     lines = cv2.HoughLines(edges,1,np.pi/180,200)
+    print(lines)
     if (lines is None):
             continue
     else:
@@ -32,7 +33,7 @@ while(cap.isOpened()):
 
         tab1=sorted(tab1, key=lambda colonnes: colonnes[1])
         tab2=sorted(tab2, key=lambda colonnes: colonnes[1])
-        print(tab1)
+
 
       
 
