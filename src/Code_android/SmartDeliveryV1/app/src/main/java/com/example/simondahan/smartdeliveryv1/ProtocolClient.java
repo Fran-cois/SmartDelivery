@@ -42,7 +42,7 @@ public class ProtocolClient {
             }
         } else if (state == DEPARTURE) {
             finalRoom=""+ getFinalRoom();
-            if(theInput.length()==1){
+            if(theInput.length()<=18){
                 theOutput="I'm going.";
                 state = INFLIGHT;}
             else{
@@ -57,6 +57,7 @@ public class ProtocolClient {
                 }
                 else{
                     theOutput="je suis à la salle "+localisation;
+                    state=INFLIGHT;
                 }
             }
             else{
