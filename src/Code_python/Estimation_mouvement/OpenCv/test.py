@@ -6,6 +6,7 @@ cap = cv2.VideoCapture("test.MOV")
 while(cap.isOpened()):
     # Capture frame-by-frame
     ret, frame = cap.read()
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Our operations on the frame come here
     print(1)
