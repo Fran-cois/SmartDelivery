@@ -58,7 +58,7 @@ public class KnockKnockClient {
                 	logger.info("Client: I would like to make a delivery. Is the drone available?");
                 }
                 if(fromServer.equals("I didn't get the room. Where do you want me to go?")){
-                	out.println(""+View.getFinalRoom()); //Application android
+                	out.println("go to the room "+View.getFinalRoom()); //Application android
                 	logger.warning("Server: " + fromServer);
                 	logger.info("Client: go to the room "+View.getFinalRoom());
                 }

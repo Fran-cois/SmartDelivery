@@ -31,7 +31,8 @@ public class ProtocolServer {
             	state=WAITING;
             }
         } else if (state == DEPARTURE) {
-        	if(theInput.length()==3){
+        	System.out.println(finalRoom);
+        	if(theInput.length()<=3){
         		theOutput="I'm going.";
         		state = INFLIGHT;}
         	else{
@@ -46,7 +47,7 @@ public class ProtocolServer {
         			state = START;
         		}
         		else{
-            	theOutput="je suis à la salle "+localisation;
+            	theOutput="I'm in the room "+localisation;
         		}
         	}
         	else{

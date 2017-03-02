@@ -1,18 +1,2 @@
-mars 02, 2017 3:40:38 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Server: I'm listening.
-mars 02, 2017 3:40:38 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Client: I would like to make a delivery. Is the drone available?
-mars 02, 2017 3:40:38 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Server: yes
-mars 02, 2017 3:40:38 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Client: go to the room 551
-mars 02, 2017 3:40:38 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-AVERTISSEMENT: Server: I didn't get the room. Where do you want me to go?
-mars 02, 2017 3:40:38 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Client: go to the room 551
-mars 02, 2017 3:40:40 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Server: I'm going.
-mars 02, 2017 3:40:40 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Client: where are you?
-mars 02, 2017 3:40:40 PM Code_java.KnockKnockClient.src.KnockKnockClient main
-INFOS: Server: Bye. I arrived.
+mars 02, 2017 5:35:23 PM Code_java.KnockKnockClient.src.KnockKnockClient main
+GRAVE: Couldn't get I/O for the connection to 137.194.22.216
