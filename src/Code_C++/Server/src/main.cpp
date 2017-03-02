@@ -5,7 +5,7 @@
 #include <sys/types.h>
 #include <stdlib.h>
 #include <unistd.h>
-//#include "ot/net/ServerSocket.h"
+#include <cstdlib>
 
 #include "../include/KKServer.h"
 #include "../include/Server.h"
@@ -13,17 +13,17 @@
 using namespace std;
 
 
-void KnockKnockServer::main(std::vector<std::wstring> &args)
+int main(int argc, char *argv[])
 {
 
 
-	if (args.size() != 1)
+	if (argc != 1)
 	{
 	    cout << "Usage: java KnockKnockServer <port number>" <<endl;
 		exit(1);
 	}
 
-    int portNumber = std::stoi(args[0]);
+    int portNumber = atoi(argv[1]);
 
     int server;
 
