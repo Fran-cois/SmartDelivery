@@ -32,6 +32,7 @@ while(cap.isOpened()):
 
         tab1=sorted(tab1, key=lambda colonnes: colonnes[1])
         tab2=sorted(tab2, key=lambda colonnes: colonnes[1])
+        print(tab1)
 
         if (np.size(tab1)==0 or np.size(tab2)==0):
             continue
