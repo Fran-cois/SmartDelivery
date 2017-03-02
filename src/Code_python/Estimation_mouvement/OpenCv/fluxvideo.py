@@ -72,7 +72,7 @@ while(cap.isOpened()):
                 print(decalage)
                 cv2.circle(small,((x1+x2)/2,Ny/2),1,(1, 164, 250),2)
 
-            cv2.imshow('frame',small)
+            #cv2.imshow('frame',small)
             if cv2.waitKey(20) & 0xFF == ord('q'):
                 break
 
