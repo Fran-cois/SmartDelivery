@@ -1,0 +1,32 @@
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Server: I'm listening.
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Client: I would like to make a delivery. Is the drone available?
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Server: yes
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Client: go to the room 551
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+AVERTISSEMENT: Server: I didn't get the room. Where do you want me to go?
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Client: go to the room 551
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Server: I'm going.
+janv. 30, 2017 11:41:25 AM KnockKnockClient main
+INFOS: Client: where are you?
+janv. 30, 2017 11:41:35 AM KnockKnockClient$1 run
+INFOS: task started
+janv. 30, 2017 11:41:35 AM KnockKnockClient$1 run
+INFOS: task finished
+janv. 30, 2017 11:41:35 AM KnockKnockClient main
+INFOS: Server: je suis à la salle 557
+janv. 30, 2017 11:41:35 AM KnockKnockClient main
+INFOS: localisation 557
+janv. 30, 2017 11:41:45 AM KnockKnockClient$1 run
+INFOS: task started
+janv. 30, 2017 11:41:45 AM KnockKnockClient$1 run
+INFOS: task finished
+janv. 30, 2017 11:41:55 AM KnockKnockClient$1 run
+INFOS: task started
+janv. 30, 2017 11:41:55 AM KnockKnockClient$1 run
+INFOS: task finished

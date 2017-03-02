@@ -1,0 +1,2 @@
+fails:Enumerator::Lazy#find_all sets #size to nil
+fails:Enumerator::Lazy#find_all on a nested Lazy sets #size to nil
