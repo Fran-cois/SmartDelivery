@@ -42,6 +42,7 @@ while(cap.isOpened()):
             theta2=tab2[0][1]
             rhom= ((rho1)+(rho2))/2
             thetam=((theta1)+(theta2))/2
+            print(thetam)
 
             def printLine(theta,rho,B,G,R):
                 a = np.cos(theta)
