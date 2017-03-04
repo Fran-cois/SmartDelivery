@@ -12,8 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="    Votre drone est arrivé à destination.
-    Veuillez confirmer la récupération de l'objet."
+            android:text="\tVotre drone est arrivé à destination.\n\tVeuillez confirmer la récupération de l'objet."
 
             android:layout_margin="40dp"
             android:textSize="20dp" />

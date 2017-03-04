@@ -1,5 +1,6 @@
 package com.example.simondahan.smartdeliveryv1;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -33,6 +34,7 @@ public class ConfirmationDroneActivity extends AppCompatActivity {
         // Création de l'intent pour le bouton4
         Button mybutton4 = (Button) findViewById(R.id.button4);
         mybutton4.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("LongLogTag")
             public void onClick(View v4) {
                 Log.i(TAG, "Click sur le bouton suivi d'un intent.");
                 Intent myIntent5 = new Intent(ConfirmationDroneActivity.this, SuiviCommandePlanActivity.class);

@@ -19,7 +19,6 @@ public class Page3Activity extends AppCompatActivity {
         setContentView(R.layout.page3);
         Intent myIntent3 = getIntent();
 
-
         setContentView(R.layout.page3);
         Button mybutton2 = (Button) findViewById(R.id.button3);
         mybutton2.setOnClickListener(new View.OnClickListener(){

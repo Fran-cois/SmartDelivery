@@ -21,9 +21,10 @@ public class SuiviCommandePlanActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.suivi_commande_plan);
 
+        this.getSupportActionBar().setTitle("Plan des lieux");
+
         // récupération de l'intent pour le bouton de Confirmation_drone
         Intent myIntent5 = getIntent();
-        setContentView(R.layout.suivi_commande_plan);
 
         //Ajout d'un bouton (temporaire) pour passer à la page arrivée
         Button mybuttoncarte = (Button) findViewById(R.id.button6);
