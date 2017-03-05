@@ -1,12 +1,18 @@
 import numpy as np
 import cv2
 
+def convert(rho1,rho2,taille,decalage):
+    diff = abs(rho1-rho2)
+    if (diff!=0):
+        decalage = decalage*taille/diff
+        return (decalage)
+
 
 cap = cv2.VideoCapture(1)
 
 while(cap.isOpened()):
     ret, frame = cap.read()
-    small = cv2.resize(frame, (0,0), fx=1, fy=1) 
+    small = cv2.resize(frame, (0,0), fx=1.3, fy=1.3) 
     (Ny, Nx,a) = np.shape(small)
     gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
     edges = cv2.Canny(gray,0,150,apertureSize = 3)
@@ -83,9 +89,10 @@ while(cap.isOpened()):
 
             printImageMiddle(Nx,Ny)
             decalage = printMiddlePoint2(thetam,rhom)
+            decalagecm = convert(rho1,rho2,2,decalage)
             print(thetamdeg-90)
 
-            cv2.putText(small, 'decalage = ' + str(decalage) + " px" + "," + str(thetamdeg-90)+ " deg", (10, 30), cv2.FONT_HERSHEY_PLAIN, 1.5, (1, 164, 250), 1, cv2.CV_AA)
+            cv2.putText(small, 'decalage = ' + str(decalagecm) + " cm" + "," + str(thetamdeg-90)+ " deg", (10, 30), cv2.FONT_HERSHEY_PLAIN, 1.5, (1, 164, 250), 1, cv2.CV_AA)
 
 
     cv2.imshow('frame',small)

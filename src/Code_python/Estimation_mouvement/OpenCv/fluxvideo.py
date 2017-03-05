@@ -3,10 +3,16 @@ import cv2
 
 
 cap = cv2.VideoCapture('test.MOV')
+def convert(rho1,rho2,taille,decalage):
+    diff = abs(rho1-rho2)
+    if (diff!=0):
+        decalage = decalage*taille/diff
+        return (decalage)
 
 while(cap.isOpened()):
     ret, frame = cap.read()
-    small = cv2.resize(frame, (0,0), fx=0.3, fy=0.3) 
+    small = cv2.resize(frame, (0,0), fx=0.3, fy=0.3)
+    (Ny, Nx,a) = np.shape(small) 
     gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
     edges = cv2.Canny(gray,0,150,apertureSize = 3)
 
@@ -32,6 +38,7 @@ while(cap.isOpened()):
 
         tab1=sorted(tab1, key=lambda colonnes: colonnes[1])
         tab2=sorted(tab2, key=lambda colonnes: colonnes[1])
+    
 
         if (np.size(tab1)==0 or np.size(tab2)==0):
             continue
@@ -42,7 +49,7 @@ while(cap.isOpened()):
             theta2=tab2[0][1]
             rhom= ((rho1)+(rho2))/2
             thetam=((theta1)+(theta2))/2
-            print(thetam)
+            thetamdeg = thetam*180/np.pi
 
             def printLine(theta,rho,B,G,R):
                 a = np.cos(theta)
@@ -59,25 +66,38 @@ while(cap.isOpened()):
             printLine(theta2,rho2,255,0,0)
             printLine(theta2,rhom,0,0,255)
 
-            def printMiddlePoint(thetam,rhom):
-                a = np.cos(thetam)
-                b = np.sin(thetam)
-                x0 = a*rhom
-                y0 = b*rhom
-                x1 = int(x0 + 1000*(-b))
-                y1 = int(y0 + 1000*(a))
-                x2 = int(x0 - 1000*(-b))
-                y2 = int(y0 - 1000*(a))
-                decalage = (Nx/2)-(x1+x2)/2
-                print(decalage)
-                cv2.circle(small,((x1+x2)/2,Ny/2),1,(1, 164, 250),2)
+            def printMiddlePoint2(thetam,rhom):
+                a=np.cos(thetam)
+                b=np.sin(thetam)
+                x0=a*rhom
+                y0=b*rhom
+                x1 = x0 + 1000*(-b)
+                y1 = y0 + 1000*(a)
+                x2 = x0 - 1000*(-b)
+                y2 = y0 - 1000*(a)
+                A=(y2-y1)/(x2-x1)
+                B=y2-(A*x2)
+                X1=(-B/A)
+                X2=(Ny-B)/A
+                decalage = Ny/2-int((A*Nx+B+B)/2)
+                cv2.circle(small,(Nx/2,int((A*Nx+B+B)/2)),1,(1, 164, 250),2)
+                return (decalage)
 
-            #cv2.imshow('frame',small)
+            def printImageMiddle(Nx,Ny):
+                cv2.circle(small,(Nx/2,Ny/2),1,(0,255,0),2)
+
+            printImageMiddle(Nx,Ny)
+            decalage= printMiddlePoint2(thetam,rhom)
+            decalage= convert(rho1,rho2,2,decalage)
+
+            cv2.putText(small, 'decalage = ' + str(decalage) + " px" + "," + str(thetamdeg-90)+ " deg", (10, 30), cv2.FONT_HERSHEY_PLAIN, 1.5, (1, 164, 250), 1, cv2.CV_AA)
+
+
+            cv2.imshow('frame',small)
             if cv2.waitKey(20) & 0xFF == ord('q'):
                 break
 
 
 
 cap.release()
-cv2.destroyAllWindows()
 cv2.destroyAllWindows()
