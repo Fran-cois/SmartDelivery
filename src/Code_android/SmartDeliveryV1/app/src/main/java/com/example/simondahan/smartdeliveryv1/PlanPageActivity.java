@@ -33,7 +33,7 @@ public class PlanPageActivity extends AppCompatActivity {
                     startActivity(myIntent2);
                 } else {
                     Log.i(TAG, "Click sur le bouton, drone not available.");
-                    myIntent2 = new Intent(PlanPageActivity.this, Page3Activity.class);
+                    myIntent2 = new Intent(PlanPageActivity.this, DroneNotAvailableActivity.class);
                     startActivity(myIntent2);
                 }
             }

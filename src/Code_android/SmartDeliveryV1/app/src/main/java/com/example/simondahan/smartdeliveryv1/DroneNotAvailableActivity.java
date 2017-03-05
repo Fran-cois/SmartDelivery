@@ -18,9 +18,8 @@ public class DroneNotAvailableActivity extends AppCompatActivity {
         setContentView(R.layout.drone_not_available);
         Intent myIntent3 = getIntent();
 
-        setContentView(R.layout.drone_not_available);
-        Button mybutton2 = (Button) findViewById(R.id.button3);
-        mybutton2.setOnClickListener(new View.OnClickListener(){
+        Button myButton2 = (Button) findViewById(R.id.button3);
+        myButton2.setOnClickListener(new View.OnClickListener(){
             @SuppressLint("LongLogTag")
             public void onClick(View v3){
                 Log.i(TAG, "Click sur le bouton suivi d'un intent.");

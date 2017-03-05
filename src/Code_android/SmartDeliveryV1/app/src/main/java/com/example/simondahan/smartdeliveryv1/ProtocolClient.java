@@ -16,7 +16,7 @@ public class ProtocolClient {
     //private static final int period=2*1000;
     public static String localisation;
     private String finalRoom;
-    public static boolean available=false;
+    public static boolean available=true;
 
     private int state = WAITING;
 
