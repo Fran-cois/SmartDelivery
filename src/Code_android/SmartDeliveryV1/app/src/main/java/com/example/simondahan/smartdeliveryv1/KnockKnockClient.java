@@ -1,13 +1,18 @@
 package com.example.simondahan.smartdeliveryv1;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.Toast;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
+
 
 
 import static com.example.simondahan.smartdeliveryv1.ChoixSalleActivity.*;
@@ -19,9 +24,11 @@ import static com.example.simondahan.smartdeliveryv1.ChoixSalleActivity.*;
 public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
 
         private String[] args;
+        private Activity mActivity;
 
-        public KnockKnockClient (String[] args) {
+        public KnockKnockClient (String[] args, Activity mActivity) {
             this.args = args;       //contains the ip address
+            this.mActivity = mActivity;          //necessary to start the intent when the drone arrived
         }
 
         @Override
@@ -133,12 +140,12 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                 Log.w("Client","Impossible de fermer le socket");
             }
 
-
             ProtocolClient.available = false;  //we initialize the values
         return null;
         }
 
-    }
+
+}
 
 
 
