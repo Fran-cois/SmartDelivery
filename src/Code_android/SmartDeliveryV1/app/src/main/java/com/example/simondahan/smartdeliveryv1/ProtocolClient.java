@@ -1,5 +1,7 @@
 package com.example.simondahan.smartdeliveryv1;
 
+import android.util.Log;
+
 import static com.example.simondahan.smartdeliveryv1.ChoixSalleActivity.getFinalRoom;
 
 /**
@@ -14,7 +16,7 @@ public class ProtocolClient {
     //private static final int period=2*1000;
     public static String localisation;
     private String finalRoom;
-    public static boolean available=false;
+    public static boolean available=true;
 
     private int state = WAITING;
 
@@ -42,7 +44,8 @@ public class ProtocolClient {
             }
         } else if (state == DEPARTURE) {
             finalRoom=""+ getFinalRoom();
-            if(theInput.length()==1){
+            Log.i("Protocole", "Client: "+theInput);
+            if(theInput.length()<=21){
                 theOutput="I'm going.";
                 state = INFLIGHT;}
             else{
@@ -56,7 +59,8 @@ public class ProtocolClient {
                     state = START;
                 }
                 else{
-                    theOutput="je suis à la salle "+localisation;
+                    theOutput="I'm in the room "+localisation;
+                    state=INFLIGHT;
                 }
             }
             else{

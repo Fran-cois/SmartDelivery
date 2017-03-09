@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
@@ -16,9 +17,14 @@ public class ChoixSalleActivity extends AppCompatActivity {
     private RadioGroup salle = null;
     private String SALLE = null;
     private static String roomNumber = "Not selected yet";
+    private static final String TAG = "ChoixSalleActivity";
+
 
     public static String getFinalRoom() {
         return roomNumber;
+    }
+    public static void freeFinalRoom() {
+        roomNumber = "Not selected yet";
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +45,7 @@ public class ChoixSalleActivity extends AppCompatActivity {
         mybuttonvalidate.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v4) {
                 boolean isRadioButtonChecked = true;
+                Log.i(TAG, "Click sur le bouton suivi d'un intent.");
                 switch (salle.getCheckedRadioButtonId()) {
                     case R.id.salle1:
                         SALLE = res.getString(R.string.Salle1);
@@ -66,10 +73,12 @@ public class ChoixSalleActivity extends AppCompatActivity {
                 if (isRadioButtonChecked) {
                     Intent myIntent4 = new Intent(ChoixSalleActivity.this, ConfirmationDroneActivity.class);
                     myIntent4.putExtra(VALUE, SALLE);
+                    Log.i(TAG, "Le radioButton "+roomNumber+" est coché, et l'intent est démarré.");
                     startActivity(myIntent4);
                     ChoixSalleActivity.this.finish();
                 } else {
                     Toast.makeText(ChoixSalleActivity.this, getString(R.string.messageErrorChoix), Toast.LENGTH_SHORT).show();
+                    Log.i(TAG, "Click sur le bouton sans radioButton checked.");
                 }
 
             }

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.simondahan.smartdeliveryv1">
 
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -39,9 +40,6 @@
 
         <activity android:name=".ConfirmationDroneActivity"
             android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name=".Page3Activity">
         </activity>
 
     </application>
