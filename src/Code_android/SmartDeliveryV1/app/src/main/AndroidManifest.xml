@@ -36,6 +36,9 @@
 
         <activity android:name=".SuiviCommandePlanActivity"
             android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="com.example.simondahan.smartdeliveryv1.ARRIVEEDRONE"/>
+            </intent-filter>-->
         </activity>
 
         <activity android:name=".ConfirmationDroneActivity"

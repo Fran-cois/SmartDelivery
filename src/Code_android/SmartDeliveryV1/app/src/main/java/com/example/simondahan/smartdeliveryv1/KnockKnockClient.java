@@ -145,7 +145,13 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
         return null;
         }
 
-
+    @Override
+    protected void onPostExecute(Boolean aBoolean) {
+        Intent myIntent6= new Intent(mActivity, DroneArriveActivity.class);
+        Log.i("Client","Lancement de l'activité quand le drone est arrivé" );
+        mActivity.startActivity(myIntent6);
+        super.onPostExecute(aBoolean);
+    }
 }
 
 

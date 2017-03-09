@@ -17,7 +17,7 @@
         android:layout_height="179dp"
         android:gravity="center"
         android:id="@+id/textView3"
-        tools:text="Veuillez patienter quelques minutes en attendant que le drone soit à nouveau disponible..." />
+        android:text="Veuillez patienter quelques minutes en attendant que le drone soit à nouveau disponible..." />
 
     <FrameLayout
         android:layout_width="match_parent"
