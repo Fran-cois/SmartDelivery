@@ -1,8 +1,0 @@
-#https://docs.travis-ci.com/user/languages/java/#Examples 
-language: java
-#Projects Using Maven
-#mvn test or ./mvnw test  or https://docs.travis-ci.com/user/customizing-the-build/#Customizing-the-Build-Step
-ignore:
-  - *.txt
-
-

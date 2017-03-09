@@ -1,0 +1,1 @@
+fails:A nested method definition creates a method in the surrounding context when evaluated in a def expr.method

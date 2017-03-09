@@ -1,0 +1,2 @@
+fails:Thread.new raises an exception when not given a block
+fails:Thread.new calls #initialize and raises an error if super not used

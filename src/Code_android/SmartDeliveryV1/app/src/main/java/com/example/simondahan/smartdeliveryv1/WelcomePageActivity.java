@@ -11,9 +11,8 @@ import android.widget.Button;
 public class WelcomePageActivity extends AppCompatActivity{
 
     private static KnockKnockClient mClient = null;
-    //private static testAsync mClient = null;
 
-    private String[] args = {"137.194.22.21", "4444"}; //changer adresse ip si necessaire   137.194.22.166  adresse ip du drone 192.168.43.55
+    private String[] args = {"192.168.43.55", "4444"}; //changer adresse ip si necessaire   137.194.22.166  adresse ip du drone 192.168.43.55 /et 4444
     private static final String TAG = "WelcomePageActivity";
 
     @Override
@@ -28,7 +27,6 @@ public class WelcomePageActivity extends AppCompatActivity{
 
                 Log.i(TAG, "Click sur le bouton suivi d'un intent.");
                 mClient = new KnockKnockClient(args,WelcomePageActivity.this);
-                //mClient = new testAsync(WelcomePageActivity.this);
                 mClient.execute();
                 Intent myIntend1 = new Intent(WelcomePageActivity.this, PlanPageActivity.class);
                 startActivity(myIntend1);

@@ -21,7 +21,7 @@ public class DroneArriveActivity extends AppCompatActivity {
         mybutton5.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v4){
                 Log.i(TAG, "Click sur le bouton suivi d'un intent.");
-                Intent myIntent7= new Intent(DroneArriveActivity.this, PlanPageActivity.class);
+                Intent myIntent7= new Intent(DroneArriveActivity.this, WelcomePageActivity.class);
                 startActivity(myIntent7);
                 ChoixSalleActivity.freeFinalRoom();
                 DroneArriveActivity.this.finish();
