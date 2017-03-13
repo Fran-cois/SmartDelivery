@@ -86,7 +86,6 @@ public class KnockKnockClient {
                 	logger.info("Server: " + fromServer);
                     break;}
                }
-        	kkSocket.close();
         } catch (UnknownHostException e) {
         	logger.severe("Don't know about host "+ hostName);
             System.exit(1);
