@@ -25,21 +25,7 @@ public class SuiviCommandePlanActivity extends AppCompatActivity {
 
         // récupération de l'intent pour le bouton de Confirmation_drone
         Intent myIntent5 = getIntent();
-
-        //Ajout d'un bouton (temporaire) pour passer à la page arrivée
-        Button mybuttoncarte = (Button) findViewById(R.id.button6);
-        mybuttoncarte.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v4){
-
-                Log.i(TAG, "Click sur le bouton suivi d'un intent.");
-                Intent myIntent6= new Intent(SuiviCommandePlanActivity.this,DroneArriveActivity.class);
-                startActivity(myIntent6);
-                SuiviCommandePlanActivity.this.finish();
-            }
-
-
-        });
-
+        
 
     }
 }
