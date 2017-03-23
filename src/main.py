@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ##########################imports #########################
-import serial
+import serial# marche seulement  pour la raspberry pi 
 import struct
 from math import ceil
 import threading
@@ -12,7 +12,7 @@ import Queue
 q = Queue.Queue()
 SPort = '/dev/ttyUSB0'
 BRate = 115200
-
+"""
 ser = serial.Serial(
     port=SPort,
     baudrate=BRate,
@@ -20,7 +20,7 @@ ser = serial.Serial(
     stopbits=serial.STOPBITS_ONE,
     bytesize=serial.EIGHTBITS,
 )
-
+"""
 
 # 22ms 1024 DSM2
 Mode  = 0x1
@@ -36,11 +36,20 @@ TransDelay = 2*NumPacket*(10.0/BRate)
 WaitDelay = ceil((Delay - TransDelay)*1000)/1000.0
 
 ########################## declaration des variables de test  #########################
+
+
 TEST=[512,600,400,800,0,0,0]
+compteur = 0 
+
 ########################## fin declaration des variables de test  #########################
 
 ########################## fin declaration des variables #########################
-########################## definition des fonctions #########################
+
+
+
+
+
+########################## definition des fonctions de creation de trame #########################
 def Trame(L):
     M=[]
     for i,v in enumerate(L):
@@ -55,36 +64,35 @@ def CreationBytes(id, val):
     sh=(s>>8)&0xFF
     return sh,sl
 
-########################## fin definition des fonctions#########################
+########################## fin definition des fonctions de creation de trame #########################
+
 
 ########################## definition des threads #########################
 def sendOrderToDrone():
     print threading.currentThread().getName(), 'Starting'
-    compteur = 0 
+  
     # traitement des variables dans la queue 
     while True:
-	    if not q.empty():
-	    	print q.get()
-	    	compteur +=1 
-	    	
+	    if not q.empty(): # si on recoit une information dans la queue
+	    	print q.get() # on l'affiche 
+	    	compteur +=1 # var de test 
+	    	############## creation des trames#############
 	    	
 	    	#test du bon format des trames 
 	    	assert len(TEST) == NumPacket-1, "Wrong Packet Number"
 			# fin test du bon format des trames 
-			
 	    	H = Header + Trame(TEST)
 	    	x = bytearray(H)
-	    	# envoi des trames 
-	    	ser.write(x)
-	    	
-		    time.sleep(WaitDelay)
-		    
-			print Delay, TransDelay, WaitDelay
+	    	############## fin creation des trames #############
+	    	############## envoi des trames #############
+	    	#ser.write(x)
+	    	##############fin envoi #############
+	    	time.sleep(WaitDelay)
+	    	print Delay, TransDelay, WaitDelay
 	    time.sleep(2)
-	    
+	    print threading.currentThread().getName(), 'Exiting'
 	    
 	     # permet de quiter le programme (pour les tests) 
-	    print threading.currentThread().getName(), 'Exiting')
 	    if compteur >0 :
 	    	exit()
 
