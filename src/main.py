@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ##########################imports #########################
-import serial# marche seulement  pour la raspberry pi 
+#import serial# marche seulement  pour la raspberry pi 
 import struct
 from math import ceil
 import threading
@@ -38,8 +38,8 @@ WaitDelay = ceil((Delay - TransDelay)*1000)/1000.0
 ########################## declaration des variables de test  #########################
 
 
-TEST=[512,600,400,800,0,0,0]
-compteur = 0 
+TrameInit=[512,600,400,800,0,0,0]
+
 
 ########################## fin declaration des variables de test  #########################
 
@@ -70,43 +70,68 @@ def CreationBytes(id, val):
 ########################## definition des threads #########################
 def sendOrderToDrone():
     print threading.currentThread().getName(), 'Starting'
-  
+    #CHANNEL = 0 # variable qui va de 0 a 6 
+    COEF = [20,20,20,20,20,20,20]
     # traitement des variables dans la queue 
     while True:
+    	
 	    if not q.empty(): # si on recoit une information dans la queue
-	    	print q.get() # on l'affiche 
-	    	compteur +=1 # var de test 
-	    	############## creation des trames#############
 	    	
-	    	#test du bon format des trames 
-	    	assert len(TEST) == NumPacket-1, "Wrong Packet Number"
-			# fin test du bon format des trames 
-	    	H = Header + Trame(TEST)
-	    	x = bytearray(H)
+	    	operation = q.get()
+	    	print operation  # on l'affiche 
+	    	
+	    	############## creation des trames#############
+	    	for i in range(len(operation)):
+	    		if "+" in operation[i] :
+	    			TrameInit[i]+= COEF[i]*len(operation[i])
+	    		if "-" in operation[i] :
+					TrameInit[i]-= COEF[i]*len(operation[i])	
+	    	for i in range(len(TrameInit)):
+	    		TrameInit[i] = max(0,TrameInit[i])
+	    		TrameInit[i] = min(1024,TrameInit[i])
+	    	print TrameInit
 	    	############## fin creation des trames #############
+	    	
+	    	
+	    	
+	    	###############test du bon format des trames ############### 
+	    	assert len(TrameInit) == NumPacket-1, "Wrong Packet Number"
+	    	
+			###############  fin test du bon format des trames ############## 
+			
+			############### On convertit la trame en bytearray ############## 
+	    	H = Header + Trame(TrameInit)
+	    	
+	    	x = bytearray(H)
+	    	
 	    	############## envoi des trames #############
 	    	#ser.write(x)
 	    	##############fin envoi #############
+	    	
+	    	
 	    	time.sleep(WaitDelay)
 	    	print Delay, TransDelay, WaitDelay
-	    time.sleep(2)
-	    print threading.currentThread().getName(), 'Exiting'
+	    	
+	    #time.sleep(2)
+	    #print threading.currentThread().getName(), 'Exiting'
 	    
 	     # permet de quiter le programme (pour les tests) 
-	    if compteur >0 :
-	    	exit()
+	    #exit()
 
-def SendOrderToThread(symbole):
+def SendOrderToThread(rool,pitch,yaw,throttle,an1,an2,an3):
     print threading.currentThread().getName(), 'Starting'
-    q.put(symbole)
-    print "sending 2 to the queue "
-    time.sleep(3)
-    print threading.currentThread().getName(), 'Exiting'
+    while True:
+	    #q.put(symbole)
+	    q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+	    #print "sending 2 to the queue "
+	    
+	    time.sleep(0.5)
+	    #print threading.currentThread().getName(), 'Exiting'
     
 ########################## fin definition des threads #########################
 
 # PERMET d'envoyer le symbole dans arg à l'autre thread 
-w1 = threading.Thread(name='SendOrderToThread', target=SendOrderToThread,args="+")
+w1 = threading.Thread(name='SendOrderToThread', target=SendOrderToThread,args=("++","++","--","++","++","--","++"))
 # defini le thread qui lance le drone 
 w2 = threading.Thread(name='sendOrderToDrone', target=sendOrderToDrone)
 
