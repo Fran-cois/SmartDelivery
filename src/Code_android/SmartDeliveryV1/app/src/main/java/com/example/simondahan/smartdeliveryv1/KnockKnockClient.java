@@ -70,7 +70,7 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                 System.exit(1);
             }
 
-                    Log.i("Client", "doInBackground");
+                    Log.i("Client", "doInBackgroundl73");
                     String fromServer;
 
             try {
