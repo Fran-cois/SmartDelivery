@@ -32,7 +32,7 @@ public class ProtocolServer {
             }
         } else if (state == DEPARTURE) {
         	System.out.println(finalRoom);
-        	if(theInput.length()<=3){
+        	if(theInput.length()<=21){
         		theOutput="I'm going.";
         		state = INFLIGHT;}
         	else{

@@ -37,7 +37,7 @@ public class ServerThread implements Runnable
 	    try
 	    {
 	      // fabrication d'une variable permettant l'utilisation du flux de sortie avec des string
-	      _out = new PrintWriter(_s.getOutputStream());
+	      _out = new PrintWriter(_s.getOutputStream(),true);
 	      // fabrication d'une variable permettant l'utilisation du flux d'entrée avec des string
 	      _in = new BufferedReader(new InputStreamReader(_s.getInputStream()));
 	      // ajoute le flux de sortie dans la liste et récupération de son numero
@@ -64,7 +64,8 @@ public class ServerThread implements Runnable
 	        ProtocolServer kkp = new ProtocolServer();
 	        outputLine = kkp.processInput(null);
 	        _out.println(outputLine);
-	        // traitement des reaction
+	        System.out.println(_out);
+	        // traitement des reactions
 	        while ((inputLine = _in.readLine()) != null) {
 	        	
 	        	if (inputLine.contains("go to the room ")){
