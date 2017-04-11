@@ -11,9 +11,9 @@ public class KnockKnockServer {
 	public static Logger logger = Logger.getLogger(KnockKnockServer.class.getName());
 	static Handler fh;
 	private Vector _tabClients = new Vector(); // contiendra tous les flux de sortie vers les clients
-	  private int _nbClients=0; // nombre total de clients connectés
+	  private int _nbClients=0; // nombre total de clients connectes
 
-	  //** Methode : la première méthode exécutée, elle attend les connections **
+	  //** Methode : la premiere methode executee, elle attend les connections **
     public static void main(String[] args) throws IOException {
     	fh= new FileHandler("logfileServer_%u.log");
     	logger.addHandler(fh);
@@ -34,7 +34,7 @@ public class KnockKnockServer {
             printWelcome(portNumber);
         	while (true) // attente en boucle de connexion (bloquant sur ss.accept)
         	{
-        		new ServerThread(serverSocket.accept(),blablaServ); // un client se connecte, un nouveau thread client est lancé
+        		new ServerThread(serverSocket.accept(),blablaServ); // un client se connecte, un nouveau thread client est lance
         	}
         	 
         } catch (IOException e) {
@@ -57,26 +57,26 @@ public class KnockKnockServer {
           System.out.println("--------");
         }
         
-      //** Methode : envoie le message à tous les clients **
+      //** Methode : envoie le message a tous les clients **
         synchronized public void sendAll(String message,String sLast)
         { 
         	PrintWriter out; // declaration d'une variable permettant l'envoi de texte vers le client
-            for (int i = 0; i < _tabClients.size(); i++) // parcours de la table des connectés
+            for (int i = 0; i < _tabClients.size(); i++) // parcours de la table des connectes
             {
-              out = (PrintWriter) _tabClients.elementAt(i); // extraction de l'élément courant (type PrintWriter)
-              if (out != null) // sécurité, l'élément ne doit pas être vide
+              out = (PrintWriter) _tabClients.elementAt(i); // extraction de l'element courant (type PrintWriter)
+              if (out != null) // securite, l'element ne doit pas etre vide
               {
-              	// ecriture du texte passé en paramètre (et concaténation d'une string de fin de chaine si besoin)
+              	// ecriture du texte passe en parametre (et concatenation d'une string de fin de chaine si besoin)
                 out.print(message+sLast);
                 out.flush(); // envoi dans le flux de sortie
               }
             }
         }
-      //** Methode : détruit le client no i **
+      //** Methode : detruit le client no i **
         synchronized public void delClient(int i)
         {
           _nbClients--; // un client en moins ! snif
-          if (_tabClients.elementAt(i) != null) // l'élément existe ...
+          if (_tabClients.elementAt(i) != null) // l'element existe ...
           {
             _tabClients.removeElementAt(i); // ... on le supprime
           }
@@ -87,12 +87,12 @@ public class KnockKnockServer {
         {
           _nbClients++; // un client en plus ! ouaaaih
           _tabClients.addElement(out); // on ajoute le nouveau flux de sortie au tableau
-          return _tabClients.size()-1; // on retourne le numéro du client ajouté (size-1)
+          return _tabClients.size()-1; // on retourne le numero du client ajoute (size-1)
         }
 
-        //** Methode : retourne le nombre de clients connectés **
+        //** Methode : retourne le nombre de clients connectes **
         synchronized public int getNbClients()
         {
-          return _nbClients; // retourne le nombre de clients connectés
+          return _nbClients; // retourne le nombre de clients connectes
         }
 }
