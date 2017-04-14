@@ -55,6 +55,7 @@ public class ProtocolClient {
         } else if (state == INFLIGHT) {
             if(theInput.equals("where are you?")){
                 if(finalRoom.equals(localisation)) {
+                    Log.i("ProtocolClient",localisation);
                     theOutput = "Bye. I arrived.";
                     state = START;
                 }

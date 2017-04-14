@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -7,7 +8,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="30">
+        android:layout_weight="50">
 
         <TextView
             android:layout_width="wrap_content"
@@ -16,14 +17,26 @@
             android:text="Votre drone est arrivé à destination.\n\nVeuillez confirmer la récupération de l'objet."
             android:layout_margin="40dp"
             android:gravity="center"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:id="@+id/textView" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/smiley" />
+
     </FrameLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="70">
+        android:layout_weight="60">
         <Button
             android:layout_width="140dp"
             android:layout_height="75dp"
@@ -31,6 +44,7 @@
             android:text="Confirmer\nréception"
             android:layout_gravity="center"
             android:id="@+id/button5" />
+
     </FrameLayout>
 
 </LinearLayout>
