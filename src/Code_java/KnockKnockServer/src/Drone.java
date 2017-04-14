@@ -54,5 +54,7 @@ public class Drone {
         if (salleLue.contains("5")) {
             return "5";
         }
+
+        return "0";
     }
 }
