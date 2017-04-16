@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 ##########################imports #########################
 #import serial# marche seulement  pour la raspberry pi 
 import struct
@@ -7,7 +8,10 @@ from math import ceil
 import threading
 import time
 import Queue
+import os, sys 
+import random
 ########################## Fin imports #########################
+
 ########################## declaration des variables #########################
 q = Queue.Queue()
 SPort = '/dev/ttyUSB0'
@@ -42,6 +46,9 @@ TrameInit=[512,600,400,800,0,0,0]
 
 
 ########################## fin declaration des variables de test  #########################
+
+
+
 
 ########################## fin declaration des variables #########################
 
@@ -118,23 +125,37 @@ def sendOrderToDrone():
 	     # permet de quiter le programme (pour les tests) 
 	    #exit()
 
-def SendOrderToThread(rool,pitch,yaw,throttle,an1,an2,an3):
-    print threading.currentThread().getName(), 'Starting'
-    while True:
-	    #q.put(symbole)
-	    q.put([rool,pitch,yaw,throttle,an1,an2,an3])
-	    #print "sending 2 to the queue "
-	    
-	    time.sleep(0.5)
-	    #print threading.currentThread().getName(), 'Exiting'
-    
-########################## fin definition des threads #########################
+def SendOrderToThread():
+	#args=("++","+","-","++","++","--","++")
+	#rool,pitch,yaw,throttle,an1,an2,an3
+	print threading.currentThread().getName(), 'Starting'
+	rool = "++"
+	yaw = "+"
+	throttle = "-"
+	pitch="+"
+	an1="+"
+	an2="++"
+	an3="--"
+	while True:
+		print "i am there"
+		rool = raw_input("entrer rool")
+		pitch = raw_input("entrer pitch")
+		throttle = raw_input("entrer throttle")
+		yaw = raw_input("entrer yaw")
+		an1 = raw_input("entrer an1")
+		an2 = raw_input("entrer an2")
+		an3 = raw_input("entrer an3")
+		
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(WaitDelay)
+	########################## fin definition des threads #########################
 
 # PERMET d'envoyer le symbole dans arg à l'autre thread 
-w1 = threading.Thread(name='SendOrderToThread', target=SendOrderToThread,args=("++","++","--","++","++","--","++"))
-# defini le thread qui lance le drone 
-w2 = threading.Thread(name='sendOrderToDrone', target=sendOrderToDrone)
 
+# defini le thread qui lance le drone 
+
+w2 = threading.Thread(name='sendOrderToDrone', target=sendOrderToDrone)
+w1 = threading.Thread(name='SendOrderToThread', target=SendOrderToThread)
 
 
 w1.start()
