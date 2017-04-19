@@ -12,7 +12,7 @@ public class WelcomePageActivity extends AppCompatActivity{
 
     private static KnockKnockClient mClient = null;
 
-    private String[] args = {"172.20.10.4", "4444"}; //changer adresse ip si necessaire   137.194.22.166  adresse ip du drone 192.168.43.55 /et 4444
+    private String[] args = {"192.168.0.102", "4444"}; //changer adresse ip si necessaire   137.194.22.166  adresse ip du drone 192.168.43.55 /et 4444
     private static final String TAG = "WelcomePageActivity";
 
     @Override
