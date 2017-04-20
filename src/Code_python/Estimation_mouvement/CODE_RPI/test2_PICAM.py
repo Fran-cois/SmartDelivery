@@ -4,6 +4,10 @@ import numpy as np
 import time
 import cv2
 
+
+#Fonction de convertion a l'echelle du decalage en centimetre
+#taille = largeur de la bande
+
 def convert(rho1,rho2,taille,decalage):
 	diff = abs(rho1-rho2)
 	if (diff!=0):
@@ -25,26 +29,26 @@ time.sleep(0.1)
 for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
 
 	frame = frame.array
+# on ajuste la taille de l'ecran
 	small = cv2.resize(frame, (0,0), fx=0.5, fy=0.5)
+# tailles de l'ecran
 	(Ny,Nx,a) = np.shape(small)
+# image en nuance de gris
 	gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
+# determination des contours
 	edges = cv2.Canny(gray,0,150,apertureSize = 3)
-	#cv2.imshow('frame',edges)
+# detection des lignes
 	lines = cv2.HoughLines(edges,1,np.pi/180,200)
-	print(lines)
+
 	if (lines is None):
-		print(1)
-#		continue
 		rawCapture.truncate(0)
 	else : 
+ #on trace les lignes  
 		a=np.shape(lines)[0]
-		print(2)
 		tab=[]
 		for i in range(a):
 			tab.append(lines[i][0])
-		print(tab)
 		b=np.shape(tab)[0]
-		print(b)
 		s=0
 		for i in range(b):
 			s=s+abs(tab[i][0])
@@ -61,13 +65,9 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 
 		tab1=sorted(tab1, key=lambda colonnes: colonnes[1])
 		tab2=sorted(tab2, key=lambda colonnes: colonnes[1])
-#		print(tab1)
-#		print(tab2)
-#		print(np.size(tab1))
-#		print(np.size(tab2))
+
 		if (np.size(tab1)==0 or np.size(tab2)==0):
-			print(3)
-#			continue
+
 			rawCapture.truncate(0)
 		else :
 			print(4)
@@ -79,6 +79,7 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 			thetam=((theta1)+(theta2))/2
 			thetamdeg = thetam*180/np.pi
 
+#affichage des lignes
 			def printLine(theta,rho,B,G,R):
 				a = np.cos(theta)
 				b = np.sin(theta)
@@ -94,6 +95,7 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 			printLine(theta2,rho2,255,0,0)
 			printLine(theta2,rhom,1,164,250)
 
+#affichage du centre de la ligne
 			def printMiddlePoint2(thetam,rhom):
 				a=np.cos(thetam)
 				b=np.sin(thetam)
@@ -107,20 +109,23 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 				B=y2-(A*x2)
 				X1=(-B/A)
 				X2=(Ny-B)/A
+#Calcul du decalage de la ligne par rapport au centre de l'image
 				decalage = Ny/2-int((A*Nx+B+B)/2)
 				cv2.circle(small,(Nx/2,int((A*Nx+B+B)/2)),1,(0, 0, 255),2)
 				return (decalage)
 
+# affichage du centre de l'image 
 			def printImageMiddle(Nx,Ny):
 				cv2.circle(small,(Nx/2,Ny/2),1,(0,255,0),2)
 			print(Nx,Ny)
-#			printImageMiddle(int(Nx),int(Ny))
-#			decalage = printMiddlePoint2(thetam,rhom)
-#			decalagecm = convert(rho1,rho2,2,decalage)
-#			print(thetamdeg-90, decalagecm)
-
+			printImageMiddle(int(Nx),int(Ny))
+			decalage = printMiddlePoint2(thetam,rhom)
+# calcul du decalage en centimetre   
+			decalagecm = convert(rho1,rho2,2,decalage)
+# calcul de l'angle de rotation enn degres
+			thetaf = thetamdeg-90
+# affichage 
 			cv2.putText(small, 'decalage = ', (10, 30), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1)
-			print(5)
 
 			cv2.imshow('frame',small)
 			key = cv2.waitKey(1) & 0xFF
