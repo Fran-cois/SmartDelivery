@@ -45,16 +45,7 @@ public class KnockKnockServer {
       //** Methode : affiche le message d'accueil **
         static private void printWelcome(Integer port)
         {
-          System.out.println("--------");
-          System.out.println("BlablaServeur : Par Minosis - Julien Defaut");
-          System.out.println("Copyright : 2004 - Minosis.com");
-          System.out.println("Derniere version : 10/04/2004");
-          System.out.println("--------");
-          System.out.println("Demarre sur le port : "+port.toString());
-          System.out.println("--------");
-          System.out.println("Quitter : tapez \"quit\"");
-          System.out.println("Nombre de connectes : tapez \"total\"");
-          System.out.println("--------");
+          System.out.println("Lancement du serveur.\n");
         }
         
       //** Methode : envoie le message a tous les clients **

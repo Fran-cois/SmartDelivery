@@ -18,7 +18,7 @@ public class Drone {
 		}*/
 
 		//2eme test avec lecture dans un fichier
-        String fichier = "valeur_qrcode.txt";
+        String fichier = "result-QRcode.txt";
 
         //lecture fichier
         try {
