@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -26,12 +27,26 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
         private String[] args;
         private Activity mActivity;
         private boolean arrived;
+        public TextView mText;
+        public String localisation;
+        public int j = 0;
 
 
-        public KnockKnockClient (String[] args, Activity mActivity) {
+
+
+    public KnockKnockClient (String[] args, Activity mActivity) {
             this.args = args;       //contains the ip address
             this.mActivity = mActivity;          //necessary to start the intent when the drone arrived
-        }
+            mText = (TextView) mActivity.findViewById(R.id.text_lieu_drone);
+
+    }
+    @Override
+    protected void onProgressUpdate(Object ... values) {
+        super.onProgressUpdate(values);
+        mText = (TextView) mActivity.findViewById(R.id.text_lieu_drone);
+        mText.setText((String.valueOf(j)));
+    }
+
 
         @Override
         protected Boolean doInBackground(Object... arg) {
@@ -115,6 +130,8 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                                 ProtocolClient.localisation=fromServer.substring(16);
                                 Log.i("Client","Server: " + fromServer);
                                 Log.i("Client","localisation "+ProtocolClient.localisation);
+                                localisation = ProtocolClient.localisation;
+                                publishProgress(1);
                             }
                             if (fromServer.contains("I didn't get your question. Can you repeat?")){
                                 Log.w("Client","Server: " + fromServer);
@@ -180,6 +197,8 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                                 ProtocolClient.localisation=fromServer.substring(16);
                                 Log.i("Client","Server: " + fromServer);
                                 Log.i("Client","localisation "+ProtocolClient.localisation);
+                                localisation = ProtocolClient.localisation;
+                                publishProgress(1);
                             }
                             if (fromServer.contains("I didn't get your question. Can you repeat?")){
                                 Log.w("Client","Server: " + fromServer);
