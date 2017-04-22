@@ -1,4 +1,5 @@
 import numpy as np
+import cv2
 
 if (decalagecm < 0):
     cv2.putText(small, 'DROITE', (10, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
