@@ -60,8 +60,9 @@ camera.framerate = 32
 rawCapture = PiRGBArray(camera, size=(640, 480))
 
 Nombre_de_frame_Seconde = 30 
-Angle_Seuil = 10
-Decalage_Seuil = 10
+Angle_Seuil = 15
+Angle_Correction = 10
+Decalage_Seuil = 5
 # allow the camera to warmup
 time.sleep(0.1)
 
@@ -126,11 +127,33 @@ def printMiddlePoint2(thetam,rhom):
 def printImageMiddle(Nx,Ny):
 	cv2.circle(small,(Nx/2,Ny/2),1,(0,255,0),2)
 def fonction_changement_parametre(angle,cm):
-	if angle > Angle_Seuil or abs(cm) > Decalage_Seuil :
-		if cm >0 :
-			# decalage a droite -> aller a gauche 
-		else : 
-			#decalage a gauche -> aller a droite 		
+	#cas 1
+	if ( (cm > Decalage_Seuil) and (np.around(abs(angle)) < Angle_Seuil)):
+		cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 2
+	if ( (cm < -Decalage_Seuil) and (np.around(abs(angle)) < Angle_Seuil)):
+		cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 3 et 4
+	if ( (abs(cm) < Decalage_Seuil) and (np.around(abs(angle)) < Angle_Seuil)):
+		cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 5
+	if ( (abs(cm) < Decalage_Seuil) and (np.around(angle) > Angle_Seuil)):
+		cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 6 
+	if ( (abs(cm) < Decalage_Seuil) and (np.around(angle) < -Angle_Seuil)):
+		cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 7
+	if ( (cm < -Decalage_Seuil) and (np.around(angle) < -Angle_Seuil)):
+		cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 8
+	if ( (cm < -Decalage_Seuil) and (np.around(angle) > Angle_Seuil)):
+		cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas9
+	if ( (cm > Decalage_Seuil) and (np.around(angle) < -Angle_Seuil)):
+		cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+	#cas 10
+	if ( (cm > Decalage_Seuil) and (np.around(angle) > Angle_Seuil)):
+		cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)	
 			
 
 ########################## fin definition des fonctions  du traitement d'image #########################
@@ -205,22 +228,15 @@ def SendOrderToThread():
 		(Ny,Nx,a) = np.shape(small)
 		gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
 		edges = cv2.Canny(gray,0,150,apertureSize = 3)
-		#cv2.imshow('frame',edges)
 		lines = cv2.HoughLines(edges,1,np.pi/180,200)
-		print(lines)
 		if (lines is None):
-			print(1)
-	#		continue
 			rawCapture.truncate(0)
 		else : 
 			a=np.shape(lines)[0]
-			print(2)
 			tab=[]
 			for i in range(a):
 				tab.append(lines[i][0])
-			print(tab)
 			b=np.shape(tab)[0]
-			print(b)
 			s=0
 			for i in range(b):
 				s=s+abs(tab[i][0])
@@ -238,12 +254,9 @@ def SendOrderToThread():
 			tab1=sorted(tab1, key=lambda colonnes: colonnes[1])
 			tab2=sorted(tab2, key=lambda colonnes: colonnes[1])
 			if (np.size(tab1)==0 or np.size(tab2)==0):
-				print(3)
-	#			continue
 				rawCapture.truncate(0)
 				
 			else :
-				print(4)
 				rho1=(tab1[0][0])
 				theta1=tab1[0][1]
 				rho2=(tab2[0][0])
@@ -258,7 +271,7 @@ def SendOrderToThread():
 				decalagecm = convert(rho1,rho2,2,decalage)
 				if (compteur_de_frame% Nombre_de_frame_Seconde == 0 ):
 					#on change les parametres 
-					angle = thetamdeg
+					angle = thetamdeg - 90
 					cm = decalagecm
 					fonction_changement_parametre(angle,cm)
 				rawCapture.truncate(0)
