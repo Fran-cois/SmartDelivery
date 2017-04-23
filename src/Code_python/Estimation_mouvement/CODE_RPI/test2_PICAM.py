@@ -13,8 +13,37 @@ def convert(rho1,rho2,taille,decalage):
 	if (diff!=0):
 		decalage = decalage*taille/diff
 		return (decalage)
+def printLine(theta,rho,B,G,R):
+				a = np.cos(theta)
+				b = np.sin(theta)
+				x0 = a*rho
+				y0 = b*rho
+				x1 = int(x0 + 1000*(-b))
+				y1 = int(y0 + 1000*(a))
+				x2 = int(x0 - 1000*(-b))
+				y2 = int(y0 - 1000*(a))
+				cv2.line(small,(x1,y1),(x2,y2),(B,G,R),2)
 
+def printMiddlePoint2(thetam,rhom):
+				a=np.cos(thetam)
+				b=np.sin(thetam)
+				x0=a*rhom
+				y0=b*rhom
+				x1 = x0 + 1000*(-b)
+				y1 = y0 + 1000*(a)
+				x2 = x0 - 1000*(-b)
+				y2 = y0 - 1000*(a)
+				A=(y2-y1)/(x2-x1)
+				B=y2-(A*x2)
+				X1=(-B/A)
+				X2=(Ny-B)/A
+#Calcul du decalage de la ligne par rapport au centre de l'image
+				decalage = Ny/2-int((A*Nx+B+B)/2)
+				cv2.circle(small,(Nx/2,int((A*Nx+B+B)/2)),1,(0, 0, 255),2)
+				return (decalage)
 
+def printImageMiddle(Nx,Ny):
+				cv2.circle(small,(Nx/2,Ny/2),1,(0,255,0),2)
 # initialize the camera and grab a reference to the raw camera capture
 camera = PiCamera()
 camera.resolution = (640, 480)
@@ -80,43 +109,16 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 			thetamdeg = thetam*180/np.pi
 
 #affichage des lignes
-			def printLine(theta,rho,B,G,R):
-				a = np.cos(theta)
-				b = np.sin(theta)
-				x0 = a*rho
-				y0 = b*rho
-				x1 = int(x0 + 1000*(-b))
-				y1 = int(y0 + 1000*(a))
-				x2 = int(x0 - 1000*(-b))
-				y2 = int(y0 - 1000*(a))
-				cv2.line(small,(x1,y1),(x2,y2),(B,G,R),2)
-
+			
 			printLine(theta1,rho1,255,0,0)
 			printLine(theta2,rho2,255,0,0)
 			printLine(theta2,rhom,1,164,250)
 
 #affichage du centre de la ligne
-			def printMiddlePoint2(thetam,rhom):
-				a=np.cos(thetam)
-				b=np.sin(thetam)
-				x0=a*rhom
-				y0=b*rhom
-				x1 = x0 + 1000*(-b)
-				y1 = y0 + 1000*(a)
-				x2 = x0 - 1000*(-b)
-				y2 = y0 - 1000*(a)
-				A=(y2-y1)/(x2-x1)
-				B=y2-(A*x2)
-				X1=(-B/A)
-				X2=(Ny-B)/A
-#Calcul du decalage de la ligne par rapport au centre de l'image
-				decalage = Ny/2-int((A*Nx+B+B)/2)
-				cv2.circle(small,(Nx/2,int((A*Nx+B+B)/2)),1,(0, 0, 255),2)
-				return (decalage)
+			
 
 # affichage du centre de l'image 
-			def printImageMiddle(Nx,Ny):
-				cv2.circle(small,(Nx/2,Ny/2),1,(0,255,0),2)
+		
 			print(Nx,Ny)
 			printImageMiddle(int(Nx),int(Ny))
 			decalage = printMiddlePoint2(thetam,rhom)
@@ -128,7 +130,7 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 			cv2.putText(small, 'decalage = ', (10, 30), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1)
 
 			cv2.imshow('frame',small)
-			key = cv2.waitKey(1) & 0xFF
+			key = cv2.waitKey(250) & 0xFF
  
 			# clear the stream in preparation for the next frame
 			rawCapture.truncate(0)
