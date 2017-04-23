@@ -126,34 +126,67 @@ def printMiddlePoint2(thetam,rhom):
 
 def printImageMiddle(Nx,Ny):
 	cv2.circle(small,(Nx/2,Ny/2),1,(0,255,0),2)
-def fonction_changement_parametre(angle,cm):
+def fonction_changement_parametre(angle,cm,q):
 	#cas 1
 	if ( (cm > Decalage_Seuil) and (np.around(abs(angle)) < Angle_Seuil)):
-		cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		yaw = "---"
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(2)
+		yaw = "+++"
+
+		#cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
 	#cas 2
 	if ( (cm < -Decalage_Seuil) and (np.around(abs(angle)) < Angle_Seuil)):
-		cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		yaw = "+++"
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(2)
+		yaw = "---"
+
 	#cas 3 et 4
 	if ( (abs(cm) < Decalage_Seuil) and (np.around(abs(angle)) < Angle_Seuil)):
-		cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#rien 
 	#cas 5
 	if ( (abs(cm) < Decalage_Seuil) and (np.around(angle) > Angle_Seuil)):
-		cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		yaw = "++"
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(2)
+		yaw = "--"
+
 	#cas 6 
 	if ( (abs(cm) < Decalage_Seuil) and (np.around(angle) < -Angle_Seuil)):
-		cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		yaw = "--"
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(2)
+		yaw = "++"
+
 	#cas 7
 	if ( (cm < -Decalage_Seuil) and (np.around(angle) < -Angle_Seuil)):
-		cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
 	#cas 8
 	if ( (cm < -Decalage_Seuil) and (np.around(angle) > Angle_Seuil)):
-		cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'ROTATION DROITE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		yaw = "++"
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(2)
+		yaw = "--"
+
 	#cas9
 	if ( (cm > Decalage_Seuil) and (np.around(angle) < -Angle_Seuil)):
-		cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		#cv2.putText(small, 'ROTATION GAUCHE de 10 deg', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)
+		yaw = "--"
+		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+		time.sleep(2)
+		yaw = "++"
+		
+
 	#cas 10
 	if ( (cm > Decalage_Seuil) and (np.around(angle) > Angle_Seuil)):
-		cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)	
+		#cv2.putText(small, 'OK', (150, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255), 1, cv2.CV_AA)	
+		
 			
 
 ########################## fin definition des fonctions  du traitement d'image #########################
@@ -165,6 +198,7 @@ def sendOrderToDrone():
     #CHANNEL = 0 # variable qui va de 0 a 6 
     COEF = [20,20,20,20,20,20,20]
     # traitement des variables dans la queue 
+  
     while True:
     	
 	    if not q.empty(): # si on recoit une information dans la queue
@@ -215,6 +249,22 @@ def SendOrderToThread():
 	#rool,pitch,yaw,throttle,an1,an2,an3
 	print threading.currentThread().getName(), 'Starting'
 	compteur_de_frame = 0 
+	fichier = open(NOMFICHIER, 'r')
+	var = fichier.readline()
+	fichier.close()
+    if "0" in var:
+		delai = 30
+		rool = "="
+		yaw = "="
+		throttle = "-----"
+		pitch="="
+		an1="="
+		an2="="
+		an3="="
+		while(delai >0):
+			q.put([rool,pitch,yaw,throttle,an1,an2,an3])
+			delai -= 1 
+			sleep(0.5)
 	for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
 		rool = "="
 		yaw = "="
@@ -273,7 +323,7 @@ def SendOrderToThread():
 					#on change les parametres 
 					angle = thetamdeg - 90
 					cm = decalagecm
-					fonction_changement_parametre(angle,cm)
+					fonction_changement_parametre(angle,cm,q)
 				rawCapture.truncate(0)
 			compteur_de_frame += 1
 			q.put([rool,pitch,yaw,throttle,an1,an2,an3])
@@ -283,7 +333,20 @@ def SendOrderToThread():
 # PERMET d'envoyer le symbole dans arg à l'autre thread 
 
 # defini le thread qui lance le drone 
+NOMFICHIER = 'startDrone.txt'
+fichier = open(NOMFICHIER, 'r')
+var = fichier.readline()
+time.sleep(1)
+fichier.close()
 
+while ("1" not in var):
+	fichier = open(NOMFICHIER, 'r')
+	var = fichier.readline()
+	time.sleep(1)
+	fichier.close()
+
+	
+	
 w2 = threading.Thread(name='sendOrderToDrone', target=sendOrderToDrone)
 w1 = threading.Thread(name='SendOrderToThread', target=SendOrderToThread)
 
