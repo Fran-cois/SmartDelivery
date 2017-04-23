@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -22,6 +23,32 @@ public class SuiviCommandePlanActivity extends AppCompatActivity {
     private static final String TAG = "SuiviCommandeivityAct";
     private TextView textUpdate;
     private final String PROGRESS_BAR_INCREMENT="ProgreesBarIncrementId";
+    private ImageView drone;
+
+    public void changeDrone(ImageView drone, int salle) {
+        switch (salle) {
+            case 1:
+                drone.setX(700);
+                drone.setY(710);
+                break;
+            case 2:
+                drone.setX(700);
+                drone.setY(380);
+                break;
+            case 3:
+                drone.setX(500);
+                drone.setY(330);
+                break;
+            case 4:
+                drone.setX(230);
+                drone.setY(400);
+                break;
+            case 5:
+                drone.setX(310);
+                drone.setY(720);
+                break;
+        }
+    }
 
     Handler handler = new Handler() {
         @Override
@@ -31,12 +58,13 @@ public class SuiviCommandePlanActivity extends AppCompatActivity {
             Log.i(TAG,KnockKnockClient.localisation);
             if (!KnockKnockClient.localisation.equals("9")) {
                 textUpdate.setText("Votre drone est en route.\nIl se trouve actuellement en salle " + String.valueOf(KnockKnockClient.localisation) + ".");
+                changeDrone(drone,Integer.parseInt(KnockKnockClient.localisation));
             }
         }
     };
-    /**     * L'AtomicBoolean qui gère la destruction de la Thread de background     */
+    /**     * L'AtomicBoolean qui gère la destruction du Thread de background     */
     AtomicBoolean isRunning = new AtomicBoolean(false);
-    /**     * L'AtomicBoolean qui gère la mise en pause de la Thread de background     */
+    /**     * L'AtomicBoolean qui gère la mise en pause du Thread de background     */
     AtomicBoolean isPausing = new AtomicBoolean(false);
 
 
@@ -49,8 +77,7 @@ public class SuiviCommandePlanActivity extends AppCompatActivity {
         this.getSupportActionBar().setTitle("Plan des lieux");
         // récupération de l'intent pour le bouton de Confirmation_drone
         Intent myIntent5 = getIntent();
-
-
+        drone = (ImageView) findViewById(R.id.drone);
 
     }
     public void onStart() {

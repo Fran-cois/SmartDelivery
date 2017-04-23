@@ -31,10 +31,13 @@ public class PlanPageActivity extends AppCompatActivity {
                     Log.i(TAG, "Click sur le bouton, drone available.");
                     myIntent2 = new Intent(PlanPageActivity.this, ChoixSalleActivity.class);
                     startActivity(myIntent2);
+                    PlanPageActivity.this.finish();
+
                 } else {
                     Log.i(TAG, "Click sur le bouton, drone not available.");
                     myIntent2 = new Intent(PlanPageActivity.this, DroneNotAvailableActivity.class);
                     startActivity(myIntent2);
+                    PlanPageActivity.this.finish();
                 }
             }
         });

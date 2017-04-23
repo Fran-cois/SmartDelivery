@@ -12,12 +12,23 @@
         android:layout_marginTop="20dp">
 
         <ImageView
-            android:layout_marginTop="20dp"
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/carte2"
-            android:id="@+id/imageView2"
-            android:contentDescription="@string/plan" />
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/plan"
+            app:srcCompat="@drawable/carte2" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="22dp"
+            android:layout_alignBottom="@id/imageView2"
+            android:layout_alignLeft="@id/imageView2"
+            android:layout_alignRight="@id/imageView2"
+            android:layout_alignTop="@id/imageView2"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/drone"
+            android:id="@+id/drone"/>
     </FrameLayout>
 
     <FrameLayout
