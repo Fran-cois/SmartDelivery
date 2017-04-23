@@ -56,23 +56,27 @@ public class ServerThread implements Runnable
 	  public void run() {
 		  // on indique dans la console la connection d'un nouveau client
 		  System.out.println("Un nouveau client s'est connecte, no " + _numClient);
+		  try{
+			  PrintWriter writer = new PrintWriter("startDrone.txt", "UTF-8");
+			  writer.print(String.valueOf(_numClient + 1));
+			  writer.close();
+		  } catch (IOException e) {
+			  e.printStackTrace();
+		  }
 		  String inputLine, outputLine;
 		  // Initiate conversation with client
 		  // PROTOCOLE : PROTOCOLE SERVER (PROCESS INPUT)
 		  arrived = false;
 		  while (!arrived) {
 			  try {
-				  System.out.println("essai l 64");
+				  System.out.println("debut du try - ligne 64");
 				  ProtocolServer kkp = new ProtocolServer();
-				  System.out.println("essai l 66");
 				  outputLine = kkp.processInput(null);
-				  System.out.println("essai l 68");
 				  _out.println(outputLine);
 				  System.out.println(_out);
-				  System.out.println("essai l 71");
 				  // traitement des reactions
 				  while ((inputLine = _in.readLine()) != null) {
-					  System.out.println(inputLine + "l 64");
+					  System.out.println(inputLine + "ligne 72");
 					  if (inputLine.contains("go to the room ")) {
 						  ProtocolServer.finalRoom = inputLine.substring(15);
 						  logger.info("Serveur: the final room is " + ProtocolServer.finalRoom);
@@ -97,6 +101,13 @@ public class ServerThread implements Runnable
 	      	// on indique a la console la deconnexion du client
 	        System.out.println("Le client no "+_numClient+" s'est deconnecte");
 	        _KnockKnockServer.delClient(_numClient); // on supprime le client de la liste
+			try{
+				PrintWriter writer = new PrintWriter("startDrone.txt", "UTF-8");
+				writer.print(String.valueOf(_numClient));
+				writer.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 	        _s.close(); // fermeture du socket si il ne l'a pas deja ete (a cause de l'exception levee plus haut)
 	      }
 	      catch (IOException e){ }

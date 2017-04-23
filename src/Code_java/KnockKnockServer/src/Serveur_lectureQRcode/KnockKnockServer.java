@@ -15,6 +15,16 @@ public class KnockKnockServer {
 
 	  //** Methode : la premiere methode executee, elle attend les connections **
     public static void main(String[] args) throws IOException {
+
+        // first, there is no client yet, we initialize the file to 0 to tell the dron not to start
+        try{
+            PrintWriter writer = new PrintWriter("startDrone.txt", "UTF-8");
+            writer.print("0");
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     	fh= new FileHandler("logfileServer_%u.log");
     	logger.addHandler(fh);
     	SimpleFormatter formatter=new SimpleFormatter();
