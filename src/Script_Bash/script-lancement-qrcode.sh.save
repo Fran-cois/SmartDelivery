@@ -1,0 +1,9 @@
+while [ true ]
+do
+	echo 'lancement de la lecture de qrcode'
+	zbarcam > result-QRcode.txt &
+	sleep 3
+	ps -ef | grep zbarcam | grep -v grep | awk '{print $2}' | xargs kill
+
+done
+trap "echo CTRL-C was pressed" & ps -ef | grep zbarcam | grep -v grep | awk '{print $2}' | xargs kill2

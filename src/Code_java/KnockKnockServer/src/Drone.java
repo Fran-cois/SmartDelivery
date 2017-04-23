@@ -6,6 +6,7 @@ public class Drone {
 
 		String salle;
 		String salleLue;
+		System.out out;
 
 		/*  Ce qui suit etait le premier test
 
@@ -24,6 +25,7 @@ public class Drone {
         try {
             BufferedReader br = new BufferedReader(new FileReader(fichier));
             salleLue = br.readLine();
+            out.println(salleLue);
             return (valeurSalle(salleLue));
             } catch (FileNotFoundException e1) {
             e1.printStackTrace();
