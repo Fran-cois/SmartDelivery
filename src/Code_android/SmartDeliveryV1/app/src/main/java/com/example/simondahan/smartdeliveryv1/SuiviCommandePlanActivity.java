@@ -19,15 +19,19 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SuiviCommandePlanActivity extends AppCompatActivity {
 
-    private static final String TAG = "SuiviCommandePlanActivity";
+    private static final String TAG = "SuiviCommandeivityAct";
     private TextView textUpdate;
     private final String PROGRESS_BAR_INCREMENT="ProgreesBarIncrementId";
 
     Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
-            int progress=msg.getData().getInt(PROGRESS_BAR_INCREMENT);
-            textUpdate.setText(String.valueOf(KnockKnockClient.localisation));
+            int progress = msg.getData().getInt(PROGRESS_BAR_INCREMENT);
+            Log.i(TAG,"mise a jour TextView");
+            Log.i(TAG,KnockKnockClient.localisation);
+            if (!KnockKnockClient.localisation.equals("9")) {
+                textUpdate.setText("Votre drone est en route.\nIl se trouve actuellement en salle " + String.valueOf(KnockKnockClient.localisation) + ".");
+            }
         }
     };
     /**     * L'AtomicBoolean qui gère la destruction de la Thread de background     */
@@ -62,9 +66,10 @@ public class SuiviCommandePlanActivity extends AppCompatActivity {
             Message myMessage;
             // Surcharge de la méthode run
             public void run() {
+                Log.i(TAG,"run");
                 try {
                     // Si isRunning est à false, la méthode run doit s'arrêter
-                    for (int i = 0; i < 20 && isRunning.get(); i++) {
+                    for (int i = 0; i < 200000 && isRunning.get(); i++) {
                         // Si l'activité est en pause mais pas morte
                         while (isPausing.get() && (isRunning.get())) {
                             // Faire une pause ou un truc qui soulage le CPU (dépend du traitement)

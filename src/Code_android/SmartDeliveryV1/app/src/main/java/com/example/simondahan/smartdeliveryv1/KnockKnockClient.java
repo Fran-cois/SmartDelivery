@@ -36,6 +36,7 @@ public class KnockKnockClient extends AsyncTask<Object, String, Boolean> {
     public KnockKnockClient (String[] args, Activity mActivity) {
             this.args = args;       //contains the ip address
             this.mActivity = mActivity;          //necessary to start the intent when the drone arrived
+            KnockKnockClient.localisation = "9";
     }
 
     @Override
