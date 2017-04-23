@@ -30,7 +30,7 @@
             android:text="Votre drone est en route.\nVeuillez patienter."
             android:gravity="center"
             android:layout_gravity="center"
-            android:id="@+id/text_lieu_drone"/>
+            android:id="@+id/textUpdate"/>
 
     </FrameLayout>
 

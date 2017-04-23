@@ -22,14 +22,13 @@ import static com.example.simondahan.smartdeliveryv1.ChoixSalleActivity.*;
  * Created by benja on 26/02/2017.
  */
 
-public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
+public class KnockKnockClient extends AsyncTask<Object, String, Boolean> {
 
         private String[] args;
         private Activity mActivity;
         private boolean arrived;
         public TextView mText;
-        public String localisation;
-        public int j = 0;
+        public static String localisation;
 
 
 
@@ -37,14 +36,12 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
     public KnockKnockClient (String[] args, Activity mActivity) {
             this.args = args;       //contains the ip address
             this.mActivity = mActivity;          //necessary to start the intent when the drone arrived
-            mText = (TextView) mActivity.findViewById(R.id.text_lieu_drone);
-
     }
+
     @Override
-    protected void onProgressUpdate(Object ... values) {
+    protected void onProgressUpdate(String ... values) {
         super.onProgressUpdate(values);
-        mText = (TextView) mActivity.findViewById(R.id.text_lieu_drone);
-        mText.setText((String.valueOf(j)));
+        KnockKnockClient.localisation =  values[0];
     }
 
 
@@ -130,8 +127,7 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                                 ProtocolClient.localisation=fromServer.substring(16);
                                 Log.i("Client","Server: " + fromServer);
                                 Log.i("Client","localisation "+ProtocolClient.localisation);
-                                localisation = ProtocolClient.localisation;
-                                publishProgress(1);
+                                publishProgress(ProtocolClient.localisation);
                             }
                             if (fromServer.contains("I didn't get your question. Can you repeat?")){
                                 Log.w("Client","Server: " + fromServer);
@@ -197,8 +193,7 @@ public class KnockKnockClient extends AsyncTask<Object, Object, Boolean> {
                                 ProtocolClient.localisation=fromServer.substring(16);
                                 Log.i("Client","Server: " + fromServer);
                                 Log.i("Client","localisation "+ProtocolClient.localisation);
-                                localisation = ProtocolClient.localisation;
-                                publishProgress(1);
+                                publishProgress(ProtocolClient.localisation);
                             }
                             if (fromServer.contains("I didn't get your question. Can you repeat?")){
                                 Log.w("Client","Server: " + fromServer);
