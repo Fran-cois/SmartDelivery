@@ -1,7 +1,0 @@
-#Thu Jan 26 13:29:47 CET 2017
-base.0=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\test_androidStudio\\CalculImc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9404f3e53c863ba6de18ba22a437e21672c779cc
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\test_androidStudio\\CalculImc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_496fd026a4dab6076ba1f08699963ead278531c6\\classes.dex
-base.1=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\test_androidStudio\\CalculImc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_496fd026a4dab6076ba1f08699963ead278531c6
-file.0=C\:\\Users\\benja\\Documents\\SmartDelivery\\src\\Code_android\\test_androidStudio\\CalculImc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9404f3e53c863ba6de18ba22a437e21672c779cc\\classes.dex

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="text">"Hello %1$s, you are %2$d years old."</string>
-    <string name="boutton1text">"PUSH"</string>
-    <string name="hint1text">"Please write anything."</string>
-</resources>
