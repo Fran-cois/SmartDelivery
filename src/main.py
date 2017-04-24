@@ -137,14 +137,38 @@ def SendOrderToThread():
 	an2="++"
 	an3="--"
 	while True:
-		print "i am there"
-		rool = raw_input("entrer rool")
-		pitch = raw_input("entrer pitch")
-		throttle = raw_input("entrer throttle")
-		yaw = raw_input("entrer yaw")
-		an1 = raw_input("entrer an1")
-		an2 = raw_input("entrer an2")
-		an3 = raw_input("entrer an3")
+		rool = "="
+		yaw = "="
+		throttle = "="
+		pitch="="
+		an1="="	
+		an2="="
+		an3="="
+		mode = raw_input("please enter the mode \n")
+		if (mode  == "t"):
+			throttle = "-"
+		elif(mode =="T"):
+			throttle = "+"
+		elif(mode == "r"):
+			rool ="-"
+		elif(mode == "R"):
+			rool = "+"
+		elif(mode == "y"):
+			yaw  = "-"
+		elif(mode == "Y"):
+			yaw = "+"
+		elif(mode=="f"):
+			an3 = "--"			
+		elif(mode == "F"):
+			an3 = "++"
+		else: 
+			rool = raw_input("entrer rool")
+			pitch = raw_input("entrer pitch")
+			throttle = raw_input("entrer throttle")
+			yaw = raw_input("entrer yaw")
+			an1 = raw_input("entrer an1")
+			an2 = raw_input("entrer an2")
+			an3 = raw_input("entrer an3")
 		
 		q.put([rool,pitch,yaw,throttle,an1,an2,an3])
 		time.sleep(WaitDelay)
