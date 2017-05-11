@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="270885087153487"
+    token="-7265551256221815330"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="207" />
+    <task
+        name="instant-run-dex"
+        duration="20" />
+    <task
+        name="instant-run-transform"
+        duration="35" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="270753763752467"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="270885087153487"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

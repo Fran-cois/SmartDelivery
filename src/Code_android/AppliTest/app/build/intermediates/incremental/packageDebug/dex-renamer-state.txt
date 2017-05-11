@@ -1,0 +1,7 @@
+#Sat Apr 22 17:15:00 CEST 2017
+base.0=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_80a1ab3da41cf84807146e84acae40a0a6d53077
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30968f94d9eb5f27c1fcaf0dc796f409111d0154/classes.dex
+base.1=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30968f94d9eb5f27c1fcaf0dc796f409111d0154
+file.0=/Users/SimonDahan/Documents/Telecom-ParisTech/PACT/SmartDelivery/src/Code_android/AppliTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_80a1ab3da41cf84807146e84acae40a0a6d53077/classes.dex

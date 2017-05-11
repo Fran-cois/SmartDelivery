@@ -27,7 +27,7 @@ public class PlanPageActivity extends AppCompatActivity {
         Log.i(TAG, "Click sur le bouton suivi d'un intent.");
         mybutton2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v2){
-                if (ProtocolClient.available) {
+                if (!ProtocolClient.available) {
                     Log.i(TAG, "Click sur le bouton, drone available.");
                     myIntent2 = new Intent(PlanPageActivity.this, ChoixSalleActivity.class);
                     startActivity(myIntent2);
