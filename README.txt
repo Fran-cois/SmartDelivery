@@ -1,9 +1,12 @@
-I WAS HERE _ FRANCOIS AMAT 
-ME TOO BENJAMIN CASTELLAN
-SO I AM SIMON
-LOUISE LOESCH WAS HERE
-PRAT ANTOINE ALSO
-HEY SO WAS I _ KEI-SABURO CLOCHARD
-LAST BUT NOT LEAST_ EL YAAGOUBI MED AYMAN
-__Test FAIL BUILD TRAVIS __
-BUILD 1 to 7 are just README BUILD FAIL. 
+Smart Delivery 
+======
+
+What is this ? 
+------
+This project is a student project of Telecom Paristech called "PACT"
+The main idea is to use a flying drone in order to deliver small object such as letter or coffee cup
+The drone guided by a raspberry pi and a camera, 
+The camera give the guiding instructions by detecting the shifting from a line on the floor (or on the ceiling).
+
+
+
